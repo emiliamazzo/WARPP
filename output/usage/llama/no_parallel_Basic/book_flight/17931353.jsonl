@@ -1,0 +1,16 @@
+{"client_id": 17931353, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 918, "completion_tokens": 48, "total_tokens": 966}
+{"client_id": 17931353, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2651, "completion_tokens": 22, "total_tokens": 2673}
+{"client_id": 17931353, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1038, "completion_tokens": 25, "total_tokens": 1063}
+{"client_id": 17931353, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1134, "completion_tokens": 25, "total_tokens": 1159}
+{"client_id": 17931353, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1177, "completion_tokens": 55, "total_tokens": 1232}
+{"client_id": 17931353, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1573, "completion_tokens": 15, "total_tokens": 1588}
+{"client_id": 17931353, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 2986, "completion_tokens": 82, "total_tokens": 3068}
+{"client_id": 17931353, "agent": "book_flight", "type": "function_call", "function_name": "get_customer_frequent_flyer_status_extra", "prompt_tokens": 3106, "completion_tokens": 30, "total_tokens": 3136}
+{"client_id": 17931353, "agent": "book_flight", "type": "function_call", "function_name": "search_regular_flights", "prompt_tokens": 3200, "completion_tokens": 103, "total_tokens": 3303}
+{"client_id": 17931353, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3357, "completion_tokens": 60, "total_tokens": 3417}
+{"client_id": 17931353, "agent": "book_flight", "type": "function_call", "function_name": "get_passport_info_extra", "prompt_tokens": 3437, "completion_tokens": 60, "total_tokens": 3497}
+{"client_id": 17931353, "agent": "book_flight", "type": "function_call", "function_name": "check_visa_requirements", "prompt_tokens": 3533, "completion_tokens": 94, "total_tokens": 3627}
+{"client_id": 17931353, "agent": "book_flight", "type": "function_call", "function_name": "get_customer_payment_method_extra", "prompt_tokens": 3668, "completion_tokens": 115, "total_tokens": 3783}
+{"client_id": 17931353, "agent": "book_flight", "type": "function_call", "function_name": "create_booking_with_points", "prompt_tokens": 3816, "completion_tokens": 69, "total_tokens": 3885}
+{"client_id": 17931353, "agent": "book_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3924, "completion_tokens": 114, "total_tokens": 4038}
+{"client_id": 17931353, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 4082, "completion_tokens": 57, "total_tokens": 4139}

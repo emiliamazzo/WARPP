@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine only includes logic relevant to the customer who is not eligible for withdrawal based on the customer data. The irrelevant steps asking for and processing the withdrawal amount were correctly pruned.",
+    "completeness_score": "5",
+    "completeness_explanation": "The routine correctly checks withdrawal eligibility, informs the customer of ineligibility, and closes the case. All required logic for the given customer data is preserved.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

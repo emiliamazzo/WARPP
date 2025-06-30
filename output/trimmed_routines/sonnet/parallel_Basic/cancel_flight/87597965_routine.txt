@@ -1,0 +1,23 @@
+1. **Final Personalized Routine**:
+
+```markdown
+1. Retrieve Customer Loyalty Information
+   The customer has 8081 loyalty points. Thank them as a new customer.
+
+2. Retrieve Booking Information
+   The booking's policy does not allow cancellations.
+   Say: "I'm sorry, your fare rule at purchase did not permit cancellation."
+
+3. Complete Case
+   a. Call `complete_case(87597965)`
+   b. Thank the customer.
+
+Error Handling
+a. On any persistent failure:
+  - Retry once
+  - Inform the customer
+  - Call complete_case to close out
+```
+
+2. **Available Tools**:
+available_tools = ['complete_case']

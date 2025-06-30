@@ -1,0 +1,48 @@
+**Final Personalized Routine**
+1. Look for Outstanding Balance  
+   The client has an outstanding balance of $557.
+   It looks like you have a balance to pay today. Let's get that done!
+
+2. Assess Payment Urgency  
+   Your payment is severely overdue; you may face additional fees.
+
+3. Financial Assistance & Tax Calculation
+   Since your urgency is high, you cannot wait for insurance and need to proceed with the payment.
+
+4. Suggest Late-Fee Waivers  
+   We can waive $6 in late fees. Shall I apply that for you? 
+   • If yes, call `apply_fee_waiver(customer_id, waiver_amount)`.
+   • If no, continue.
+
+5. Always Calculate Final Amount Due  
+   Call `calculate_patient_responsibility(customer_id, 'Cignexa')` to get total_due.
+   Your total due today is $X. Would you like to proceed with payment?
+     – If no, say “No problem; let me know if you need anything else,” and call `complete_case(customer_id)` 
+     – If yes, continue.
+
+6. Always Ask Client if They Want to Pay in USD or Another Currency  
+   Would you like to pay in another currency? 
+     – If the user wants to pay in another currency, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and tell them “That’s [convertedAmount] in [currency].”  
+     – If the user doesn't want to pay in another currency, continue in USD.
+
+7. Process the Payment  
+   Since the payment method is Credit Card:
+   a) Call `run_fraud_check(customer_id, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency. If run_fraud_check returns flagged, say “We need to review this transaction—please call our billing hotline”. Call `get_hospital_contact_info(hospital_id)` to share hotline number and call `complete_case(customer_id)`  
+   b) Otherwise, perform 3D-Secure with `initiate_3ds_auth(customer_id)`. 
+       -If initiate_3ds_auth returns success status false, prompt the client to call 1-800-555-BILL to continue the request and call `complete_case(customer_id)`.
+   c) Finally, call `process_payment(customer_id, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency.
+
+8. Send receipt
+   Call `issue_receipt(customer_id, patient_responsibility_amount)` to send an email confirmation.
+
+9. Offer Payment Plan
+   Since there is no active payment plan, ask: "Would you like to set up a payment plan?"
+      - If customer replies 'yes': ask how much to set for the monthly amount → call `setup_payment_plan(monthly_amount)`
+
+10. Finalize
+   a) Provide confirmation number
+   b) Call `complete_case(customer_id)`
+
+
+**Available Tools**
+available_tools = ['calculate_patient_responsibility', 'apply_fee_waiver', '(currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'setup_payment_plan', 'complete_case']

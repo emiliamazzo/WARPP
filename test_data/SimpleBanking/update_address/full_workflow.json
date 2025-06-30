@@ -1,0 +1,28 @@
+{
+    "agent": "update_address",
+    "steps": [
+        "get_account_type_extra(customer_id = customer_id) -> account_type",
+        "validate_address(street = user_provided_info['address']['street'], city = user_provided_info['address']['city'], state = user_provided_info['address']['state'], zip_code = user_provided_info['address']['zip_code'], country = user_provided_info['address']['country'])",
+        "update_address(customer_id = customer_id, street = user_provided_info['address']['street'], city = user_provided_info['address']['city'], state = user_provided_info['address']['state'], zip_code = user_provided_info['address']['zip_code'], country = user_provided_info['address']['country'])",
+        "apply_address_hold(customer_id = customer_id)",
+        "complete_case(customer_id = customer_id)"
+    ],
+    "soft_ordering": [],
+  "conditionals": [
+    {
+      "if": [
+        {
+          "field": "client_level",
+          "operator": "==",
+          "value": "PREMIUM"
+        }
+      ],
+      "then": [
+        {
+          "action": "skip",
+          "target": "apply_address_hold"
+        }
+      ]
+    }
+  ]
+}

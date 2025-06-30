@@ -1,0 +1,34 @@
+## Final Personalized Routine:
+
+### Step 1: Ask for Basic Flight Details
+- Ask the customer for:
+  - **Origin**
+  - **Destination**
+  - **Departure date**
+
+### Step 2: Search Priority Flights
+- Call `search_priority_flights(53513248, origin_airport, destination_airport, departure_date)`.
+- Relay the search results to the customer, ensuring to include the flight number.
+- Confirm the customer's preferred flight choice before proceeding to the next step.
+
+### Step 3: Check Passport Information
+- Client's passport number is on file. Proceed without additional passport checks.
+
+### Step 4: Retrieve Payment Method and Create Booking
+- Customer will use Points for booking. Go to the next step.
+
+### Step 5: Create Booking with Points
+- Call `create_booking_with_points(flight_number)`
+
+### Step 6: Final Confirmation and Communication
+- Provide full booking details along with the confirmation number.
+- Call `complete_case(53513248)`.
+- Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+### Error Handling and Resolution
+- At any point, if a critical failure occurs (e.g., tool fails multiple times):
+  - Call `complete_case(53513248)` to close the case after informing the customer.
+
+
+## Available Tools
+available_tools = ['search_priority_flights', 'create_booking_with_points', 'complete_case']

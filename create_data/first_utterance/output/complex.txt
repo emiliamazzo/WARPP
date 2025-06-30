@@ -1,0 +1,196 @@
+**Intent: Book Appointment**
+
+I'd like to schedule an appointment, please.
+
+Can I book a visit with the doctor?
+
+I need to make an appointment.
+
+Hey, can I see a doc?
+
+I want to book an appointment.
+
+Are there any slots available for a check-up?
+
+Help me book a doctor’s appointment.
+
+Could you assist with scheduling a visit?
+
+Need an appointment ASAP.
+
+I would like to arrange a consultation.
+
+Can I book a time to see my physician?
+
+Looking to set up an appointment.
+
+How do I make an appointment?
+
+Is it possible to schedule a doctor’s visit?
+
+I need to see a doctor.
+
+Wanna book an appointment.
+
+Book me in for a doctor, please.
+
+Can you help me with a doctor’s appointment?
+
+I wanna see a doctor, how do I book?
+
+A little help with scheduling a checkup?
+
+I would appreciate assistance in booking a consultation.
+
+Hey, need to fix an appointment for a visit.
+
+Schedule appointment?
+
+Book doc for me, please.
+
+How can I arrange a doctor visit?
+
+I’d like a slot for a doctor’s appointment.
+
+I gotta get an appointment.
+
+What’s the process to book an appointment?
+
+Hook me up with a doc appointment.
+
+I require assistance in scheduling a doctor’s appointment.
+
+Can I arrange an appointment at your facility?
+
+Help me sort out an appointment date.
+
+Booking a doctor – need info.
+
+Can you slot me in for a checkup?
+
+Need to see a doc, can you book it?
+
+Appointment pls.
+
+I need to reserve a time for a doctor.
+
+I wanna set a date to see the doctor.
+
+Could I possibly get an appointment booked?
+
+Schedule me for a check-up.
+
+Can you arrange a consultation for me?
+
+I wanna see a doctor, when can I book?
+
+Got any appointments for next week?
+
+Need to book my visit.
+
+Can u book appointment 4 me?
+
+How can I fix a doctor’s visit?
+
+Yo, need a doc appointment.
+
+I'm looking to see the doc. Can I book now?
+
+
+**Intent: Process Payment**
+
+I need to pay my medical bill.
+
+How can I settle my hospital charges?
+
+Can you help me with my payment?
+
+I wanna pay my bill.
+
+Need assistance with processing payment.
+
+How do I handle my billing?
+
+Can you help me pay my hospital fees?
+
+Sort out my payment, please.
+
+I want to make a payment for services.
+
+Help with my bills?
+
+Gotta pay my medical invoice.
+
+Can I settle my payment now?
+
+What’s the procedure for clearing my dues?
+
+I’m here to pay my bill.
+
+Please assist with payment processing.
+
+Can u help me pay my hospital bill?
+
+I would appreciate guidance on payment.
+
+Need to sort my hospital charges.
+
+Can you assist with making a payment?
+
+I need to clear my balance.
+
+Need help with a payment, thanks.
+
+Want to process my bill.
+
+Yo, how do I pay dis bill?
+
+Can I square away my outstanding payment?
+
+I need to process my medical bill.
+
+Gotta take care of my payment.
+
+Can you walk me through the payment process?
+
+Help me settle my invoice, please.
+
+Payment info, please.
+
+I need to pay my charges.
+
+How can I pay for the hospital services I received?
+
+Can I clear my medical invoices?
+
+Sorted my bill yet?
+
+I wanna take care of my fees.
+
+Need info on processing payment.
+
+Send info on how 2 pay bills.
+
+Make payment happen, please.
+
+I’m looking to process my payment.
+
+Help me conclude my hospital transactions.
+
+Where do I pay my medical fees?
+
+Help paying my bill, pls.
+
+I gotta fix up my hospital charges.
+
+How to settle payment here?
+
+Assist me with my payment procedure.
+
+When can I pay my bill?
+
+Yo, payment info?
+
+Need to wrap up payments.
+
+I’m looking to finalize my bill.

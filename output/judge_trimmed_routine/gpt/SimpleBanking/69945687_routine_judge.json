@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "Step 1 from the original routine regarding checking withdrawal eligibility should have been pruned. According to the customer data, the customer is eligible. So that entire step is not relevant to the customer.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps for the customer are preserved.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

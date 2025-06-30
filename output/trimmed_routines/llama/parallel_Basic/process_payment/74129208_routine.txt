@@ -1,0 +1,46 @@
+**Final Personalized Routine**
+
+1. Gather Billing Information  
+The customer ID is 74129208. 
+
+2. Check Account Status  
+The account is active. 
+
+3. Look for Outstanding Balance  
+It looks like you have a balance to pay today. Let's get that done! 
+
+4. Assess Payment Urgency  
+Your payment is 26 days overdue. Let's get you back on track. 
+
+5. Process the Payment  
+You will be paying with Credit Card. 
+   a) Call `run_fraud_check(74129208, patient_responsibility_amount)`. 
+   If run_fraud_check returns flagged, say “We need to review this transaction—please call our billing hotline”. Call `get_hospital_contact_info(658241)` to share hotline number and call `complete_case(74129208)`.  
+   Otherwise, perform 3D-Secure with `initiate_3ds_auth(74129208)`. 
+   If initiate_3ds_auth returns success status false, prompt the client to call 1-800-555-BILL to continue the request and call `complete_case(74129208)`. 
+   Finally, call `process_payment(74129208, patient_responsibility_amount)`. 
+
+6. Always Calculate Final Amount Due  
+Your total due today is $X. Would you like to proceed with payment? X is coming from the `calculate_patient_responsibility(74129208, 'Aetralis')` tool call output. 
+   – If no, say “No problem; let me know if you need anything else,” and call `complete_case(74129208)` 
+   – If yes, continue. 
+
+7. Always Ask Client if They Want to Pay in USD or Another Currency  
+Would you like to pay in another currency? 
+   – If the user wants to pay in another currency, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and tell them “That’s [convertedAmount] in [currency].” 
+   – If the user doesn't want to pay in another currency, continue in USD. 
+
+8. Send Receipt  
+You must always call `issue_receipt(74129208, patient_responsibility_amount)` to send an email confirmation. 
+
+9. Offer Payment Plan  
+Would you like to set up a payment plan? 
+   – If customer replies 'yes': ask how much to set for the monthly amount → call `setup_payment_plan(monthly_amount)` 
+
+10. Finalize  
+Provide confirmation number
+Call `complete_case(74129208)`
+
+
+**Available Tools**
+available_tools = ['get_insurance_payment_portion', 'calculate_patient_responsibility', 'apply_fee_waiver', 'get_provider_contact_info_api', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'setup_payment_plan', 'complete_case']

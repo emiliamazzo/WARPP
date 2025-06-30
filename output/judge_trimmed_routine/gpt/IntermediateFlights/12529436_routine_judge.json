@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine contains only steps relevant to the current customer. Steps related to frequent flyers and booking with points have been removed as the customer has no frequent flyer status and uses a debit card.",
+    "completeness_score": "4",
+    "completeness_explanation": "The routine is mostly complete. However, it is missing the passport information check in step 5 of the full routine, which is required for all customers.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

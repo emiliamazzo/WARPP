@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine retains the Error Handling step, which is irrelevant since the only step performed is `complete_case(customer_id)` and this should not fail.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine correctly identifies that the customer is not eligible for withdrawal based on the customer data and proceeds to inform the customer and close the case. All necessary logic is preserved.",
+    "model": "sonnet",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

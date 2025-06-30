@@ -1,0 +1,11 @@
+{"client_id": 38108071, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 918, "completion_tokens": 51, "total_tokens": 969}
+{"client_id": 38108071, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1591, "completion_tokens": 10, "total_tokens": 1601}
+{"client_id": 38108071, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1029, "completion_tokens": 25, "total_tokens": 1054}
+{"client_id": 38108071, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1498, "completion_tokens": 120, "total_tokens": 1618}
+{"client_id": 38108071, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1125, "completion_tokens": 25, "total_tokens": 1150}
+{"client_id": 38108071, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1168, "completion_tokens": 54, "total_tokens": 1222}
+{"client_id": 38108071, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1564, "completion_tokens": 15, "total_tokens": 1579}
+{"client_id": 38108071, "agent": "withdraw_retirement_funds", "type": "text_generation", "function_name": null, "prompt_tokens": 1442, "completion_tokens": 12, "total_tokens": 1454}
+{"client_id": 38108071, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "process_retirement_withdrawal", "prompt_tokens": 1472, "completion_tokens": 35, "total_tokens": 1507}
+{"client_id": 38108071, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1573, "completion_tokens": 71, "total_tokens": 1644}
+{"client_id": 38108071, "agent": "withdraw_retirement_funds", "type": "text_generation", "function_name": null, "prompt_tokens": 1695, "completion_tokens": 11, "total_tokens": 1706}

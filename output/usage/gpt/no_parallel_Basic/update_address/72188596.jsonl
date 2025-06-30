@@ -1,0 +1,13 @@
+{"client_id": 72188596, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 402, "completion_tokens": 21, "total_tokens": 423}
+{"client_id": 72188596, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 1418, "completion_tokens": 13, "total_tokens": 1431}
+{"client_id": 72188596, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1499, "completion_tokens": 26, "total_tokens": 1525}
+{"client_id": 72188596, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1544, "completion_tokens": 20, "total_tokens": 1564}
+{"client_id": 72188596, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1591, "completion_tokens": 30, "total_tokens": 1621}
+{"client_id": 72188596, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1636, "completion_tokens": 23, "total_tokens": 1659}
+{"client_id": 72188596, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1979, "completion_tokens": 16, "total_tokens": 1995}
+{"client_id": 72188596, "agent": "update_address", "type": "function_call", "function_name": "get_account_type_extra", "prompt_tokens": 2257, "completion_tokens": 19, "total_tokens": 2276}
+{"client_id": 72188596, "agent": "update_address", "type": "text_generation", "function_name": null, "prompt_tokens": 2305, "completion_tokens": 37, "total_tokens": 2342}
+{"client_id": 72188596, "agent": "update_address", "type": "function_call", "function_name": "validate_address", "prompt_tokens": 2384, "completion_tokens": 38, "total_tokens": 2422}
+{"client_id": 72188596, "agent": "update_address", "type": "function_call", "function_name": "update_address", "prompt_tokens": 2499, "completion_tokens": 82, "total_tokens": 2581}
+{"client_id": 72188596, "agent": "update_address", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 2685, "completion_tokens": 17, "total_tokens": 2702}
+{"client_id": 72188596, "agent": "update_address", "type": "text_generation", "function_name": null, "prompt_tokens": 2732, "completion_tokens": 79, "total_tokens": 2811}

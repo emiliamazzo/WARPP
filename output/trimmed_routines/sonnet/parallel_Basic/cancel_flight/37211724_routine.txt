@@ -1,0 +1,21 @@
+1. **Final Personalized Routine**:
+
+1. Welcome as Preferred Client
+   The customer has more than 30,000 loyalty points. Welcome them as a preferred client.
+
+2. Booking Information
+   The booking's policy does not allow cancellations.
+   Say: "I'm sorry, your fare rule at purchase did not permit cancellation."
+
+3. Complete Case
+   a. Call `complete_case(37211724)`
+   b. Thank the customer.
+
+Error Handling
+a. On any persistent failure:
+  - Retry once
+  - Inform the customer
+  - Call complete_case to close out
+
+2. **Available Tools**:
+available_tools = ['complete_case']

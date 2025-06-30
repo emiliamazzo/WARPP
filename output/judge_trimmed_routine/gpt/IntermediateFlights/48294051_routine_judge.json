@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine correctly follows the path for a frequent flyer customer and uses their stored data. Irrelevant branches (regular flights, visa check, points payment) have been removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required steps for this customer persona are present and include required tool calls (search_priority_flights, create_booking, complete_case).",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

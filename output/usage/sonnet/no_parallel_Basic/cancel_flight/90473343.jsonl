@@ -1,0 +1,11 @@
+{"client_id": 90473343, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 870, "completion_tokens": 112, "total_tokens": 982}
+{"client_id": 90473343, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2984, "completion_tokens": 90, "total_tokens": 3074}
+{"client_id": 90473343, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3127, "completion_tokens": 41, "total_tokens": 3168}
+{"client_id": 90473343, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1108, "completion_tokens": 80, "total_tokens": 1188}
+{"client_id": 90473343, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1215, "completion_tokens": 35, "total_tokens": 1250}
+{"client_id": 90473343, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1264, "completion_tokens": 93, "total_tokens": 1357}
+{"client_id": 90473343, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1751, "completion_tokens": 19, "total_tokens": 1770}
+{"client_id": 90473343, "agent": "cancel_flight", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 2987, "completion_tokens": 106, "total_tokens": 3093}
+{"client_id": 90473343, "agent": "cancel_flight", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 3127, "completion_tokens": 117, "total_tokens": 3244}
+{"client_id": 90473343, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3323, "completion_tokens": 175, "total_tokens": 3498}
+{"client_id": 90473343, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3534, "completion_tokens": 53, "total_tokens": 3587}

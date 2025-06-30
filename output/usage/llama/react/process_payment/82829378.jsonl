@@ -1,0 +1,14 @@
+{"client_id": 82829378, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6645, "completion_tokens": 80, "total_tokens": 6725}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6747, "completion_tokens": 123, "total_tokens": 6870}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6942, "completion_tokens": 63, "total_tokens": 7005}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7080, "completion_tokens": 45, "total_tokens": 7125}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 7143, "completion_tokens": 96, "total_tokens": 7239}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 7567, "completion_tokens": 118, "total_tokens": 7685}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 7737, "completion_tokens": 82, "total_tokens": 7819}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "evaluate_payment_urgency_extra", "prompt_tokens": 7852, "completion_tokens": 84, "total_tokens": 7936}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "get_insurance_payment_portion", "prompt_tokens": 7977, "completion_tokens": 164, "total_tokens": 8141}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 5884, "completion_tokens": 95, "total_tokens": 5979}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5956, "completion_tokens": 81, "total_tokens": 6037}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "run_fraud_check", "prompt_tokens": 5982, "completion_tokens": 142, "total_tokens": 6124}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6079, "completion_tokens": 97, "total_tokens": 6176}
+{"client_id": 82829378, "agent": "ReActAgent", "type": "function_call", "function_name": "setup_payment_plan", "prompt_tokens": 6120, "completion_tokens": 90, "total_tokens": 6210}

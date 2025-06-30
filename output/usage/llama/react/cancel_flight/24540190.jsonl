@@ -1,0 +1,12 @@
+{"client_id": 24540190, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6006, "completion_tokens": 56, "total_tokens": 6062}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6085, "completion_tokens": 107, "total_tokens": 6192}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6259, "completion_tokens": 37, "total_tokens": 6296}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6314, "completion_tokens": 61, "total_tokens": 6375}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 6736, "completion_tokens": 123, "total_tokens": 6859}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6966, "completion_tokens": 91, "total_tokens": 7057}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 7080, "completion_tokens": 103, "total_tokens": 7183}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 7212, "completion_tokens": 102, "total_tokens": 7314}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7367, "completion_tokens": 100, "total_tokens": 7467}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 7494, "completion_tokens": 196, "total_tokens": 7690}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5623, "completion_tokens": 148, "total_tokens": 5771}
+{"client_id": 24540190, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5710, "completion_tokens": 68, "total_tokens": 5778}

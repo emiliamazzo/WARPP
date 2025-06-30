@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The negative branch of the eligibility check was removed, as the customer is eligible.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required steps for an eligible customer are present and accounted for.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

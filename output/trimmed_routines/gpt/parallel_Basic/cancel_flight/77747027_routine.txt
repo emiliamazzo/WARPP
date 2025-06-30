@@ -1,0 +1,41 @@
+## Final Personalized Routine
+
+1. Retrieve Customer Loyalty Information
+   - Thank you for being a valued Platinum customer with 25,777 loyalty points.
+
+2. Retrieve Booking Information
+   - Your fare permits cancellations—let’s now confirm whether operations still allow it.
+
+3. Check Live Cancellation Blockers
+   a. Call `check_cancellation_blockers('BK006RU1')` to see if there are any blockers that prevent the cancellation.
+      - If response is:
+        - "eligible": proceed to step 4
+        - "api_failure": apologize for the technical difficulties, prompt the customer to call again later, and proceed directly to step 8.
+        - any other response: inform the customer that there is a blocker that prevents them from cancelling the flight at this time. Offer an explanation, apologize, and proceed directly to step 8.
+
+4. Calculate Cancellation Fee
+   a. Call `calculate_cancellation_fee(77747027, 'BK006RU1')`
+
+5. Process Flight Cancellation
+   a. Describe policy + fee to the customer
+   b. If customer confirms, call `cancel_flight('BK006RU1')`
+
+6. Process Refund or Issue Travel Credit
+   a. If refundable or insurance was purchased for this booking:
+      - Call `process_refund(77747027, 'BK006RU1', 'Points', cancellation_fee)`
+
+7. Confirm Cancellation and Provide Next Steps
+   a. Share final status, refund/credit amount, and confirmation number.
+
+8. Complete Case
+   a. Call `complete_case(77747027)`
+   b. Thank the customer.
+
+Error Handling
+  - On any persistent failure:
+    - Retry once
+    - Inform the customer
+    - Call `complete_case(77747027)` to close out
+
+## Available Tools
+available_tools = ['check_cancellation_blockers', 'calculate_cancellation_fee', 'cancel_flight', 'process_refund', 'complete_case']

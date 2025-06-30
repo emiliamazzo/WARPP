@@ -1,0 +1,9 @@
+{"client_id": 16233499, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6647, "completion_tokens": 69, "total_tokens": 6716}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6736, "completion_tokens": 124, "total_tokens": 6860}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6932, "completion_tokens": 68, "total_tokens": 7000}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 7018, "completion_tokens": 68, "total_tokens": 7086}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 7447, "completion_tokens": 129, "total_tokens": 7576}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 7636, "completion_tokens": 89, "total_tokens": 7725}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 7758, "completion_tokens": 132, "total_tokens": 7890}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 7919, "completion_tokens": 126, "total_tokens": 8045}
+{"client_id": 16233499, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5822, "completion_tokens": 75, "total_tokens": 5897}

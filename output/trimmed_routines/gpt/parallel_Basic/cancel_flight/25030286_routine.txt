@@ -1,0 +1,31 @@
+## Final Personalized Routine
+
+1. Confirming Booking Cancellation Capability
+   - Your fare permits cancellations—let’s now confirm whether operations still allow it.
+
+2. Check Live Cancellation Blockers
+   - Call `check_cancellation_blockers('BK005LE8')`
+   - If response is:
+     - "eligible": proceed
+     - "api_failure": apologize for the technical difficulties, prompt the client to call again at a later time, and proceed directly to step 5.
+     - any other response: inform the customer that there is a blocker preventing cancellation, offer an explanation, apologize, and proceed directly to step 5.
+
+3. Calculate Cancellation Fee
+   - Call `calculate_cancellation_fee(25030286, 'BK005LE8')`
+
+4. Process Flight Cancellation
+   - Describe policy + fee to the customer
+   - If customer confirms, call `cancel_flight('BK005LE8')`
+
+5. Issue Travel Credit
+   - Call `issue_travel_credit(25030286, 'BK005LE8', cancellation_fee)`
+
+6. Confirm Cancellation and Provide Next Steps
+   - Share final status, travel credit amount, and confirmation number.
+
+7. Complete Case
+   - Call `complete_case(25030286)`
+   - Thank the customer.
+
+## Available Tools
+available_tools = ['check_cancellation_blockers', 'calculate_cancellation_fee', 'cancel_flight', 'issue_travel_credit', 'complete_case']

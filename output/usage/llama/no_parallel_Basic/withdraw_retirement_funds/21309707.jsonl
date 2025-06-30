@@ -1,0 +1,11 @@
+{"client_id": 21309707, "agent": "OrchestratorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 818, "completion_tokens": 25, "total_tokens": 843}
+{"client_id": 21309707, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 869, "completion_tokens": 32, "total_tokens": 901}
+{"client_id": 21309707, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 1438, "completion_tokens": 19, "total_tokens": 1457}
+{"client_id": 21309707, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1612, "completion_tokens": 19, "total_tokens": 1631}
+{"client_id": 21309707, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1084, "completion_tokens": 25, "total_tokens": 1109}
+{"client_id": 21309707, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1174, "completion_tokens": 15, "total_tokens": 1189}
+{"client_id": 21309707, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1207, "completion_tokens": 46, "total_tokens": 1253}
+{"client_id": 21309707, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1605, "completion_tokens": 15, "total_tokens": 1620}
+{"client_id": 21309707, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "check_withdrawal_eligibility_extra", "prompt_tokens": 1662, "completion_tokens": 29, "total_tokens": 1691}
+{"client_id": 21309707, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1757, "completion_tokens": 75, "total_tokens": 1832}
+{"client_id": 21309707, "agent": "withdraw_retirement_funds", "type": "text_generation", "function_name": null, "prompt_tokens": 1882, "completion_tokens": 38, "total_tokens": 1920}

@@ -1,0 +1,25 @@
+**Final Personalized Routine**
+
+1. Inform the customer of their account type: 401K. Confirm their desire to proceed with the address update.
+
+2. Collect and Validate New Address
+   - Ask the customer for new address details (street, city, state, zip, country).
+   - Call validate_address(street, city, state, zip_code, country).
+     - If validation fails:
+       - Inform the customer and ask to re-enter address.
+       - Retry validation once.
+
+3. Update Address
+   - Call update_address(76116039, street, city, state, zip_code, country).
+   - Confirm the update with the customer.
+
+4. Apply Address Hold
+   - Call apply_address_hold(76116039).
+   - Inform customer of hold duration and affected transactions.
+
+5. Complete the Case
+   - Call complete_case(76116039).
+   - Provide confirmation number and close the case.
+
+**Available Tools**
+available_tools = ['validate_address', 'update_address', 'apply_address_hold', 'complete_case']

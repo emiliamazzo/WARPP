@@ -1,0 +1,12 @@
+{"client_id": 72996195, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 448, "completion_tokens": 24, "total_tokens": 472}
+{"client_id": 72996195, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 1001, "completion_tokens": 13, "total_tokens": 1014}
+{"client_id": 72996195, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1040, "completion_tokens": 31, "total_tokens": 1071}
+{"client_id": 72996195, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 538, "completion_tokens": 20, "total_tokens": 558}
+{"client_id": 72996195, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1480, "completion_tokens": 134, "total_tokens": 1614}
+{"client_id": 72996195, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 585, "completion_tokens": 26, "total_tokens": 611}
+{"client_id": 72996195, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 626, "completion_tokens": 23, "total_tokens": 649}
+{"client_id": 72996195, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 968, "completion_tokens": 16, "total_tokens": 984}
+{"client_id": 72996195, "agent": "withdraw_retirement_funds", "type": "text_generation", "function_name": null, "prompt_tokens": 931, "completion_tokens": 15, "total_tokens": 946}
+{"client_id": 72996195, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "process_retirement_withdrawal", "prompt_tokens": 961, "completion_tokens": 27, "total_tokens": 988}
+{"client_id": 72996195, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1016, "completion_tokens": 17, "total_tokens": 1033}
+{"client_id": 72996195, "agent": "withdraw_retirement_funds", "type": "text_generation", "function_name": null, "prompt_tokens": 1063, "completion_tokens": 42, "total_tokens": 1105}

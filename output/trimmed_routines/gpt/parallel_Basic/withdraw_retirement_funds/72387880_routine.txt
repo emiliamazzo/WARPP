@@ -1,0 +1,10 @@
+## Final Personalized Routine
+
+1. **Check Withdrawal Eligibility**
+   - The customer ID is 72387880. The customer is not eligible for withdrawal. 
+   - Inform the customer and close the case.
+   - Call `complete_case(72387880)`
+
+## Available Tools
+
+available_tools = ['complete_case']

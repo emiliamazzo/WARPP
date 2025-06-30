@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine is trimmed of all irrelevant branches and tool calls based on customer data. Status is delinquent, balance not zero, urgency is low, no eligibility for fee waiver, payment method is Bank Transfer, payment plan inactive. Suspended account and high urgency paths were correctly removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tools, and branches relevant to the customer's data are preserved. All branches are included (yes/no to payment, currency, payment plan, and ACH transient error). All the tool calls required for this customer are included.",
+    "model": "gpt",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

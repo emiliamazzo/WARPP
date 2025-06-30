@@ -1,0 +1,41 @@
+## Final Personalized Routine
+
+1. Validate Customer Information
+   - Confirm the account is active with an outstanding balance of $56.
+   - Inform the client: "It looks like you have a balance to pay today. Let's get that done!"
+
+2. Assess Payment Urgency
+   - Inform: “This payment is severely overdue; you may face additional fees.”
+
+3. Always Calculate Final Amount Due
+   - Call `calculate_patient_responsibility(74159013, 'Cignexa')` to determine the total due.
+   - Inform the client: “Your total due today is $X. Would you like to proceed with payment?”
+     - If no, say, “No problem; let me know if you need anything else.” Call `complete_case(74159013)`.
+     - If yes, continue.
+
+4. Payment Currency Selection
+   - Ask: “Would you like to pay in another currency?”
+     - If yes, obtain the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and inform them, “That’s [convertedAmount] in [currency].”
+     - If no, continue with USD.
+
+5. Process the Payment via Credit Card
+   - Informing the user of each action:
+     - Call `run_fraud_check(74159013, patient_responsibility_amount)`.
+       - If flagged, say: “We need to review this transaction—please call our billing hotline.” Call `get_hospital_contact_info(178013)`, share hotline number, and call `complete_case(74159013)`.
+     - If not flagged, initiate 3D-Secure with `initiate_3ds_auth(74159013)`.
+       - If initiate_3ds_auth returns success status false, prompt the client to call 1-800-555-BILL and call `complete_case(74159013)`.
+     - Finally, call `process_payment(74159013, patient_responsibility_amount)`.
+
+6. Send Receipt
+   - Call `issue_receipt(74159013, patient_responsibility_amount)` and inform the user that a receipt has been sent.
+
+7. Offer Payment Plan
+   - Ask: "Would you like to set up a payment plan?"
+     - If yes, ask for the preferred monthly amount and call `setup_payment_plan(monthly_amount)`.
+     - If no, proceed.
+
+8. Finalize
+   - Provide confirmation number and call `complete_case(74159013)`.
+
+## Available Tools
+available_tools = ['calculate_patient_responsibility', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'setup_payment_plan', 'complete_case']

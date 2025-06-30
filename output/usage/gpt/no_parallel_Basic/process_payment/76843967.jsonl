@@ -1,0 +1,11 @@
+{"client_id": 76843967, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 440, "completion_tokens": 20, "total_tokens": 460}
+{"client_id": 76843967, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 4256, "completion_tokens": 13, "total_tokens": 4269}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4298, "completion_tokens": 17, "total_tokens": 4315}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 519, "completion_tokens": 20, "total_tokens": 539}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 566, "completion_tokens": 26, "total_tokens": 592}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 608, "completion_tokens": 23, "total_tokens": 631}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 951, "completion_tokens": 16, "total_tokens": 967}
+{"client_id": 76843967, "agent": "process_payment", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 3125, "completion_tokens": 20, "total_tokens": 3145}
+{"client_id": 76843967, "agent": "process_payment", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 3188, "completion_tokens": 19, "total_tokens": 3207}
+{"client_id": 76843967, "agent": "process_payment", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 3224, "completion_tokens": 53, "total_tokens": 3277}
+{"client_id": 76843967, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 3322, "completion_tokens": 51, "total_tokens": 3373}

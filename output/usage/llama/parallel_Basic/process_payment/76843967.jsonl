@@ -1,0 +1,11 @@
+{"client_id": 76843967, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 915, "completion_tokens": 28, "total_tokens": 943}
+{"client_id": 76843967, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 4754, "completion_tokens": 19, "total_tokens": 4773}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 4835, "completion_tokens": 21, "total_tokens": 4856}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4988, "completion_tokens": 26, "total_tokens": 5014}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1198, "completion_tokens": 25, "total_tokens": 1223}
+{"client_id": 76843967, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2918, "completion_tokens": 75, "total_tokens": 2993}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1298, "completion_tokens": 15, "total_tokens": 1313}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1332, "completion_tokens": 55, "total_tokens": 1387}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1727, "completion_tokens": 15, "total_tokens": 1742}
+{"client_id": 76843967, "agent": "process_payment", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 1517, "completion_tokens": 49, "total_tokens": 1566}
+{"client_id": 76843967, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 1693, "completion_tokens": 37, "total_tokens": 1730}

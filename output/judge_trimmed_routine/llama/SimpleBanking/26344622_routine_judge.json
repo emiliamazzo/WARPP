@@ -1,0 +1,8 @@
+{
+    "score": "1",
+    "explanation": "{\n  \"relevance_score\": \"5\",\n  \"relevance_explanation\": \"The routine correctly identifies that the customer is not eligible for withdrawal and immediately calls `complete_case`. All other steps are irrelevant.\",\n  \"completeness_score\": \"5\",\n  \"completeness_explanation\": \"The routine includes the only required step based on the customer data.\",\n}",
+    "note": "JSON parsing failed, manual extraction used",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

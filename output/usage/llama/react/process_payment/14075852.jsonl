@@ -1,0 +1,16 @@
+{"client_id": 14075852, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6646, "completion_tokens": 49, "total_tokens": 6695}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6717, "completion_tokens": 60, "total_tokens": 6777}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6846, "completion_tokens": 53, "total_tokens": 6899}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6917, "completion_tokens": 59, "total_tokens": 6976}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 7341, "completion_tokens": 112, "total_tokens": 7453}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 7514, "completion_tokens": 79, "total_tokens": 7593}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5764, "completion_tokens": 24, "total_tokens": 5788}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "evaluate_payment_urgency_extra", "prompt_tokens": 7692, "completion_tokens": 72, "total_tokens": 7764}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7813, "completion_tokens": 51, "total_tokens": 7864}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "get_insurance_payment_portion", "prompt_tokens": 7900, "completion_tokens": 138, "total_tokens": 8038}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 5843, "completion_tokens": 81, "total_tokens": 5924}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_late_fee_waiver_eligibility_extra", "prompt_tokens": 5918, "completion_tokens": 144, "total_tokens": 6062}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "apply_fee_waiver", "prompt_tokens": 6009, "completion_tokens": 156, "total_tokens": 6165}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "process_payment", "prompt_tokens": 6109, "completion_tokens": 90, "total_tokens": 6199}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "issue_receipt", "prompt_tokens": 6194, "completion_tokens": 115, "total_tokens": 6309}
+{"client_id": 14075852, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 6276, "completion_tokens": 74, "total_tokens": 6350}

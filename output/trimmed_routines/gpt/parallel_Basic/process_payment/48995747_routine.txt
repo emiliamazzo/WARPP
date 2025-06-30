@@ -1,0 +1,42 @@
+## Final Personalized Routine
+
+1. **Account & Balance Verification**
+   - The account is active.
+   - Outstanding balance: $586.
+
+2. **Assess Payment Urgency**
+   - Since urgency is "high" (41 days overdue): "This payment is severely overdue; you may face additional fees."
+
+3. **Suggest Late-Fee Waiver**
+   - "We can waive $13 in late fees. Shall I apply that for you?"
+     - If yes, call `apply_fee_waiver(48995747, 13)`.
+     - If no, proceed.
+
+4. **Calculate Final Amount Due**
+   - Call `calculate_patient_responsibility(48995747, 'Humena')` to get the total due after insurance and waiver deductions.
+   - "Your total due today is $X. Would you like to proceed with payment?"
+     - If no: "No problem; let me know if you need anything else," and call `complete_case(48995747)`.
+     - If yes, continue.
+
+5. **Currency Preference Confirmation**
+   - "Would you like to pay in another currency?"
+     - If yes, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and inform: "That’s [convertedAmount] in [currency]."
+     - If no, continue in USD.
+
+6. **Process Payment via Digital Wallet**
+   - Call `get_wallet_link(48995747)` and ask them to complete payment in their browser.
+   - Call `check_wallet_payment_status(payment_id)` to verify the payment went through.
+
+7. **Send Receipt**
+   - Call `issue_receipt(48995747, patient_responsibility_amount)` to send an email confirmation. Inform the user that a receipt has been sent to them.
+
+8. **Offer Payment Plan**
+   - "Would you like to set up a payment plan?"
+     - If yes, ask how much to set for the monthly amount and call `setup_payment_plan(monthly_amount)`.
+
+9. **Finalize**
+   - Provide confirmation number.
+   - Call `complete_case(48995747)`.
+
+## Available Tools
+available_tools = ['apply_fee_waiver', 'calculate_patient_responsibility', 'currency_exchange', 'get_wallet_link', 'check_wallet_payment_status', 'issue_receipt', 'setup_payment_plan', 'complete_case']

@@ -1,0 +1,13 @@
+{"client_id": 20536894, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6646, "completion_tokens": 95, "total_tokens": 6741}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6763, "completion_tokens": 80, "total_tokens": 6843}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6920, "completion_tokens": 70, "total_tokens": 6990}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 7008, "completion_tokens": 65, "total_tokens": 7073}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 7433, "completion_tokens": 135, "total_tokens": 7568}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 7625, "completion_tokens": 80, "total_tokens": 7705}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "evaluate_payment_urgency_extra", "prompt_tokens": 7746, "completion_tokens": 125, "total_tokens": 7871}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "get_insurance_payment_portion", "prompt_tokens": 7915, "completion_tokens": 157, "total_tokens": 8072}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 5842, "completion_tokens": 93, "total_tokens": 5935}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "apply_fee_waiver", "prompt_tokens": 5920, "completion_tokens": 92, "total_tokens": 6012}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "initiate_ach_transaction", "prompt_tokens": 6010, "completion_tokens": 135, "total_tokens": 6145}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 6102, "completion_tokens": 113, "total_tokens": 6215}
+{"client_id": 20536894, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6183, "completion_tokens": 59, "total_tokens": 6242}

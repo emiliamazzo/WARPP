@@ -1,0 +1,22 @@
+**Final Personalized Routine**
+1. Retrieve Account Information
+   - Inform the customer of their ROTH_IRA account type
+   - Ask for confirmation to proceed with the address update
+
+2. Collect and Validate New Address
+   - Ask the customer for new address details (street, city, state, zip, country)
+   - Call validate_address(street, city, state, zip_code, country)
+   - If validation fails:
+     - Inform the customer and ask to re-enter address
+     - Retry validation once
+
+3. Update Address
+   - Call update_address(53299953, street, city, state, zip_code, country)
+   - Confirm the update with the customer
+
+4. Complete the Case
+   - Call complete_case(53299953)
+   - Provide confirmation number and close the case
+
+**Available Tools**
+available_tools = ['validate_address', 'update_address', 'complete_case']

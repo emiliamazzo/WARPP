@@ -1,0 +1,9 @@
+{
+    "agent": "authenticator_agent",
+    "steps": [
+    "send_verification_text(phone_number = contact_info['mobile_phone_number'])",
+    "code_verifier(code = authenticator_api['authenticator_code'], customer_id = customer_id)"
+    ],
+    "soft_ordering": [],
+  "conditionals": []
+}

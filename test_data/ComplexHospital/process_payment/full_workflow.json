@@ -1,0 +1,621 @@
+{
+    "agent": "process_payment_workflow",
+    "steps": [
+        "get_billing_info_extra(customer_id = customer_id)",
+        "check_account_status_extra(customer_id = customer_id)",
+        "get_provider_contact_info_api(customer_id = customer_id)",
+        "evaluate_payment_urgency_extra(customer_id = customer_id)",
+        "get_insurance_payment_portion(customer_id = customer_id, insurance_provider = billing_info['insurance_provider'])",
+        "calculate_late_fee_waiver_eligibility_extra(customer_id = customer_id)",
+        "apply_fee_waiver(customer_id = customer_id, waiver_amount = billing_info['waiver_amount'])",
+        "calculate_patient_responsibility(customer_id = customer_id, insurance_provider = billing_info['insurance_provider'])",
+        "currency_exchange(patient_responsibility_amount = dynamic_results['calculate_patient_responsibility']['patient_responsibility'], from_currency='USD', to_currency=user_provided_info['payment_currency_preferred'])",
+        "run_fraud_check(customer_id = customer_id, patient_responsibility_amount = dynamic_results['calculate_patient_responsibility']['patient_responsibility'])",
+        "get_hospital_contact_info(hospital_id = provider_details['hospital_id'])",
+        "initiate_3ds_auth(customer_id = customer_id)",
+        "process_payment(customer_id = customer_id, patient_responsibility_amount = dynamic_results['calculate_patient_responsibility']['patient_responsibility'])",
+        "initiate_ach_transaction(customer_id = customer_id, patient_responsibility_amount = dynamic_results['calculate_patient_responsibility']['patient_responsibility'])",
+        "get_wallet_link(customer_id = customer_id)",
+        "check_wallet_payment_status(payment_id = dynamic_results['get_wallet_link']['payment_id'])",
+        "issue_receipt(customer_id = customer_id, patient_responsibility_amount = dynamic_results['calculate_patient_responsibility']['patient_responsibility'])",
+        "setup_payment_plan(monthly_amount = user_provided_info['payment_plan_monthly_amount'])",
+        "complete_case(customer_id = customer_id)"
+    ],
+    "soft_ordering": [],
+    "conditionals": [
+        {
+            "if": [
+                {
+                    "field": "account_information['status']",
+                    "operator": "==",
+                    "value": "suspended"
+                }
+            ],
+            "then": [
+                {
+                    "action": "override_trajectory",
+                    "target": [
+                        "get_billing_info_extra",
+                        "check_account_status_extra",
+                        "get_provider_contact_info_api",
+                        "complete_case"
+                    ]
+                }
+            ],
+            "else": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "get_provider_contact_info_api"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "billing_info['outstanding_balance']",
+                    "operator": "==",
+                    "value": 0
+                }
+            ],
+            "then": [
+                {
+                    "action": "override_trajectory",
+                    "target": [
+                        "get_billing_info_extra",
+                        "check_account_status_extra",
+                        "complete_case"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "billing_info['days_overdue']",
+                    "operator": ">=",
+                    "value": 30
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [                        
+                        "get_insurance_payment_portion",
+                        "calculate_late_fee_waiver_eligibility_extra",
+                        "apply_fee_waiver"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "any_of": [
+                        {
+                            "field": "user_provided_info['wants_fee_waiver']",
+                            "operator": "==",
+                            "value": false
+                        },
+                        {
+                            "field": "billing_info['eligible_for_waiver']",
+                            "operator": "==",
+                            "value": false
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "apply_fee_waiver"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "user_provided_info['wants_to_proceed_post_final_amount']",
+                    "operator": "==",
+                    "value": false
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "currency_exchange",
+                        "run_fraud_check",
+                        "get_hospital_contact_info",
+                        "initiate_3ds_auth",
+                        "process_payment",
+                        "initiate_ach_transaction",
+                        "get_wallet_link",
+                        "check_wallet_payment_status",
+                        "issue_receipt",
+                        "setup_payment_plan"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "user_provided_info['payment_currency_other_than_usd_requested']",
+                    "operator": "==",
+                    "value": false
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "currency_exchange"
+                    ]
+                }
+            ],
+         "else": [
+                {
+                    "action": "override_params",
+                    "target": "run_fraud_check",
+                    "params": {
+                        "customer_id": "customer_id",
+                        "patient_responsibility_amount": "dynamic_results['currency_exchange']"
+                    }
+                },
+                 {
+                    "action": "override_params",
+                    "target": "process_payment",
+                    "params": {
+                        "customer_id": "customer_id",
+                        "patient_responsibility_amount": "dynamic_results['currency_exchange']"
+                    }
+                },            
+                 {
+                    "action": "override_params",
+                    "target": "initiate_ach_transaction",
+                    "params": {
+                        "customer_id": "customer_id",
+                        "patient_responsibility_amount": "dynamic_results['currency_exchange']"
+                    }
+                },         
+                 {
+                    "action": "override_params",
+                    "target": "issue_receipt",
+                    "params": {
+                        "customer_id": "customer_id",
+                        "patient_responsibility_amount": "dynamic_results['currency_exchange']"
+                    }
+                }           
+            ]
+             
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "==",
+                            "value": "Credit Card"
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['flagged']",
+                            "operator": "==",
+                            "value": false
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['tool_called']",
+                            "operator": "==",
+                            "value": true
+                        },
+                        {
+                            "field": "dynamic_results['initiate_3ds_auth']['3ds_success_status']",
+                            "operator": "==",
+                            "value": true
+                        },
+                        {
+                            "field": "dynamic_results['initiate_3ds_auth']['tool_called']",
+                            "operator": "==",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "get_hospital_contact_info",
+                        "initiate_ach_transaction",
+                        "get_wallet_link",
+                        "check_wallet_payment_status"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "==",
+                            "value": "Credit Card"
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['flagged']",
+                            "operator": "==",
+                            "value": false
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['tool_called']",
+                            "operator": "==",
+                            "value": true
+                        },
+                        {
+                            "field": "dynamic_results['initiate_3ds_auth']['3ds_success_status']",
+                            "operator": "==",
+                            "value": false
+                        },
+                        {
+                            "field": "dynamic_results['initiate_3ds_auth']['tool_called']",
+                            "operator": "==",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "get_hospital_contact_info",
+                        "process_payment",
+                        "initiate_ach_transaction",
+                        "get_wallet_link",
+                        "check_wallet_payment_status",
+                        "issue_receipt",
+                        "setup_payment_plan"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "==",
+                            "value": "Credit Card"
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['flagged']",
+                            "operator": "==",
+                            "value": true
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['tool_called']",
+                            "operator": "==",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "initiate_3ds_auth",
+                        "process_payment",
+                        "initiate_ach_transaction",
+                        "get_wallet_link",
+                        "check_wallet_payment_status",
+                        "issue_receipt",
+                        "setup_payment_plan"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "==",
+                            "value": "Credit Card"
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['tool_called']",
+                            "operator": "==",
+                            "value": false
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "get_hospital_contact_info",
+                        "initiate_ach_transaction",
+                        "get_wallet_link",
+                        "check_wallet_payment_status"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "==",
+                            "value": "Credit Card"
+                        },
+                        {
+                            "field": "dynamic_results['run_fraud_check']['tool_called']",
+                            "operator": "==",
+                            "value": false
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "get_hospital_contact_info",
+                        "initiate_ach_transaction",
+                        "get_wallet_link",
+                        "check_wallet_payment_status"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "==",
+                            "value": "Credit Card"
+                        },
+                        {
+                            "field": "dynamic_results['initiate_3ds_auth']['tool_called']",
+                            "operator": "==",
+                            "value": false
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "get_hospital_contact_info",
+                        "initiate_ach_transaction",
+                        "get_wallet_link",
+                        "check_wallet_payment_status"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "in",
+                            "value": [
+                                "Bank Transfer",
+                                "ACH"
+                            ]
+                        },
+                        {
+                            "field": "dynamic_results['initiate_ach_transaction']['ach_success_status']",
+                            "operator": "==",
+                            "value": "initiated"
+                        },
+                        {
+                            "field": "dynamic_results['initiate_ach_transaction']['tool_called']",
+                            "operator": "==",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "run_fraud_check",
+                        "get_hospital_contact_info",
+                        "initiate_3ds_auth",
+                        "process_payment",
+                        "get_wallet_link",
+                        "check_wallet_payment_status"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "in",
+                            "value": [
+                                "Bank Transfer",
+                                "ACH"
+                            ]
+                        },
+                        {
+                            "field": "dynamic_results['initiate_ach_transaction']['ach_success_status']",
+                            "operator": "==",
+                            "value": "transient_error"
+                        },
+                        {
+                            "field": "dynamic_results['initiate_ach_transaction']['tool_called']",
+                            "operator": "==",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "run_fraud_check",
+                        "get_hospital_contact_info",
+                        "initiate_3ds_auth",
+                        "process_payment",
+                        "get_wallet_link",
+                        "check_wallet_payment_status",
+                        "issue_receipt",
+                        "setup_payment_plan"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_method']",
+                            "operator": "in",
+                            "value": [
+                                "Bank Transfer",
+                                "ACH"
+                            ]
+                        },
+                        {
+                            "field": "dynamic_results['initiate_ach_transaction']['tool_called']",
+                            "operator": "==",
+                            "value": false
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "run_fraud_check",
+                        "get_hospital_contact_info",
+                        "initiate_3ds_auth",
+                        "process_payment",
+                        "get_wallet_link",
+                        "check_wallet_payment_status"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "billing_info['payment_method']",
+                    "operator": "in",
+                    "value": [
+                        "Digital Wallet",
+                        "Paypal"
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "run_fraud_check",
+                        "get_hospital_contact_info",
+                        "initiate_3ds_auth",
+                        "process_payment",
+                        "initiate_ach_transaction"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "billing_info['payment_plan_active']",
+                            "operator": "==",
+                            "value": false
+                        },
+                        {
+                            "field": "user_provided_info['payment_plan_setup_requested']",
+                            "operator": "==",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "then": [],
+            "else": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "setup_payment_plan"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "dynamic_results['calculate_patient_responsibility']['tool_called']",
+                    "operator": "==",
+                    "value": false
+                }
+            ],
+            "then": [
+                {
+                    "action": "override_params",
+                    "target": "currency_exchange",
+                    "params": {
+                        "patient_responsibility_amount": "-1",
+                        "from": "USD",
+                        "to": "user_provided_info['payment_currency_preferred']"
+                    }
+                },
+                {
+                    "action": "override_params",
+                    "target": "run_fraud_check",
+                    "params": {
+                        "customer_id": "customer_id",
+                        "patient_responsibility_amount": "-1"
+                    }
+                },
+                {
+                    "action": "override_params",
+                    "target": "process_payment",
+                    "params": {
+                        "customer_id": "customer_id",
+                        "patient_responsibility_amount": "-1"
+                    }
+                },
+                {
+                    "action": "override_params",
+                    "target": "initiate_ach_transaction",
+                    "params": {
+                        "customer_id": "customer_id",
+                        "patient_responsibility_amount": "-1"
+                    }
+                }
+            ]
+        }
+    ]
+}

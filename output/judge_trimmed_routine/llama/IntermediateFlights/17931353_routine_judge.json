@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine removed a branch, but should have removed step 4 based on priority status and step 9 because of payment method. Step 3 should be passport confirmed inline. There is no call for the customer's `frequent_flyer_status_extra` when the data indicates it should be None. All of step 7 and 8 should be executed because the payment method is points.",
+    "completeness_score": "3",
+    "completeness_explanation": "A significant chunk is missing. There is no step 7. Step 2 should be step 3. Also, step 4 should not be included. There is no step 9 but booking with points should be in step 5.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

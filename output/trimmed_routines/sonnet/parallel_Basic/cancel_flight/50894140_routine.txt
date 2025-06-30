@@ -1,0 +1,14 @@
+1. **Final Personalized Routine**:
+
+1. Retrieve Customer Loyalty Information
+   Welcome them as a preferred client.
+
+2. Retrieve Booking Information
+   Say: "I'm sorry, your fare rule at purchase did not permit cancellation."
+
+3. Complete Case
+   a. Call `complete_case(50894140)`
+   b. Thank the customer.
+
+2. **Available Tools**:
+available_tools = ['complete_case']

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine correctly addresses the customer's ineligibility for withdrawal, pruning all subsequent steps.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine includes the correct message and `complete_case` tool, making it a complete solution given the customer's data.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine is mostly relevant. However, the error handling section is included when none of the error paths are known to have been triggered. Including the catch-all is generally acceptable, but in a fully trimmed scenario it would be removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps required for this customer based on their data and the original routine have been preserved. The `get_account_type_extra` output was correctly used inline and the correct logic path was followed.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

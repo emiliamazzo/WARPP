@@ -1,0 +1,12 @@
+**Final Personalized Routine**
+1. Retrieve Booking Information
+   a. The booking’s policy does not allow cancellations at all.
+   Say: “I’m sorry, your fare rule at purchase did not permit cancellation.”
+   Skip directly to step 3 and close.
+
+2. Complete Case
+   a. Call `complete_case(36030594)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['complete_case']

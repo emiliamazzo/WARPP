@@ -1,0 +1,12 @@
+{"client_id": 85577774, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 866, "completion_tokens": 108, "total_tokens": 974}
+{"client_id": 85577774, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2972, "completion_tokens": 86, "total_tokens": 3058}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3111, "completion_tokens": 50, "total_tokens": 3161}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1105, "completion_tokens": 80, "total_tokens": 1185}
+{"client_id": 85577774, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2281, "completion_tokens": 146, "total_tokens": 2427}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1212, "completion_tokens": 34, "total_tokens": 1246}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1260, "completion_tokens": 93, "total_tokens": 1353}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1746, "completion_tokens": 19, "total_tokens": 1765}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1564, "completion_tokens": 91, "total_tokens": 1655}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1677, "completion_tokens": 110, "total_tokens": 1787}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1805, "completion_tokens": 104, "total_tokens": 1909}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1945, "completion_tokens": 50, "total_tokens": 1995}

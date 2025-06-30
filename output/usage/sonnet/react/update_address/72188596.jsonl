@@ -1,0 +1,13 @@
+{"client_id": 72188596, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3779, "completion_tokens": 109, "total_tokens": 3888}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 3904, "completion_tokens": 116, "total_tokens": 4020}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4047, "completion_tokens": 67, "total_tokens": 4114}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4126, "completion_tokens": 138, "total_tokens": 4264}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "function_call", "function_name": "get_account_type_extra", "prompt_tokens": 4658, "completion_tokens": 114, "total_tokens": 4772}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4807, "completion_tokens": 89, "total_tokens": 4896}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4911, "completion_tokens": 104, "total_tokens": 5015}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "function_call", "function_name": "validate_address", "prompt_tokens": 5067, "completion_tokens": 190, "total_tokens": 5257}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "function_call", "function_name": "update_address", "prompt_tokens": 5350, "completion_tokens": 196, "total_tokens": 5546}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "function_call", "function_name": "apply_address_hold", "prompt_tokens": 5637, "completion_tokens": 106, "total_tokens": 5743}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5780, "completion_tokens": 151, "total_tokens": 5931}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5950, "completion_tokens": 123, "total_tokens": 6073}
+{"client_id": 72188596, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6109, "completion_tokens": 105, "total_tokens": 6214}

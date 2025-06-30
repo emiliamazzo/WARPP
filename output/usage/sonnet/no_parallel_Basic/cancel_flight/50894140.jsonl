@@ -1,0 +1,11 @@
+{"client_id": 50894140, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 867, "completion_tokens": 110, "total_tokens": 977}
+{"client_id": 50894140, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2979, "completion_tokens": 78, "total_tokens": 3057}
+{"client_id": 50894140, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3110, "completion_tokens": 43, "total_tokens": 3153}
+{"client_id": 50894140, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1093, "completion_tokens": 80, "total_tokens": 1173}
+{"client_id": 50894140, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1200, "completion_tokens": 33, "total_tokens": 1233}
+{"client_id": 50894140, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1243, "completion_tokens": 92, "total_tokens": 1335}
+{"client_id": 50894140, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1729, "completion_tokens": 19, "total_tokens": 1748}
+{"client_id": 50894140, "agent": "cancel_flight", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 2964, "completion_tokens": 95, "total_tokens": 3059}
+{"client_id": 50894140, "agent": "cancel_flight", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 3092, "completion_tokens": 102, "total_tokens": 3194}
+{"client_id": 50894140, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3273, "completion_tokens": 141, "total_tokens": 3414}
+{"client_id": 50894140, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3450, "completion_tokens": 54, "total_tokens": 3504}

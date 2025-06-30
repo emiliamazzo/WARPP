@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only steps relevant to the customer based on the data provided. The routine properly skips steps irrelevant to the customer's specific scenario.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tools, and branches that apply to this customer are preserved. The routine includes all the correct APIs, prompts, and logic based on the customer data.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

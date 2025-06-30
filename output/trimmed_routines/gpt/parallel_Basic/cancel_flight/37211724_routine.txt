@@ -1,0 +1,14 @@
+## Final Personalized Routine
+
+1. **Customer Loyalty Information**
+   - Thank them as a new customer for their loyalty with 30,981 points.
+
+2. **Booking Information Review**
+   - “I’m sorry, your fare rule at purchase did not permit cancellation.”
+
+3. **Complete Case**
+   - Call `complete_case(37211724)`
+   - Thank the customer.
+
+## Available Tools
+available_tools = ['complete_case']

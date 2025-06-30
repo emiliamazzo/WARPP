@@ -1,0 +1,4 @@
+**Final Personalized Routine**
+1. Inform the customer they are not eligible for withdrawal and close the case by calling `complete_case(59794095)`.
+
+**available_tools = ['complete_case']**

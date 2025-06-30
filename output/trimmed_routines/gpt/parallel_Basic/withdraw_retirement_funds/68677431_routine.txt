@@ -1,0 +1,17 @@
+**Final Personalized Routine**
+
+1. **Collect Withdrawal Request**
+   - Ask the customer how much they would like to withdraw
+
+2. **Process Withdrawal**
+   - Call `process_retirement_withdrawal(68677431, withdrawal_amount)`
+   - If success, confirm success and share final amount with customer
+   - If failure, retry once
+   - If still failing, inform the customer and proceed to the next step
+
+3. **Complete Case**
+   - Call `complete_case(68677431)`
+   - Provide a confirmation message to the customer
+
+**Available Tools**
+available_tools = ['process_retirement_withdrawal', 'complete_case']

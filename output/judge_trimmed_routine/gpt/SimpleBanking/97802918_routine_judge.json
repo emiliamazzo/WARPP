@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps are relevant to the customer, there are no irrelevant steps included.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps required for this customer were preserved. The use of the address hold for standard accounts was kept, error handling steps included and the initial account confirmation step also remains.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

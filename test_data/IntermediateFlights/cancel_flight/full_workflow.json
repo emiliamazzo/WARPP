@@ -1,0 +1,128 @@
+{
+    "agent": "cancel_flight",
+    "steps": [
+        "get_customer_loyalty_info_extra(customer_id = customer_id) -> [loyalty_points, frequent_flyer_status]",
+        "get_booking_details_extra(customer_id = customer_id)",
+        "check_cancellation_blockers(booking_id = booking_info['booking_id'])",
+        "calculate_cancellation_fee(customer_id = customer_id, booking_id = booking_info['booking_id'])",
+        "cancel_flight(booking_id = booking_info['booking_id'])",
+        "process_refund(customer_id = customer_id, booking_id = booking_info['booking_id'], payment_method = stored_payment_method, cancellation_fee = dynamic_results['calculate_cancellation_fee']['cancellation_fee'])",
+        "issue_travel_credit(customer_id = customer_id, booking_id = booking_info['booking_id'], cancellation_fee = dynamic_results['calculate_cancellation_fee']['cancellation_fee'])",
+        "complete_case(customer_id = customer_id)"  
+    ],
+    "soft_ordering": [],
+  "conditionals": [
+    {
+      "if": [
+        {
+          "field": "booking_info['cancellation_allowed']",
+          "operator": "==",
+          "value": false
+        }
+      ],
+      "then": [
+        {
+          "action": "skip",
+          "target": [
+            "check_cancellation_blockers",
+            "calculate_cancellation_fee",
+            "cancel_flight",
+            "process_refund",
+            "issue_travel_credit"
+          ]
+        }
+      ]
+    },
+    {
+      "if": [
+        {
+          "all_of": [
+            {
+              "field": "dynamic_results['check_cancellation_blockers']['status']",
+              "operator": "!=",
+              "value": "eligible"
+            },
+            {
+              "field": "dynamic_results['check_cancellation_blockers']['tool_called']",
+              "operator": "==",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "then": [
+        {
+          "action": "skip",
+          "target": [
+            "calculate_cancellation_fee",
+            "cancel_flight",
+            "process_refund",
+            "issue_travel_credit"
+          ]
+        }
+      ]
+    },
+    {
+      "if": [
+        {
+          "any_of": [
+            {
+              "field": "booking_info['is_refundable']",
+              "operator": "==",
+              "value": true
+            },
+            {
+              "field": "booking_info['purchased_insurance']",
+              "operator": "==",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "then": [
+        {
+          "action": "skip",
+          "target": "issue_travel_credit"
+        }
+      ],
+      "else": [
+        {
+          "action": "skip",
+          "target": "process_refund"
+        }
+      ]
+    },
+    {
+      "if": [
+        {
+          "field": "dynamic_results['calculate_cancellation_fee']['tool_called']",
+          "operator": "==",
+          "value": false
+        }
+      ],
+      "then": [
+        {
+          "action": "override_params",
+          "target": "process_refund",
+          "params": {
+            "customer_id": "customer_id",
+            "booking_id": "booking_info['booking_id']",
+            "payment_method": "stored_payment_method",
+            "cancellation_fee": "-1"
+          }
+        },
+        {
+          "action": "override_params",
+          "target": "issue_travel_credit",
+          "params": {
+            "customer_id": "customer_id",
+            "booking_id": "booking_info['booking_id']",
+            "cancellation_fee": "-1"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

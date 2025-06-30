@@ -1,0 +1,11 @@
+{"client_id": 99465441, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 922, "completion_tokens": 51, "total_tokens": 973}
+{"client_id": 99465441, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1595, "completion_tokens": 27, "total_tokens": 1622}
+{"client_id": 99465441, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1048, "completion_tokens": 25, "total_tokens": 1073}
+{"client_id": 99465441, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1497, "completion_tokens": 106, "total_tokens": 1603}
+{"client_id": 99465441, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1148, "completion_tokens": 25, "total_tokens": 1173}
+{"client_id": 99465441, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1192, "completion_tokens": 57, "total_tokens": 1249}
+{"client_id": 99465441, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1586, "completion_tokens": 15, "total_tokens": 1601}
+{"client_id": 99465441, "agent": "withdraw_retirement_funds", "type": "text_generation", "function_name": null, "prompt_tokens": 1447, "completion_tokens": 27, "total_tokens": 1474}
+{"client_id": 99465441, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "process_retirement_withdrawal", "prompt_tokens": 1492, "completion_tokens": 35, "total_tokens": 1527}
+{"client_id": 99465441, "agent": "withdraw_retirement_funds", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1593, "completion_tokens": 69, "total_tokens": 1662}
+{"client_id": 99465441, "agent": "withdraw_retirement_funds", "type": "text_generation", "function_name": null, "prompt_tokens": 1718, "completion_tokens": 16, "total_tokens": 1734}

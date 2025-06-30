@@ -1,0 +1,16 @@
+{"client_id": 36690518, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 868, "completion_tokens": 106, "total_tokens": 974}
+{"client_id": 36690518, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2972, "completion_tokens": 80, "total_tokens": 3052}
+{"client_id": 36690518, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3105, "completion_tokens": 39, "total_tokens": 3144}
+{"client_id": 36690518, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1088, "completion_tokens": 80, "total_tokens": 1168}
+{"client_id": 36690518, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2279, "completion_tokens": 464, "total_tokens": 2743}
+{"client_id": 36690518, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1195, "completion_tokens": 34, "total_tokens": 1229}
+{"client_id": 36690518, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1241, "completion_tokens": 91, "total_tokens": 1332}
+{"client_id": 36690518, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1725, "completion_tokens": 19, "total_tokens": 1744}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 2395, "completion_tokens": 144, "total_tokens": 2539}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 2557, "completion_tokens": 122, "total_tokens": 2679}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 2724, "completion_tokens": 102, "total_tokens": 2826}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 2847, "completion_tokens": 80, "total_tokens": 2927}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "function_call", "function_name": "issue_travel_credit", "prompt_tokens": 2963, "completion_tokens": 127, "total_tokens": 3090}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3130, "completion_tokens": 115, "total_tokens": 3245}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3262, "completion_tokens": 109, "total_tokens": 3371}
+{"client_id": 36690518, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3407, "completion_tokens": 53, "total_tokens": 3460}

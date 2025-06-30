@@ -1,0 +1,261 @@
+{
+    "agent": "book_appointment",
+    "steps": [
+        "get_patient_profile_extra(customer_id = customer_id)",
+        "get_medical_history_summary_extra(customer_id = customer_id)",
+        "route_to_specialist(customer_id = customer_id)",
+        "get_emergency_contact_extra(customer_id = customer_id)",
+        "collect_emergency_contact(customer_id = customer_id)",
+        "get_patient_demographics_extra(customer_id = customer_id)",
+        "set_guardian_contact(customer_id = customer_id) ",
+        "assign_language_support(customer_id = customer_id, language = patient_info['language_preference'])",
+        "route_to_financial_support(customer_id = customer_id)",
+        "check_if_customer_has_referral_extra(customer_id = customer_id)",
+        "check_insurance_plan_validity(customer_id = customer_id)",
+        "get_insurance_coverage_details_extra(customer_id = customer_id)",
+        "get_hospital_bed_availability_api(hospital_id = patient_info['preferred_hospital'])",
+        "suggest_nearest_hospital(zip_code = patient_info['zip_code'])",
+        "suggest_accessible_hospitals(customer_id = customer_id)",
+        "find_available_appointments(customer_id = customer_id)",
+        "suggest_appointment_type(symptom_description = user_provided_info['symptoms'])",
+        "check_appointment_conflict_live_api(customer_id = customer_id, preferred_datetime = user_provided_info['preferred_datetime'])",
+        "book_appointment(customer_id = customer_id)",
+        "get_provider_contact_info_api(provider_id = provider_details['provider_id'])",
+
+        "set_up_reminder(customer_id = customer_id)",
+        "complete_case(customer_id = customer_id)"
+    ],
+    "soft_ordering": [],
+    "conditionals": [
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "medical_history['critical_conditions']",
+                            "operator": "!=",
+                            "value": "null"
+                        },
+                        {
+                            "field": "user_provided_info['route_to_specialist']",
+                            "operator": "==",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "override_trajectory",
+                    "target": [
+                        "get_patient_profile_extra",
+                        "get_medical_history_summary_extra",
+                        "route_to_specialist",
+                        "complete_case"
+                    ]
+                }
+            ],
+            "else": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "route_to_specialist"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "emergency_contact['name']",
+                    "operator": "!=",
+                    "value": null
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "collect_emergency_contact"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "patient_info['age']",
+                    "operator": ">=",
+                    "value": 18
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "set_guardian_contact"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "patient_info['language_preference']",
+                    "operator": "==",
+                    "value": "EN"
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "assign_language_support"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "all_of": [
+                        {
+                            "field": "patient_info['billing_info']['outstanding_balance']",
+                            "operator": ">",
+                            "value": 1000
+                        },
+                        {
+                            "field": "patient_info['billing_info']['payment_plan_active']",
+                            "operator": "==",
+                            "value": false
+                        }
+                    ]
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "check_if_customer_has_referral_extra",
+                        "check_insurance_plan_validity",
+                        "get_insurance_coverage_details_extra",
+                        "get_hospital_bed_availability_api",
+                        "suggest_nearest_hospital",
+                        "suggest_accessible_hospitals",
+                        "find_available_appointments",
+                        "suggest_appointment_type",
+                        "check_appointment_conflict_live_api",
+                        "book_appointment",
+                        "set_up_reminder",
+                        "route_to_financial_support"
+                    ]
+                }
+            ],
+            "else": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "route_to_financial_support"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "referral_info['has_referral']",
+                    "operator": "==",
+                    "value": false
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "check_insurance_plan_validity",
+                        "get_insurance_coverage_details_extra",
+                        "get_hospital_bed_availability_api",
+                        "suggest_nearest_hospital",
+                        "suggest_accessible_hospitals",
+                        "find_available_appointments",
+                        "suggest_appointment_type",
+                        "check_appointment_conflict_live_api",
+                        "book_appointment",
+                        "set_up_reminder",
+                        "route_to_financial_support"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "dynamic_results['get_hospital_bed_availability_api']",
+                    "operator": "!=",
+                    "value": 0
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "suggest_nearest_hospital"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                        {
+                            "field": "dynamic_results['get_hospital_bed_availability_api']",
+                            "operator": ">",
+                            "value": 0
+                        }
+                    ]
+                
+            ,
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "suggest_nearest_hospital"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "medical_info['last_appointment_type']",
+                    "operator": "!=",
+                    "value": null
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "suggest_appointment_type"
+                    ]
+                }
+            ]
+        },
+        {
+            "if": [
+                {
+                    "field": "communication_preferences['reminder_preference']",
+                    "operator": "==",
+                    "value": false
+                }
+            ],
+            "then": [
+                {
+                    "action": "skip",
+                    "target": [
+                        "set_up_reminder"
+                    ]
+                }
+            ]
+        }
+    ]
+}

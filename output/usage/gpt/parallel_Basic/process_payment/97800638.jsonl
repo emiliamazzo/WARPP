@@ -1,0 +1,12 @@
+{"client_id": 97800638, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 441, "completion_tokens": 20, "total_tokens": 461}
+{"client_id": 97800638, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 4251, "completion_tokens": 13, "total_tokens": 4264}
+{"client_id": 97800638, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4293, "completion_tokens": 27, "total_tokens": 4320}
+{"client_id": 97800638, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 529, "completion_tokens": 20, "total_tokens": 549}
+{"client_id": 97800638, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2902, "completion_tokens": 109, "total_tokens": 3011}
+{"client_id": 97800638, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 576, "completion_tokens": 16, "total_tokens": 592}
+{"client_id": 97800638, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 606, "completion_tokens": 23, "total_tokens": 629}
+{"client_id": 97800638, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 948, "completion_tokens": 16, "total_tokens": 964}
+{"client_id": 97800638, "agent": "process_payment", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 878, "completion_tokens": 20, "total_tokens": 898}
+{"client_id": 97800638, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 918, "completion_tokens": 39, "total_tokens": 957}
+{"client_id": 97800638, "agent": "process_payment", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 976, "completion_tokens": 17, "total_tokens": 993}
+{"client_id": 97800638, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 1023, "completion_tokens": 33, "total_tokens": 1056}

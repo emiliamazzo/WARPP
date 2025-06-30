@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to the customer were correctly removed. The customer data indicates they are not eligible for withdrawal, so the other steps were properly pruned.",
+    "completeness_score": "5",
+    "completeness_explanation": "Everything required for this customer was preserved and no additional steps were missed. The routine correctly checks eligibility, finds the customer is ineligible based on the customer data provided, and closes the case.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

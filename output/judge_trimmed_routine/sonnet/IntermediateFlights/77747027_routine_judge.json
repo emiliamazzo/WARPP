@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only the steps relevant to the customer based on their data. The logic correctly branches based on the cancellation policy and loyalty points.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine retains all necessary logic, tools, and branches that apply to this customer. All necessary tool calls based on the given information are present and addressed.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

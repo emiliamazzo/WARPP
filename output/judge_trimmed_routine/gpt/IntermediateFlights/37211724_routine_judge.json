@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to the customer were removed. The customer cannot cancel based on fare rules, so the routine immediately informs them and completes the case.",
+    "completeness_score": "5",
+    "completeness_explanation": "Everything required for this customer is preserved. All appropriate steps were included and no unnecessary steps were included.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

@@ -1,0 +1,12 @@
+{"client_id": 76843967, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 865, "completion_tokens": 118, "total_tokens": 983}
+{"client_id": 76843967, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 5634, "completion_tokens": 72, "total_tokens": 5706}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5759, "completion_tokens": 37, "total_tokens": 5796}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1087, "completion_tokens": 80, "total_tokens": 1167}
+{"client_id": 76843967, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3363, "completion_tokens": 150, "total_tokens": 3513}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1194, "completion_tokens": 35, "total_tokens": 1229}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1243, "completion_tokens": 93, "total_tokens": 1336}
+{"client_id": 76843967, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1729, "completion_tokens": 19, "total_tokens": 1748}
+{"client_id": 76843967, "agent": "process_payment", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 1656, "completion_tokens": 92, "total_tokens": 1748}
+{"client_id": 76843967, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 1768, "completion_tokens": 104, "total_tokens": 1872}
+{"client_id": 76843967, "agent": "process_payment", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1889, "completion_tokens": 93, "total_tokens": 1982}
+{"client_id": 76843967, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 2018, "completion_tokens": 64, "total_tokens": 2082}

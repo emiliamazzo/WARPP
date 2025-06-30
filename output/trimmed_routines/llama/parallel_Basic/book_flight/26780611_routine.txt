@@ -1,0 +1,29 @@
+**Final Personalized Routine**
+The customer ID is 26780611. 
+Routine to execute: 
+
+## Step 1: Ask for Basic Flight Details
+- Ask the customer for:
+  - **Origin**
+  - **Destination**
+  - **Departure date**
+
+## Step 2: Search Priority Flights
+- Call `search_priority_flights(26780611, origin_airport, destination_airport, departure_date)`.
+- You must always share with the client the information from the search. Always include the flight number. Ask the client for thier preferred flight and get their confirmation before proceeding.
+
+## Step 3: Check Passport Information
+- The customer's passport number is P1234567.
+
+## Step 4: Retrieve Payment Method and Create Booking
+- The customer's payment method is Points. 
+- Call `create_booking_with_points(flight_number)`.
+
+## Step 5: Final Confirmation and Communication
+- Provide full booking details and confirmation number.
+- Call `complete_case(26780611)`.
+- Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+
+**Available Tools**
+available_tools = ['search_priority_flights', 'create_booking_with_points', 'complete_case']

@@ -1,0 +1,10 @@
+{"client_id": 36690518, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3899, "completion_tokens": 68, "total_tokens": 3967}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 3987, "completion_tokens": 58, "total_tokens": 4045}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4075, "completion_tokens": 61, "total_tokens": 4136}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4151, "completion_tokens": 63, "total_tokens": 4214}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4537, "completion_tokens": 18, "total_tokens": 4555}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 4572, "completion_tokens": 68, "total_tokens": 4640}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 4677, "completion_tokens": 107, "total_tokens": 4784}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 4849, "completion_tokens": 76, "total_tokens": 4925}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 4946, "completion_tokens": 96, "total_tokens": 5042}
+{"client_id": 36690518, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5075, "completion_tokens": 28, "total_tokens": 5103}

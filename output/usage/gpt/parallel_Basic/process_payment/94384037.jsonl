@@ -1,0 +1,17 @@
+{"client_id": 94384037, "agent": "OrchestratorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 442, "completion_tokens": 16, "total_tokens": 458}
+{"client_id": 94384037, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 479, "completion_tokens": 20, "total_tokens": 499}
+{"client_id": 94384037, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 4289, "completion_tokens": 13, "total_tokens": 4302}
+{"client_id": 94384037, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4331, "completion_tokens": 25, "total_tokens": 4356}
+{"client_id": 94384037, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 565, "completion_tokens": 20, "total_tokens": 585}
+{"client_id": 94384037, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 612, "completion_tokens": 26, "total_tokens": 638}
+{"client_id": 94384037, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 653, "completion_tokens": 23, "total_tokens": 676}
+{"client_id": 94384037, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2898, "completion_tokens": 700, "total_tokens": 3598}
+{"client_id": 94384037, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 995, "completion_tokens": 16, "total_tokens": 1011}
+{"client_id": 94384037, "agent": "process_payment", "type": "function_call", "function_name": "get_insurance_payment_portion", "prompt_tokens": 2037, "completion_tokens": 64, "total_tokens": 2101}
+{"client_id": 94384037, "agent": "process_payment", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 2124, "completion_tokens": 26, "total_tokens": 2150}
+{"client_id": 94384037, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 2172, "completion_tokens": 29, "total_tokens": 2201}
+{"client_id": 94384037, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 2219, "completion_tokens": 10, "total_tokens": 2229}
+{"client_id": 94384037, "agent": "process_payment", "type": "function_call", "function_name": "run_fraud_check", "prompt_tokens": 2246, "completion_tokens": 53, "total_tokens": 2299}
+{"client_id": 94384037, "agent": "process_payment", "type": "function_call", "function_name": "get_hospital_contact_info", "prompt_tokens": 2318, "completion_tokens": 19, "total_tokens": 2337}
+{"client_id": 94384037, "agent": "process_payment", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 2361, "completion_tokens": 17, "total_tokens": 2378}
+{"client_id": 94384037, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 2408, "completion_tokens": 37, "total_tokens": 2445}

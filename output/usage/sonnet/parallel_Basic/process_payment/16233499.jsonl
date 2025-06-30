@@ -1,0 +1,12 @@
+{"client_id": 16233499, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 868, "completion_tokens": 125, "total_tokens": 993}
+{"client_id": 16233499, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 5644, "completion_tokens": 85, "total_tokens": 5729}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5782, "completion_tokens": 47, "total_tokens": 5829}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1120, "completion_tokens": 80, "total_tokens": 1200}
+{"client_id": 16233499, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3357, "completion_tokens": 150, "total_tokens": 3507}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1227, "completion_tokens": 32, "total_tokens": 1259}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1270, "completion_tokens": 93, "total_tokens": 1363}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1756, "completion_tokens": 19, "total_tokens": 1775}
+{"client_id": 16233499, "agent": "process_payment", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 1687, "completion_tokens": 101, "total_tokens": 1788}
+{"client_id": 16233499, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 1808, "completion_tokens": 144, "total_tokens": 1952}
+{"client_id": 16233499, "agent": "process_payment", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1971, "completion_tokens": 117, "total_tokens": 2088}
+{"client_id": 16233499, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 2124, "completion_tokens": 34, "total_tokens": 2158}

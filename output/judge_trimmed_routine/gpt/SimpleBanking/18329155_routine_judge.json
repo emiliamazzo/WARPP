@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine only includes logic relevant to the customer. The customer data indicates they are not eligible for withdrawal, so the routine correctly checks and handles this scenario.",
+    "completeness_score": "5",
+    "completeness_explanation": "The only relevant logic path (customer is not withdrawal-eligible) is fully preserved, inclusive of the call to `complete_case`.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

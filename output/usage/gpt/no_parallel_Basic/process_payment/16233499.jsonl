@@ -1,0 +1,12 @@
+{"client_id": 16233499, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 443, "completion_tokens": 20, "total_tokens": 463}
+{"client_id": 16233499, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 4259, "completion_tokens": 13, "total_tokens": 4272}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4301, "completion_tokens": 13, "total_tokens": 4314}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 518, "completion_tokens": 20, "total_tokens": 538}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 565, "completion_tokens": 16, "total_tokens": 581}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 597, "completion_tokens": 23, "total_tokens": 620}
+{"client_id": 16233499, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 940, "completion_tokens": 16, "total_tokens": 956}
+{"client_id": 16233499, "agent": "process_payment", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 3114, "completion_tokens": 20, "total_tokens": 3134}
+{"client_id": 16233499, "agent": "process_payment", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 3177, "completion_tokens": 19, "total_tokens": 3196}
+{"client_id": 16233499, "agent": "process_payment", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 3213, "completion_tokens": 20, "total_tokens": 3233}
+{"client_id": 16233499, "agent": "process_payment", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3253, "completion_tokens": 17, "total_tokens": 3270}
+{"client_id": 16233499, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 3300, "completion_tokens": 37, "total_tokens": 3337}

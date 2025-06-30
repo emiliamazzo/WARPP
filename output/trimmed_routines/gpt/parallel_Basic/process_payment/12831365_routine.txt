@@ -1,0 +1,38 @@
+## Final Personalized Routine
+
+### Routine for Customer ID 12831365
+
+1. **Status & Balance**
+    - The account is active with an outstanding balance of $1548 and payment is 32 days overdue.
+
+2. **Assess Payment Urgency**
+    - **Urgency Level:** High
+    - Warn: “This payment is severely overdue; you may face additional fees.”
+
+3. **Calculate Final Amount Due**
+    - Call `calculate_patient_responsibility(12831365, 'BluePeak')` to determine total due after insurance.
+    - Say: “Your total due today is $X. Would you like to proceed with payment?”
+        - **If no**, say “No problem; let me know if you need anything else,” and call `complete_case(12831365)`
+        - **If yes**, continue to Step 4.
+
+4. **Ask if Payment in Another Currency**
+    - **Prompt:** “Would you like to pay in another currency?”
+        - **If yes**, get the desired currency and call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`. Tell them “That’s [convertedAmount] in [currency].”
+        - **If no**, continue in USD.
+
+5. **Process the Payment**
+   - **Method:** Bank Transfer/ACH
+      1. Explain: “ACH transfers take 3–5 business days to clear.”
+      2. Call `initiate_ach_transaction(12831365, patient_responsibility_amount)`.
+         - If `initiate_ach_transaction` returns a transient error, prompt the client to call 1-800-555-BILL to continue the request and call `complete_case(12831365)`.
+
+6. **Send Receipt**
+    - Call `issue_receipt(12831365, patient_responsibility_amount)` to send an email confirmation.
+    - Inform the user that a receipt has been sent.
+
+7. **Finalize**
+    - Provide confirmation number.
+    - Call `complete_case(12831365)`
+
+## Available Tools
+available_tools = ['calculate_patient_responsibility', 'currency_exchange', 'initiate_ach_transaction', 'issue_receipt', 'complete_case']

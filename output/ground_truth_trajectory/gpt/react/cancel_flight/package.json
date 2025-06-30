@@ -1,0 +1,711 @@
+{
+  "85577774": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2481350612)",
+        "tool: code_verifier(code=574618, customer_id=85577774)",
+        "tool: get_customer_loyalty_info_extra(customer_id=85577774)",
+        "tool: get_booking_details_extra(customer_id=85577774)",
+        "tool: complete_case(customer_id=85577774)"
+      ]
+    ]
+  },
+  "42349439": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2242070676)",
+        "tool: code_verifier(code=533841, customer_id=42349439)",
+        "tool: get_customer_loyalty_info_extra(customer_id=42349439)",
+        "tool: get_booking_details_extra(customer_id=42349439)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: calculate_cancellation_fee(customer_id=42349439, booking_id=BK001XZ9)",
+        "tool: cancel_flight(booking_id=BK001XZ9)",
+        "tool: issue_travel_credit(customer_id=42349439, booking_id=BK001XZ9, cancellation_fee=130.8)",
+        "tool: complete_case(customer_id=42349439)"
+      ]
+    ]
+  },
+  "97464136": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9493597353)",
+        "tool: code_verifier(code=310401, customer_id=97464136)",
+        "tool: get_customer_loyalty_info_extra(customer_id=97464136)",
+        "tool: get_booking_details_extra(customer_id=97464136)",
+        "tool: check_cancellation_blockers(booking_id=BK008CV2)",
+        "tool: complete_case(customer_id=97464136)"
+      ]
+    ]
+  },
+  "24540190": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8077913660)",
+        "tool: code_verifier(code=167374, customer_id=24540190)",
+        "tool: get_customer_loyalty_info_extra(customer_id=24540190)",
+        "tool: get_booking_details_extra(customer_id=24540190)",
+        "tool: check_cancellation_blockers(booking_id=BK009JD6)",
+        "tool: calculate_cancellation_fee(customer_id=24540190, booking_id=BK009JD6)",
+        "tool: cancel_flight(booking_id=BK009JD6)",
+        "tool: issue_travel_credit(customer_id=24540190, booking_id=BK009JD6, cancellation_fee=146.7)",
+        "tool: complete_case(customer_id=24540190)"
+      ]
+    ]
+  },
+  "87597965": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5842590180)",
+        "tool: code_verifier(code=872216, customer_id=87597965)",
+        "tool: get_customer_loyalty_info_extra(customer_id=87597965)",
+        "tool: get_booking_details_extra(customer_id=87597965)",
+        "tool: complete_case(customer_id=87597965)"
+      ]
+    ]
+  },
+  "70140869": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3956350461)",
+        "tool: code_verifier(code=855750, customer_id=70140869)",
+        "tool: get_customer_loyalty_info_extra(customer_id=70140869)",
+        "tool: get_booking_details_extra(customer_id=70140869)",
+        "tool: complete_case(customer_id=70140869)"
+      ]
+    ]
+  },
+  "56212334": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7320089412)",
+        "tool: code_verifier(code=854186, customer_id=56212334)",
+        "tool: get_customer_loyalty_info_extra(customer_id=56212334)",
+        "tool: get_booking_details_extra(customer_id=56212334)",
+        "tool: check_cancellation_blockers(booking_id=BK005LE8)",
+        "tool: calculate_cancellation_fee(customer_id=56212334, booking_id=BK005LE8)",
+        "tool: cancel_flight(booking_id=BK005LE8)",
+        "tool: process_refund(customer_id=56212334, booking_id=BK005LE8, payment_method=Credit Card, cancellation_fee=87.5)",
+        "tool: complete_case(customer_id=56212334)"
+      ]
+    ]
+  },
+  "37760963": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3355014947)",
+        "tool: code_verifier(code=646065, customer_id=37760963)",
+        "tool: get_customer_loyalty_info_extra(customer_id=37760963)",
+        "tool: get_booking_details_extra(customer_id=37760963)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: calculate_cancellation_fee(customer_id=37760963, booking_id=BK001XZ9)",
+        "tool: cancel_flight(booking_id=BK001XZ9)",
+        "tool: process_refund(customer_id=37760963, booking_id=BK001XZ9, payment_method=Debit Card, cancellation_fee=100.8)",
+        "tool: complete_case(customer_id=37760963)"
+      ]
+    ]
+  },
+  "48769243": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1054437145)",
+        "tool: code_verifier(code=272772, customer_id=48769243)",
+        "tool: get_customer_loyalty_info_extra(customer_id=48769243)",
+        "tool: get_booking_details_extra(customer_id=48769243)",
+        "tool: check_cancellation_blockers(booking_id=BK008CV2)",
+        "tool: complete_case(customer_id=48769243)"
+      ]
+    ]
+  },
+  "90473343": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7944983727)",
+        "tool: code_verifier(code=188885, customer_id=90473343)",
+        "tool: get_customer_loyalty_info_extra(customer_id=90473343)",
+        "tool: get_booking_details_extra(customer_id=90473343)",
+        "tool: complete_case(customer_id=90473343)"
+      ]
+    ]
+  },
+  "48245052": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2969877002)",
+        "tool: code_verifier(code=708350, customer_id=48245052)",
+        "tool: get_customer_loyalty_info_extra(customer_id=48245052)",
+        "tool: get_booking_details_extra(customer_id=48245052)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: calculate_cancellation_fee(customer_id=48245052, booking_id=BK001XZ9)",
+        "tool: cancel_flight(booking_id=BK001XZ9)",
+        "tool: process_refund(customer_id=48245052, booking_id=BK001XZ9, payment_method=Credit Card, cancellation_fee=61.3)",
+        "tool: complete_case(customer_id=48245052)"
+      ]
+    ]
+  },
+  "59489608": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8844895606)",
+        "tool: code_verifier(code=196355, customer_id=59489608)",
+        "tool: get_customer_loyalty_info_extra(customer_id=59489608)",
+        "tool: get_booking_details_extra(customer_id=59489608)",
+        "tool: complete_case(customer_id=59489608)"
+      ]
+    ]
+  },
+  "50894140": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1483467656)",
+        "tool: code_verifier(code=355064, customer_id=50894140)",
+        "tool: get_customer_loyalty_info_extra(customer_id=50894140)",
+        "tool: get_booking_details_extra(customer_id=50894140)",
+        "tool: complete_case(customer_id=50894140)"
+      ]
+    ]
+  },
+  "51635403": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3048097924)",
+        "tool: code_verifier(code=506693, customer_id=51635403)",
+        "tool: get_customer_loyalty_info_extra(customer_id=51635403)",
+        "tool: get_booking_details_extra(customer_id=51635403)",
+        "tool: check_cancellation_blockers(booking_id=BK004PQ4)",
+        "tool: complete_case(customer_id=51635403)"
+      ]
+    ]
+  },
+  "70602193": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7368404416)",
+        "tool: code_verifier(code=424323, customer_id=70602193)",
+        "tool: get_customer_loyalty_info_extra(customer_id=70602193)",
+        "tool: get_booking_details_extra(customer_id=70602193)",
+        "tool: check_cancellation_blockers(booking_id=BK008CV2)",
+        "tool: complete_case(customer_id=70602193)"
+      ]
+    ]
+  },
+  "12090184": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6549398023)",
+        "tool: code_verifier(code=881035, customer_id=12090184)",
+        "tool: get_customer_loyalty_info_extra(customer_id=12090184)",
+        "tool: get_booking_details_extra(customer_id=12090184)",
+        "tool: complete_case(customer_id=12090184)"
+      ]
+    ]
+  },
+  "46491468": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3143059582)",
+        "tool: code_verifier(code=419013, customer_id=46491468)",
+        "tool: get_customer_loyalty_info_extra(customer_id=46491468)",
+        "tool: get_booking_details_extra(customer_id=46491468)",
+        "tool: check_cancellation_blockers(booking_id=BK009JD6)",
+        "tool: complete_case(customer_id=46491468)"
+      ]
+    ]
+  },
+  "46927828": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5276252483)",
+        "tool: code_verifier(code=776930, customer_id=46927828)",
+        "tool: get_customer_loyalty_info_extra(customer_id=46927828)",
+        "tool: get_booking_details_extra(customer_id=46927828)",
+        "tool: check_cancellation_blockers(booking_id=BK004PQ4)",
+        "tool: complete_case(customer_id=46927828)"
+      ]
+    ]
+  },
+  "97501811": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8528403979)",
+        "tool: code_verifier(code=822216, customer_id=97501811)",
+        "tool: get_customer_loyalty_info_extra(customer_id=97501811)",
+        "tool: get_booking_details_extra(customer_id=97501811)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: calculate_cancellation_fee(customer_id=97501811, booking_id=BK001XZ9)",
+        "tool: cancel_flight(booking_id=BK001XZ9)",
+        "tool: process_refund(customer_id=97501811, booking_id=BK001XZ9, payment_method=Debit Card, cancellation_fee=119.9)",
+        "tool: complete_case(customer_id=97501811)"
+      ]
+    ]
+  },
+  "36690518": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4023483267)",
+        "tool: code_verifier(code=170230, customer_id=36690518)",
+        "tool: get_customer_loyalty_info_extra(customer_id=36690518)",
+        "tool: get_booking_details_extra(customer_id=36690518)",
+        "tool: check_cancellation_blockers(booking_id=BK010KF0)",
+        "tool: complete_case(customer_id=36690518)"
+      ]
+    ]
+  },
+  "25157110": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5393368461)",
+        "tool: code_verifier(code=630514, customer_id=25157110)",
+        "tool: get_customer_loyalty_info_extra(customer_id=25157110)",
+        "tool: get_booking_details_extra(customer_id=25157110)",
+        "tool: complete_case(customer_id=25157110)"
+      ]
+    ]
+  },
+  "51192244": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8828958532)",
+        "tool: code_verifier(code=860182, customer_id=51192244)",
+        "tool: get_customer_loyalty_info_extra(customer_id=51192244)",
+        "tool: get_booking_details_extra(customer_id=51192244)",
+        "tool: check_cancellation_blockers(booking_id=BK002YT3)",
+        "tool: calculate_cancellation_fee(customer_id=51192244, booking_id=BK002YT3)",
+        "tool: cancel_flight(booking_id=BK002YT3)",
+        "tool: process_refund(customer_id=51192244, booking_id=BK002YT3, payment_method=Credit Card, cancellation_fee=40.3)",
+        "tool: complete_case(customer_id=51192244)"
+      ]
+    ]
+  },
+  "29379323": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6805014605)",
+        "tool: code_verifier(code=970271, customer_id=29379323)",
+        "tool: get_customer_loyalty_info_extra(customer_id=29379323)",
+        "tool: get_booking_details_extra(customer_id=29379323)",
+        "tool: check_cancellation_blockers(booking_id=BK010KF0)",
+        "tool: complete_case(customer_id=29379323)"
+      ]
+    ]
+  },
+  "65379530": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1575852963)",
+        "tool: code_verifier(code=556544, customer_id=65379530)",
+        "tool: get_customer_loyalty_info_extra(customer_id=65379530)",
+        "tool: get_booking_details_extra(customer_id=65379530)",
+        "tool: check_cancellation_blockers(booking_id=BK010KF0)",
+        "tool: calculate_cancellation_fee(customer_id=65379530, booking_id=BK010KF0)",
+        "tool: cancel_flight(booking_id=BK010KF0)",
+        "tool: process_refund(customer_id=65379530, booking_id=BK010KF0, payment_method=Debit Card, cancellation_fee=119.1)",
+        "tool: complete_case(customer_id=65379530)"
+      ]
+    ]
+  },
+  "37211724": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2988646971)",
+        "tool: code_verifier(code=679644, customer_id=37211724)",
+        "tool: get_customer_loyalty_info_extra(customer_id=37211724)",
+        "tool: get_booking_details_extra(customer_id=37211724)",
+        "tool: complete_case(customer_id=37211724)"
+      ]
+    ]
+  },
+  "72082639": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7592149650)",
+        "tool: code_verifier(code=942165, customer_id=72082639)",
+        "tool: get_customer_loyalty_info_extra(customer_id=72082639)",
+        "tool: get_booking_details_extra(customer_id=72082639)",
+        "tool: check_cancellation_blockers(booking_id=BK007SN5)",
+        "tool: calculate_cancellation_fee(customer_id=72082639, booking_id=BK007SN5)",
+        "tool: cancel_flight(booking_id=BK007SN5)",
+        "tool: process_refund(customer_id=72082639, booking_id=BK007SN5, payment_method=Debit Card, cancellation_fee=135.2)",
+        "tool: complete_case(customer_id=72082639)"
+      ]
+    ]
+  },
+  "74960393": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9150538584)",
+        "tool: code_verifier(code=305894, customer_id=74960393)",
+        "tool: get_customer_loyalty_info_extra(customer_id=74960393)",
+        "tool: get_booking_details_extra(customer_id=74960393)",
+        "tool: check_cancellation_blockers(booking_id=BK009JD6)",
+        "tool: calculate_cancellation_fee(customer_id=74960393, booking_id=BK009JD6)",
+        "tool: cancel_flight(booking_id=BK009JD6)",
+        "tool: process_refund(customer_id=74960393, booking_id=BK009JD6, payment_method=Credit Card, cancellation_fee=89.6)",
+        "tool: complete_case(customer_id=74960393)"
+      ]
+    ]
+  },
+  "67496574": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4320809185)",
+        "tool: code_verifier(code=861006, customer_id=67496574)",
+        "tool: get_customer_loyalty_info_extra(customer_id=67496574)",
+        "tool: get_booking_details_extra(customer_id=67496574)",
+        "tool: check_cancellation_blockers(booking_id=BK008CV2)",
+        "tool: calculate_cancellation_fee(customer_id=67496574, booking_id=BK008CV2)",
+        "tool: cancel_flight(booking_id=BK008CV2)",
+        "tool: process_refund(customer_id=67496574, booking_id=BK008CV2, payment_method=Credit Card, cancellation_fee=66.5)",
+        "tool: complete_case(customer_id=67496574)"
+      ]
+    ]
+  },
+  "44148668": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6774030803)",
+        "tool: code_verifier(code=776095, customer_id=44148668)",
+        "tool: get_customer_loyalty_info_extra(customer_id=44148668)",
+        "tool: get_booking_details_extra(customer_id=44148668)",
+        "tool: check_cancellation_blockers(booking_id=BK009JD6)",
+        "tool: complete_case(customer_id=44148668)"
+      ]
+    ]
+  },
+  "54688234": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4678196394)",
+        "tool: code_verifier(code=410433, customer_id=54688234)",
+        "tool: get_customer_loyalty_info_extra(customer_id=54688234)",
+        "tool: get_booking_details_extra(customer_id=54688234)",
+        "tool: check_cancellation_blockers(booking_id=BK002YT3)",
+        "tool: calculate_cancellation_fee(customer_id=54688234, booking_id=BK002YT3)",
+        "tool: cancel_flight(booking_id=BK002YT3)",
+        "tool: process_refund(customer_id=54688234, booking_id=BK002YT3, payment_method=Credit Card, cancellation_fee=34.9)",
+        "tool: complete_case(customer_id=54688234)"
+      ]
+    ]
+  },
+  "76889030": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4492281416)",
+        "tool: code_verifier(code=999755, customer_id=76889030)",
+        "tool: get_customer_loyalty_info_extra(customer_id=76889030)",
+        "tool: get_booking_details_extra(customer_id=76889030)",
+        "tool: complete_case(customer_id=76889030)"
+      ]
+    ]
+  },
+  "51265703": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7334710382)",
+        "tool: code_verifier(code=707956, customer_id=51265703)",
+        "tool: get_customer_loyalty_info_extra(customer_id=51265703)",
+        "tool: get_booking_details_extra(customer_id=51265703)",
+        "tool: check_cancellation_blockers(booking_id=BK010KF0)",
+        "tool: calculate_cancellation_fee(customer_id=51265703, booking_id=BK010KF0)",
+        "tool: cancel_flight(booking_id=BK010KF0)",
+        "tool: issue_travel_credit(customer_id=51265703, booking_id=BK010KF0, cancellation_fee=62.8)",
+        "tool: complete_case(customer_id=51265703)"
+      ]
+    ]
+  },
+  "31521775": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1394377423)",
+        "tool: code_verifier(code=698421, customer_id=31521775)",
+        "tool: get_customer_loyalty_info_extra(customer_id=31521775)",
+        "tool: get_booking_details_extra(customer_id=31521775)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: complete_case(customer_id=31521775)"
+      ]
+    ]
+  },
+  "36030594": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8263231806)",
+        "tool: code_verifier(code=894814, customer_id=36030594)",
+        "tool: get_customer_loyalty_info_extra(customer_id=36030594)",
+        "tool: get_booking_details_extra(customer_id=36030594)",
+        "tool: complete_case(customer_id=36030594)"
+      ]
+    ]
+  },
+  "20217093": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3302072518)",
+        "tool: code_verifier(code=128465, customer_id=20217093)",
+        "tool: get_customer_loyalty_info_extra(customer_id=20217093)",
+        "tool: get_booking_details_extra(customer_id=20217093)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: calculate_cancellation_fee(customer_id=20217093, booking_id=BK001XZ9)",
+        "tool: cancel_flight(booking_id=BK001XZ9)",
+        "tool: process_refund(customer_id=20217093, booking_id=BK001XZ9, payment_method=Points, cancellation_fee=137.8)",
+        "tool: complete_case(customer_id=20217093)"
+      ]
+    ]
+  },
+  "44422623": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6603637965)",
+        "tool: code_verifier(code=980439, customer_id=44422623)",
+        "tool: get_customer_loyalty_info_extra(customer_id=44422623)",
+        "tool: get_booking_details_extra(customer_id=44422623)",
+        "tool: complete_case(customer_id=44422623)"
+      ]
+    ]
+  },
+  "28161297": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2782378024)",
+        "tool: code_verifier(code=641111, customer_id=28161297)",
+        "tool: get_customer_loyalty_info_extra(customer_id=28161297)",
+        "tool: get_booking_details_extra(customer_id=28161297)",
+        "tool: check_cancellation_blockers(booking_id=BK003MA7)",
+        "tool: calculate_cancellation_fee(customer_id=28161297, booking_id=BK003MA7)",
+        "tool: cancel_flight(booking_id=BK003MA7)",
+        "tool: process_refund(customer_id=28161297, booking_id=BK003MA7, payment_method=Debit Card, cancellation_fee=129.7)",
+        "tool: complete_case(customer_id=28161297)"
+      ]
+    ]
+  },
+  "23343411": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5570217956)",
+        "tool: code_verifier(code=643984, customer_id=23343411)",
+        "tool: get_customer_loyalty_info_extra(customer_id=23343411)",
+        "tool: get_booking_details_extra(customer_id=23343411)",
+        "tool: check_cancellation_blockers(booking_id=BK008CV2)",
+        "tool: calculate_cancellation_fee(customer_id=23343411, booking_id=BK008CV2)",
+        "tool: cancel_flight(booking_id=BK008CV2)",
+        "tool: issue_travel_credit(customer_id=23343411, booking_id=BK008CV2, cancellation_fee=76.4)",
+        "tool: complete_case(customer_id=23343411)"
+      ]
+    ]
+  },
+  "70753639": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4524175584)",
+        "tool: code_verifier(code=893010, customer_id=70753639)",
+        "tool: get_customer_loyalty_info_extra(customer_id=70753639)",
+        "tool: get_booking_details_extra(customer_id=70753639)",
+        "tool: check_cancellation_blockers(booking_id=BK006RU1)",
+        "tool: calculate_cancellation_fee(customer_id=70753639, booking_id=BK006RU1)",
+        "tool: cancel_flight(booking_id=BK006RU1)",
+        "tool: process_refund(customer_id=70753639, booking_id=BK006RU1, payment_method=Credit Card, cancellation_fee=130.2)",
+        "tool: complete_case(customer_id=70753639)"
+      ]
+    ]
+  },
+  "29603560": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4004960052)",
+        "tool: code_verifier(code=473266, customer_id=29603560)",
+        "tool: get_customer_loyalty_info_extra(customer_id=29603560)",
+        "tool: get_booking_details_extra(customer_id=29603560)",
+        "tool: check_cancellation_blockers(booking_id=BK010KF0)",
+        "tool: complete_case(customer_id=29603560)"
+      ]
+    ]
+  },
+  "66392407": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5879888884)",
+        "tool: code_verifier(code=543816, customer_id=66392407)",
+        "tool: get_customer_loyalty_info_extra(customer_id=66392407)",
+        "tool: get_booking_details_extra(customer_id=66392407)",
+        "tool: check_cancellation_blockers(booking_id=BK006RU1)",
+        "tool: calculate_cancellation_fee(customer_id=66392407, booking_id=BK006RU1)",
+        "tool: cancel_flight(booking_id=BK006RU1)",
+        "tool: process_refund(customer_id=66392407, booking_id=BK006RU1, payment_method=Credit Card, cancellation_fee=122.4)",
+        "tool: complete_case(customer_id=66392407)"
+      ]
+    ]
+  },
+  "25030286": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6049348339)",
+        "tool: code_verifier(code=948295, customer_id=25030286)",
+        "tool: get_customer_loyalty_info_extra(customer_id=25030286)",
+        "tool: get_booking_details_extra(customer_id=25030286)",
+        "tool: check_cancellation_blockers(booking_id=BK005LE8)",
+        "tool: complete_case(customer_id=25030286)"
+      ]
+    ]
+  },
+  "73567182": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9156894688)",
+        "tool: code_verifier(code=409172, customer_id=73567182)",
+        "tool: get_customer_loyalty_info_extra(customer_id=73567182)",
+        "tool: get_booking_details_extra(customer_id=73567182)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: calculate_cancellation_fee(customer_id=73567182, booking_id=BK001XZ9)",
+        "tool: cancel_flight(booking_id=BK001XZ9)",
+        "tool: process_refund(customer_id=73567182, booking_id=BK001XZ9, payment_method=Points, cancellation_fee=39.0)",
+        "tool: complete_case(customer_id=73567182)"
+      ]
+    ]
+  },
+  "53946419": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6598875279)",
+        "tool: code_verifier(code=466163, customer_id=53946419)",
+        "tool: get_customer_loyalty_info_extra(customer_id=53946419)",
+        "tool: get_booking_details_extra(customer_id=53946419)",
+        "tool: check_cancellation_blockers(booking_id=BK005LE8)",
+        "tool: complete_case(customer_id=53946419)"
+      ]
+    ]
+  },
+  "18272117": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8035756128)",
+        "tool: code_verifier(code=676385, customer_id=18272117)",
+        "tool: get_customer_loyalty_info_extra(customer_id=18272117)",
+        "tool: get_booking_details_extra(customer_id=18272117)",
+        "tool: check_cancellation_blockers(booking_id=BK005LE8)",
+        "tool: calculate_cancellation_fee(customer_id=18272117, booking_id=BK005LE8)",
+        "tool: cancel_flight(booking_id=BK005LE8)",
+        "tool: issue_travel_credit(customer_id=18272117, booking_id=BK005LE8, cancellation_fee=21.8)",
+        "tool: complete_case(customer_id=18272117)"
+      ]
+    ]
+  },
+  "77747027": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8130026227)",
+        "tool: code_verifier(code=178279, customer_id=77747027)",
+        "tool: get_customer_loyalty_info_extra(customer_id=77747027)",
+        "tool: get_booking_details_extra(customer_id=77747027)",
+        "tool: check_cancellation_blockers(booking_id=BK006RU1)",
+        "tool: calculate_cancellation_fee(customer_id=77747027, booking_id=BK006RU1)",
+        "tool: cancel_flight(booking_id=BK006RU1)",
+        "tool: process_refund(customer_id=77747027, booking_id=BK006RU1, payment_method=Points, cancellation_fee=110.0)",
+        "tool: complete_case(customer_id=77747027)"
+      ]
+    ]
+  },
+  "79110083": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1758258098)",
+        "tool: code_verifier(code=654443, customer_id=79110083)",
+        "tool: get_customer_loyalty_info_extra(customer_id=79110083)",
+        "tool: get_booking_details_extra(customer_id=79110083)",
+        "tool: check_cancellation_blockers(booking_id=BK001XZ9)",
+        "tool: calculate_cancellation_fee(customer_id=79110083, booking_id=BK001XZ9)",
+        "tool: cancel_flight(booking_id=BK001XZ9)",
+        "tool: issue_travel_credit(customer_id=79110083, booking_id=BK001XZ9, cancellation_fee=121.0)",
+        "tool: complete_case(customer_id=79110083)"
+      ]
+    ]
+  },
+  "76191750": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7994096246)",
+        "tool: code_verifier(code=336478, customer_id=76191750)",
+        "tool: get_customer_loyalty_info_extra(customer_id=76191750)",
+        "tool: get_booking_details_extra(customer_id=76191750)",
+        "tool: complete_case(customer_id=76191750)"
+      ]
+    ]
+  },
+  "33794233": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8470175640)",
+        "tool: code_verifier(code=783686, customer_id=33794233)",
+        "tool: get_customer_loyalty_info_extra(customer_id=33794233)",
+        "tool: get_booking_details_extra(customer_id=33794233)",
+        "tool: check_cancellation_blockers(booking_id=BK002YT3)",
+        "tool: calculate_cancellation_fee(customer_id=33794233, booking_id=BK002YT3)",
+        "tool: cancel_flight(booking_id=BK002YT3)",
+        "tool: process_refund(customer_id=33794233, booking_id=BK002YT3, payment_method=Points, cancellation_fee=29.0)",
+        "tool: complete_case(customer_id=33794233)"
+      ]
+    ]
+  },
+  "55352207": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6576322255)",
+        "tool: code_verifier(code=709930, customer_id=55352207)",
+        "tool: get_customer_loyalty_info_extra(customer_id=55352207)",
+        "tool: get_booking_details_extra(customer_id=55352207)",
+        "tool: check_cancellation_blockers(booking_id=BK009JD6)",
+        "tool: calculate_cancellation_fee(customer_id=55352207, booking_id=BK009JD6)",
+        "tool: cancel_flight(booking_id=BK009JD6)",
+        "tool: process_refund(customer_id=55352207, booking_id=BK009JD6, payment_method=Debit Card, cancellation_fee=55.9)",
+        "tool: complete_case(customer_id=55352207)"
+      ]
+    ]
+  }
+}

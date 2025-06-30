@@ -1,0 +1,10 @@
+{"client_id": 72082639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6006, "completion_tokens": 81, "total_tokens": 6087}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6109, "completion_tokens": 65, "total_tokens": 6174}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6243, "completion_tokens": 54, "total_tokens": 6297}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6315, "completion_tokens": 61, "total_tokens": 6376}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 6738, "completion_tokens": 129, "total_tokens": 6867}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 6948, "completion_tokens": 168, "total_tokens": 7116}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7169, "completion_tokens": 92, "total_tokens": 7261}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 7281, "completion_tokens": 177, "total_tokens": 7458}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 7540, "completion_tokens": 123, "total_tokens": 7663}
+{"client_id": 72082639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7715, "completion_tokens": 58, "total_tokens": 7773}

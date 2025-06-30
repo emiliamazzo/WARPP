@@ -1,0 +1,9 @@
+{
+    "relevance_score": "1",
+    "relevance_explanation": "The routine is missing the initial eligibility check using `check_withdrawal_eligibility_extra(customer_id)`. Customer data indicates `isEligible` is true, however, skipping the logic is still incorrect since the tool call was required as it was conditional logic.",
+    "completeness_score": "2",
+    "completeness_explanation": "The routine is missing a critical step: checking withdrawal eligibility using `check_withdrawal_eligibility_extra(customer_id)`. Also error handling is entirely omitted which is required.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

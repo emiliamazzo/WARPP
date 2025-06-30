@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine only includes steps relevant to the customer, given their 'Gold' frequent flyer status and 'Points' payment method. All irrelevant steps and branches have been pruned.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tools, and branches that apply to this customer have been preserved. All steps are reachable and included.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "3",
+    "relevance_explanation": "The routine includes steps relevant to the customer, such as asking for flight details and creating a booking with points. However, several irrelevant steps remain. Step 3 (Check Visa Information) is retained despite the customer being a frequent flyer and thus having their visa information already on the system, as stated in the original routine. Also, it is mentioned in the instructions that the routine should terminate after calling `complete_case(...)`. Here, the error handling and resolution occur after this call, therefore it is irrelevant and should be removed.",
+    "completeness_score": "2",
+    "completeness_explanation": "The routine is missing several crucial steps. Step 2 of the full routine calls `get_customer_frequent_flyer_status_extra(customer_id)`. Because the response returned `frequent_flyer_status: null`, the routine should call `search_regular_flights(...)`. Then Step 5 calls `get_passport_info_extra(customer_id)`, which since the passport is in the system, it should skip the question the user for it. Then Step 7 calls `get_customer_payment_method_extra(customer_id)`. Since it is 'Points' it then it goes to step 8, `create_booking_with_points(...)`. The provided routine has only Step 3 - Check Visa Information, before jumping to step 4, `create_booking_with_points(...)`. It skipped all the steps in between.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

@@ -1,0 +1,917 @@
+{
+  "76706645": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4756068792)",
+        "tool: code_verifier(code=661844, customer_id=76706645)",
+        "tool: get_billing_info_extra(customer_id=76706645)",
+        "tool: check_account_status_extra(customer_id=76706645)",
+        "tool: get_provider_contact_info_api(customer_id=76706645)",
+        "tool: complete_case(customer_id=76706645)"
+      ]
+    ]
+  },
+  "40513093": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6502931536)",
+        "tool: code_verifier(code=757755, customer_id=40513093)",
+        "tool: get_billing_info_extra(customer_id=40513093)",
+        "tool: check_account_status_extra(customer_id=40513093)",
+        "tool: evaluate_payment_urgency_extra(customer_id=40513093)",
+        "tool: get_insurance_payment_portion(customer_id=40513093, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=40513093)",
+        "tool: apply_fee_waiver(customer_id = 40513093, waiver_amount = 13)",
+        "tool: calculate_patient_responsibility(customer_id=40513093, insurance_provider=BluePeak)",
+        "tool: initiate_ach_transaction(customer_id=40513093, patient_responsibility_amount=1344)",
+        "tool: issue_receipt(customer_id=40513093, patient_responsibility_amount=1344)",
+        "tool: complete_case(customer_id=40513093)"
+      ]
+    ]
+  },
+  "74159013": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5489811557)",
+        "tool: code_verifier(code=933508, customer_id=74159013)",
+        "tool: get_billing_info_extra(customer_id=74159013)",
+        "tool: check_account_status_extra(customer_id=74159013)",
+        "tool: evaluate_payment_urgency_extra(customer_id=74159013)",
+        "tool: calculate_patient_responsibility(customer_id=74159013, insurance_provider=Cignexa)",
+        "tool: run_fraud_check(customer_id=74159013, patient_responsibility_amount=22.4)",
+        "tool: initiate_3ds_auth(customer_id=74159013)",
+        "tool: process_payment(customer_id=74159013, patient_responsibility_amount=22.4)",
+        "tool: issue_receipt(customer_id=74159013, patient_responsibility_amount=22.4)",
+        "tool: complete_case(customer_id=74159013)"
+      ]
+    ]
+  },
+  "73112806": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6030587929)",
+        "tool: code_verifier(code=754411, customer_id=73112806)",
+        "tool: get_billing_info_extra(customer_id=73112806)",
+        "tool: check_account_status_extra(customer_id=73112806)",
+        "tool: evaluate_payment_urgency_extra(customer_id=73112806)",
+        "tool: get_insurance_payment_portion(customer_id=73112806, insurance_provider=Aetralis)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=73112806)",
+        "tool: apply_fee_waiver(customer_id = 73112806, waiver_amount = 11)",
+        "tool: calculate_patient_responsibility(customer_id=73112806, insurance_provider=Aetralis)",
+        "tool: initiate_ach_transaction(customer_id=73112806, patient_responsibility_amount=758.0)",
+        "tool: issue_receipt(customer_id=73112806, patient_responsibility_amount=758.0)",
+        "tool: setup_payment_plan(monthly_amount=169)",
+        "tool: complete_case(customer_id=73112806)"
+      ]
+    ]
+  },
+  "14879825": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9843498605)",
+        "tool: code_verifier(code=609076, customer_id=14879825)",
+        "tool: get_billing_info_extra(customer_id=14879825)",
+        "tool: check_account_status_extra(customer_id=14879825)",
+        "tool: evaluate_payment_urgency_extra(customer_id=14879825)",
+        "tool: calculate_patient_responsibility(customer_id=14879825, insurance_provider=Humena)",
+        "tool: run_fraud_check(customer_id=14879825, patient_responsibility_amount=449.2)",
+        "tool: initiate_3ds_auth(customer_id=14879825)",
+        "tool: process_payment(customer_id=14879825, patient_responsibility_amount=449.2)",
+        "tool: issue_receipt(customer_id=14879825, patient_responsibility_amount=449.2)",
+        "tool: complete_case(customer_id=14879825)"
+      ]
+    ]
+  },
+  "44215250": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1723525508)",
+        "tool: code_verifier(code=194340, customer_id=44215250)",
+        "tool: get_billing_info_extra(customer_id=44215250)",
+        "tool: check_account_status_extra(customer_id=44215250)",
+        "tool: evaluate_payment_urgency_extra(customer_id=44215250)",
+        "tool: apply_fee_waiver(customer_id = 44215250, waiver_amount = 1)",
+        "tool: calculate_patient_responsibility(customer_id=44215250, insurance_provider=Cignexa)",
+        "tool: currency_exchange(patient_responsibility_amount=1879, from_currency=USD, to_currency=IDR)",
+        "tool: initiate_ach_transaction(customer_id=44215250, patient_responsibility_amount = 16179.8)",
+        "tool: issue_receipt(customer_id=44215250, patient_responsibility_amount = 16179.8)",
+        "tool: setup_payment_plan(monthly_amount=61)",
+        "tool: complete_case(customer_id=44215250)"
+      ]
+    ]
+  },
+  "16233499": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9531492933)",
+        "tool: code_verifier(code=596559, customer_id=16233499)",
+        "tool: get_billing_info_extra(customer_id=16233499)",
+        "tool: check_account_status_extra(customer_id=16233499)",
+        "tool: get_provider_contact_info_api(customer_id=16233499)",
+        "tool: complete_case(customer_id=16233499)"
+      ]
+    ]
+  },
+  "16566664": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4850158659)",
+        "tool: code_verifier(code=531052, customer_id=16566664)",
+        "tool: get_billing_info_extra(customer_id=16566664)",
+        "tool: check_account_status_extra(customer_id=16566664)",
+        "tool: evaluate_payment_urgency_extra(customer_id=16566664)",
+        "tool: get_insurance_payment_portion(customer_id=16566664, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=16566664)",
+        "tool: apply_fee_waiver(customer_id = 16566664, waiver_amount = 12)",
+        "tool: calculate_patient_responsibility(customer_id=16566664, insurance_provider=Humena)",
+        "tool: run_fraud_check(customer_id=16566664, patient_responsibility_amount=875.2)",
+        "tool: initiate_3ds_auth(customer_id=16566664)",
+        "tool: process_payment(customer_id=16566664, patient_responsibility_amount=875.2)",
+        "tool: issue_receipt(customer_id=16566664, patient_responsibility_amount=875.2)",
+        "tool: complete_case(customer_id=16566664)"
+      ]
+    ]
+  },
+  "81492042": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5038969617)",
+        "tool: code_verifier(code=535819, customer_id=81492042)",
+        "tool: get_billing_info_extra(customer_id=81492042)",
+        "tool: check_account_status_extra(customer_id=81492042)",
+        "tool: get_provider_contact_info_api(customer_id=81492042)",
+        "tool: complete_case(customer_id=81492042)"
+      ]
+    ]
+  },
+  "78684528": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3518298753)",
+        "tool: code_verifier(code=207907, customer_id=78684528)",
+        "tool: get_billing_info_extra(customer_id=78684528)",
+        "tool: check_account_status_extra(customer_id=78684528)",
+        "tool: evaluate_payment_urgency_extra(customer_id=78684528)",
+        "tool: get_insurance_payment_portion(customer_id=78684528, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=78684528)",
+        "tool: calculate_patient_responsibility(customer_id=78684528, insurance_provider=Humena)",
+        "tool: initiate_ach_transaction(customer_id=78684528, patient_responsibility_amount=920.8)",
+        "tool: issue_receipt(customer_id=78684528, patient_responsibility_amount=920.8)",
+        "tool: complete_case(customer_id=78684528)"
+      ]
+    ]
+  },
+  "67843108": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8975431926)",
+        "tool: code_verifier(code=481750, customer_id=67843108)",
+        "tool: get_billing_info_extra(customer_id=67843108)",
+        "tool: check_account_status_extra(customer_id=67843108)",
+        "tool: evaluate_payment_urgency_extra(customer_id=67843108)",
+        "tool: get_insurance_payment_portion(customer_id=67843108, insurance_provider=Aetralis)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=67843108)",
+        "tool: calculate_patient_responsibility(customer_id=67843108, insurance_provider=Aetralis)",
+        "tool: currency_exchange(patient_responsibility_amount=678.0, from_currency=USD, to_currency=CNY)",
+        "tool: run_fraud_check(customer_id=67843108, patient_responsibility_amount = 7.17)",
+        "tool: initiate_3ds_auth(customer_id=67843108)",
+        "tool: process_payment(customer_id=67843108, patient_responsibility_amount = 7.17)",
+        "tool: issue_receipt(customer_id=67843108, patient_responsibility_amount = 7.17)",
+        "tool: complete_case(customer_id=67843108)"
+      ]
+    ]
+  },
+  "19021760": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3132698095)",
+        "tool: code_verifier(code=315862, customer_id=19021760)",
+        "tool: get_billing_info_extra(customer_id=19021760)",
+        "tool: check_account_status_extra(customer_id=19021760)",
+        "tool: evaluate_payment_urgency_extra(customer_id=19021760)",
+        "tool: apply_fee_waiver(customer_id = 19021760, waiver_amount = 9)",
+        "tool: calculate_patient_responsibility(customer_id=19021760, insurance_provider=BluePeak)",
+        "tool: get_wallet_link(customer_id=19021760)",
+        "tool: check_wallet_payment_status(payment_id=pay_5902)",
+        "tool: issue_receipt(customer_id=19021760, patient_responsibility_amount=95.2)",
+        "tool: complete_case(customer_id=19021760)"
+      ]
+    ]
+  },
+  "48995747": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8607368321)",
+        "tool: code_verifier(code=656446, customer_id=48995747)",
+        "tool: get_billing_info_extra(customer_id=48995747)",
+        "tool: check_account_status_extra(customer_id=48995747)",
+        "tool: evaluate_payment_urgency_extra(customer_id=48995747)",
+        "tool: apply_fee_waiver(customer_id = 48995747, waiver_amount = 13)",
+        "tool: calculate_patient_responsibility(customer_id=48995747, insurance_provider=Humena)",
+        "tool: get_wallet_link(customer_id=48995747)",
+        "tool: check_wallet_payment_status(payment_id=False)",
+        "tool: issue_receipt(customer_id=48995747, patient_responsibility_amount=573)",
+        "tool: complete_case(customer_id=48995747)"
+      ]
+    ]
+  },
+  "67883108": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9692926196)",
+        "tool: code_verifier(code=711267, customer_id=67883108)",
+        "tool: get_billing_info_extra(customer_id=67883108)",
+        "tool: check_account_status_extra(customer_id=67883108)",
+        "tool: evaluate_payment_urgency_extra(customer_id=67883108)",
+        "tool: get_insurance_payment_portion(customer_id=67883108, insurance_provider=Cignexa)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=67883108)",
+        "tool: apply_fee_waiver(customer_id = 67883108, waiver_amount = 6)",
+        "tool: calculate_patient_responsibility(customer_id=67883108, insurance_provider=Cignexa)",
+        "tool: get_wallet_link(customer_id=67883108)",
+        "tool: check_wallet_payment_status(payment_id=pay_6735)",
+        "tool: issue_receipt(customer_id=67883108, patient_responsibility_amount=658.4)",
+        "tool: setup_payment_plan(monthly_amount=161)",
+        "tool: complete_case(customer_id=67883108)"
+      ]
+    ]
+  },
+  "24365249": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6065531332)",
+        "tool: code_verifier(code=223006, customer_id=24365249)",
+        "tool: get_billing_info_extra(customer_id=24365249)",
+        "tool: check_account_status_extra(customer_id=24365249)",
+        "tool: evaluate_payment_urgency_extra(customer_id=24365249)",
+        "tool: get_insurance_payment_portion(customer_id=24365249, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=24365249)",
+        "tool: calculate_patient_responsibility(customer_id=24365249, insurance_provider=BluePeak)",
+        "tool: run_fraud_check(customer_id=24365249, patient_responsibility_amount=477.2)",
+        "tool: initiate_3ds_auth(customer_id=24365249)",
+        "tool: process_payment(customer_id=24365249, patient_responsibility_amount=477.2)",
+        "tool: issue_receipt(customer_id=24365249, patient_responsibility_amount=477.2)",
+        "tool: complete_case(customer_id=24365249)"
+      ]
+    ]
+  },
+  "79073894": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5123372257)",
+        "tool: code_verifier(code=685362, customer_id=79073894)",
+        "tool: get_billing_info_extra(customer_id=79073894)",
+        "tool: check_account_status_extra(customer_id=79073894)",
+        "tool: get_provider_contact_info_api(customer_id=79073894)",
+        "tool: complete_case(customer_id=79073894)"
+      ]
+    ]
+  },
+  "51651269": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5935875992)",
+        "tool: code_verifier(code=864030, customer_id=51651269)",
+        "tool: get_billing_info_extra(customer_id=51651269)",
+        "tool: check_account_status_extra(customer_id=51651269)",
+        "tool: evaluate_payment_urgency_extra(customer_id=51651269)",
+        "tool: get_insurance_payment_portion(customer_id=51651269, insurance_provider=Aetralis)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=51651269)",
+        "tool: apply_fee_waiver(customer_id = 51651269, waiver_amount = 1)",
+        "tool: calculate_patient_responsibility(customer_id=51651269, insurance_provider=Aetralis)",
+        "tool: currency_exchange(patient_responsibility_amount=192.4, from_currency=USD, to_currency=AUD)",
+        "tool: initiate_ach_transaction(customer_id=51651269, patient_responsibility_amount = 1.53)",
+        "tool: issue_receipt(customer_id=51651269, patient_responsibility_amount = 1.53)",
+        "tool: setup_payment_plan(monthly_amount=181)",
+        "tool: complete_case(customer_id=51651269)"
+      ]
+    ]
+  },
+  "47690673": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6671279500)",
+        "tool: code_verifier(code=985027, customer_id=47690673)",
+        "tool: get_billing_info_extra(customer_id=47690673)",
+        "tool: check_account_status_extra(customer_id=47690673)",
+        "tool: evaluate_payment_urgency_extra(customer_id=47690673)",
+        "tool: get_insurance_payment_portion(customer_id=47690673, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=47690673)",
+        "tool: calculate_patient_responsibility(customer_id=47690673, insurance_provider=Humena)",
+        "tool: run_fraud_check(customer_id=47690673, patient_responsibility_amount=405.2)",
+        "tool: initiate_3ds_auth(customer_id=47690673)",
+        "tool: process_payment(customer_id=47690673, patient_responsibility_amount=405.2)",
+        "tool: issue_receipt(customer_id=47690673, patient_responsibility_amount=405.2)",
+        "tool: complete_case(customer_id=47690673)"
+      ]
+    ]
+  },
+  "60195920": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3001235694)",
+        "tool: code_verifier(code=144782, customer_id=60195920)",
+        "tool: get_billing_info_extra(customer_id=60195920)",
+        "tool: check_account_status_extra(customer_id=60195920)",
+        "tool: evaluate_payment_urgency_extra(customer_id=60195920)",
+        "tool: get_insurance_payment_portion(customer_id=60195920, insurance_provider=Aetralis)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=60195920)",
+        "tool: calculate_patient_responsibility(customer_id=60195920, insurance_provider=Aetralis)",
+        "tool: run_fraud_check(customer_id=60195920, patient_responsibility_amount=984.8)",
+        "tool: initiate_3ds_auth(customer_id=60195920)",
+        "tool: process_payment(customer_id=60195920, patient_responsibility_amount=984.8)",
+        "tool: issue_receipt(customer_id=60195920, patient_responsibility_amount=984.8)",
+        "tool: setup_payment_plan(monthly_amount=73)",
+        "tool: complete_case(customer_id=60195920)"
+      ]
+    ]
+  },
+  "47610211": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7723052347)",
+        "tool: code_verifier(code=640071, customer_id=47610211)",
+        "tool: get_billing_info_extra(customer_id=47610211)",
+        "tool: check_account_status_extra(customer_id=47610211)",
+        "tool: evaluate_payment_urgency_extra(customer_id=47610211)",
+        "tool: apply_fee_waiver(customer_id = 47610211, waiver_amount = 4)",
+        "tool: calculate_patient_responsibility(customer_id=47610211, insurance_provider=BluePeak)",
+        "tool: get_wallet_link(customer_id=47610211)",
+        "tool: check_wallet_payment_status(payment_id=pay_4957)",
+        "tool: issue_receipt(customer_id=47610211, patient_responsibility_amount=102.4)",
+        "tool: complete_case(customer_id=47610211)"
+      ]
+    ]
+  },
+  "20536894": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2571270301)",
+        "tool: code_verifier(code=346651, customer_id=20536894)",
+        "tool: get_billing_info_extra(customer_id=20536894)",
+        "tool: check_account_status_extra(customer_id=20536894)",
+        "tool: evaluate_payment_urgency_extra(customer_id=20536894)",
+        "tool: get_insurance_payment_portion(customer_id=20536894, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=20536894)",
+        "tool: apply_fee_waiver(customer_id = 20536894, waiver_amount = 3)",
+        "tool: calculate_patient_responsibility(customer_id=20536894, insurance_provider=BluePeak)",
+        "tool: initiate_ach_transaction(customer_id=20536894, patient_responsibility_amount=324.8)",
+        "tool: issue_receipt(customer_id=20536894, patient_responsibility_amount=324.8)",
+        "tool: setup_payment_plan(monthly_amount=138)",
+        "tool: complete_case(customer_id=20536894)"
+      ]
+    ]
+  },
+  "76843967": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2763727387)",
+        "tool: code_verifier(code=689601, customer_id=76843967)",
+        "tool: get_billing_info_extra(customer_id=76843967)",
+        "tool: check_account_status_extra(customer_id=76843967)",
+        "tool: get_provider_contact_info_api(customer_id=76843967)",
+        "tool: complete_case(customer_id=76843967)"
+      ]
+    ]
+  },
+  "88613739": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1266174860)",
+        "tool: code_verifier(code=657168, customer_id=88613739)",
+        "tool: get_billing_info_extra(customer_id=88613739)",
+        "tool: check_account_status_extra(customer_id=88613739)",
+        "tool: evaluate_payment_urgency_extra(customer_id=88613739)",
+        "tool: get_insurance_payment_portion(customer_id=88613739, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=88613739)",
+        "tool: calculate_patient_responsibility(customer_id=88613739, insurance_provider=BluePeak)",
+        "tool: run_fraud_check(customer_id=88613739, patient_responsibility_amount=500.0)",
+        "tool: initiate_3ds_auth(customer_id=88613739)",
+        "tool: process_payment(customer_id=88613739, patient_responsibility_amount=500.0)",
+        "tool: issue_receipt(customer_id=88613739, patient_responsibility_amount=500.0)",
+        "tool: complete_case(customer_id=88613739)"
+      ]
+    ]
+  },
+  "12831365": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7097095536)",
+        "tool: code_verifier(code=305101, customer_id=12831365)",
+        "tool: get_billing_info_extra(customer_id=12831365)",
+        "tool: check_account_status_extra(customer_id=12831365)",
+        "tool: evaluate_payment_urgency_extra(customer_id=12831365)",
+        "tool: calculate_patient_responsibility(customer_id=12831365, insurance_provider=BluePeak)",
+        "tool: initiate_ach_transaction(customer_id=12831365, patient_responsibility_amount=619.2)",
+        "tool: issue_receipt(customer_id=12831365, patient_responsibility_amount=619.2)",
+        "tool: complete_case(customer_id=12831365)"
+      ]
+    ]
+  },
+  "48220066": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3167354805)",
+        "tool: code_verifier(code=795633, customer_id=48220066)",
+        "tool: get_billing_info_extra(customer_id=48220066)",
+        "tool: check_account_status_extra(customer_id=48220066)",
+        "tool: evaluate_payment_urgency_extra(customer_id=48220066)",
+        "tool: get_insurance_payment_portion(customer_id=48220066, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=48220066)",
+        "tool: calculate_patient_responsibility(customer_id=48220066, insurance_provider=Humena)",
+        "tool: get_wallet_link(customer_id=48220066)",
+        "tool: check_wallet_payment_status(payment_id=pay_4470)",
+        "tool: issue_receipt(customer_id=48220066, patient_responsibility_amount=965.6)",
+        "tool: setup_payment_plan(monthly_amount=185)",
+        "tool: complete_case(customer_id=48220066)"
+      ]
+    ]
+  },
+  "14075852": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8084977948)",
+        "tool: code_verifier(code=387772, customer_id=14075852)",
+        "tool: get_billing_info_extra(customer_id=14075852)",
+        "tool: check_account_status_extra(customer_id=14075852)",
+        "tool: evaluate_payment_urgency_extra(customer_id=14075852)",
+        "tool: get_insurance_payment_portion(customer_id=14075852, insurance_provider=Cignexa)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=14075852)",
+        "tool: apply_fee_waiver(customer_id = 14075852, waiver_amount = 15)",
+        "tool: calculate_patient_responsibility(customer_id=14075852, insurance_provider=Cignexa)",
+        "tool: initiate_ach_transaction(customer_id=14075852, patient_responsibility_amount=280.0)",
+        "tool: issue_receipt(customer_id=14075852, patient_responsibility_amount=280.0)",
+        "tool: complete_case(customer_id=14075852)"
+      ]
+    ]
+  },
+  "87167057": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1829162254)",
+        "tool: code_verifier(code=231431, customer_id=87167057)",
+        "tool: get_billing_info_extra(customer_id=87167057)",
+        "tool: check_account_status_extra(customer_id=87167057)",
+        "tool: evaluate_payment_urgency_extra(customer_id=87167057)",
+        "tool: get_insurance_payment_portion(customer_id=87167057, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=87167057)",
+        "tool: calculate_patient_responsibility(customer_id=87167057, insurance_provider=BluePeak)",
+        "tool: get_wallet_link(customer_id=87167057)",
+        "tool: check_wallet_payment_status(payment_id=pay_7401)",
+        "tool: issue_receipt(customer_id=87167057, patient_responsibility_amount=338.4)",
+        "tool: setup_payment_plan(monthly_amount=132)",
+        "tool: complete_case(customer_id=87167057)"
+      ]
+    ]
+  },
+  "74129208": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8107986268)",
+        "tool: code_verifier(code=683426, customer_id=74129208)",
+        "tool: get_billing_info_extra(customer_id=74129208)",
+        "tool: check_account_status_extra(customer_id=74129208)",
+        "tool: evaluate_payment_urgency_extra(customer_id=74129208)",
+        "tool: get_insurance_payment_portion(customer_id=74129208, insurance_provider=Aetralis)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=74129208)",
+        "tool: calculate_patient_responsibility(customer_id=74129208, insurance_provider=Aetralis)",
+        "tool: run_fraud_check(customer_id=74129208, patient_responsibility_amount=-1)",
+        "tool: initiate_3ds_auth(customer_id=74129208)",
+        "tool: process_payment(customer_id=74129208, patient_responsibility_amount=-1)",
+        "tool: issue_receipt(customer_id=74129208, patient_responsibility_amount=-1)",
+        "tool: setup_payment_plan(monthly_amount=145)",
+        "tool: complete_case(customer_id=74129208)"
+      ]
+    ]
+  },
+  "63742135": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4078997737)",
+        "tool: code_verifier(code=662448, customer_id=63742135)",
+        "tool: get_billing_info_extra(customer_id=63742135)",
+        "tool: check_account_status_extra(customer_id=63742135)",
+        "tool: get_provider_contact_info_api(customer_id=63742135)",
+        "tool: complete_case(customer_id=63742135)"
+      ]
+    ]
+  },
+  "59398125": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2806341567)",
+        "tool: code_verifier(code=173327, customer_id=59398125)",
+        "tool: get_billing_info_extra(customer_id=59398125)",
+        "tool: check_account_status_extra(customer_id=59398125)",
+        "tool: evaluate_payment_urgency_extra(customer_id=59398125)",
+        "tool: calculate_patient_responsibility(customer_id=59398125, insurance_provider=Humena)",
+        "tool: run_fraud_check(customer_id=59398125, patient_responsibility_amount=419)",
+        "tool: initiate_3ds_auth(customer_id=59398125)",
+        "tool: process_payment(customer_id=59398125, patient_responsibility_amount=419)",
+        "tool: issue_receipt(customer_id=59398125, patient_responsibility_amount=419)",
+        "tool: setup_payment_plan(monthly_amount=136)",
+        "tool: complete_case(customer_id=59398125)"
+      ]
+    ]
+  },
+  "68220510": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7020511976)",
+        "tool: code_verifier(code=909321, customer_id=68220510)",
+        "tool: get_billing_info_extra(customer_id=68220510)",
+        "tool: check_account_status_extra(customer_id=68220510)",
+        "tool: evaluate_payment_urgency_extra(customer_id=68220510)",
+        "tool: get_insurance_payment_portion(customer_id=68220510, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=68220510)",
+        "tool: calculate_patient_responsibility(customer_id=68220510, insurance_provider=Humena)",
+        "tool: get_wallet_link(customer_id=68220510)",
+        "tool: check_wallet_payment_status(payment_id=pay_7862)",
+        "tool: issue_receipt(customer_id=68220510, patient_responsibility_amount=895.2)",
+        "tool: setup_payment_plan(monthly_amount=183)",
+        "tool: complete_case(customer_id=68220510)"
+      ]
+    ]
+  },
+  "82829378": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5212033360)",
+        "tool: code_verifier(code=779232, customer_id=82829378)",
+        "tool: get_billing_info_extra(customer_id=82829378)",
+        "tool: check_account_status_extra(customer_id=82829378)",
+        "tool: evaluate_payment_urgency_extra(customer_id=82829378)",
+        "tool: get_insurance_payment_portion(customer_id=82829378, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=82829378)",
+        "tool: apply_fee_waiver(customer_id = 82829378, waiver_amount = 9)",
+        "tool: calculate_patient_responsibility(customer_id=82829378, insurance_provider=Humena)",
+        "tool: currency_exchange(patient_responsibility_amount=53, from_currency=USD, to_currency=IDR)",
+        "tool: run_fraud_check(customer_id=82829378, patient_responsibility_amount = 16179.8)",
+        "tool: initiate_3ds_auth(customer_id=82829378)",
+        "tool: process_payment(customer_id=82829378, patient_responsibility_amount = 16179.8)",
+        "tool: issue_receipt(customer_id=82829378, patient_responsibility_amount = 16179.8)",
+        "tool: setup_payment_plan(monthly_amount=33)",
+        "tool: complete_case(customer_id=82829378)"
+      ]
+    ]
+  },
+  "67182134": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3989191524)",
+        "tool: code_verifier(code=752263, customer_id=67182134)",
+        "tool: get_billing_info_extra(customer_id=67182134)",
+        "tool: check_account_status_extra(customer_id=67182134)",
+        "tool: evaluate_payment_urgency_extra(customer_id=67182134)",
+        "tool: get_insurance_payment_portion(customer_id=67182134, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=67182134)",
+        "tool: calculate_patient_responsibility(customer_id=67182134, insurance_provider=BluePeak)",
+        "tool: run_fraud_check(customer_id=67182134, patient_responsibility_amount=461.2)",
+        "tool: initiate_3ds_auth(customer_id=67182134)",
+        "tool: process_payment(customer_id=67182134, patient_responsibility_amount=461.2)",
+        "tool: issue_receipt(customer_id=67182134, patient_responsibility_amount=461.2)",
+        "tool: setup_payment_plan(monthly_amount=75)",
+        "tool: complete_case(customer_id=67182134)"
+      ]
+    ]
+  },
+  "12829541": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1070003252)",
+        "tool: code_verifier(code=557624, customer_id=12829541)",
+        "tool: get_billing_info_extra(customer_id=12829541)",
+        "tool: check_account_status_extra(customer_id=12829541)",
+        "tool: evaluate_payment_urgency_extra(customer_id=12829541)",
+        "tool: get_insurance_payment_portion(customer_id=12829541, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=12829541)",
+        "tool: apply_fee_waiver(customer_id = 12829541, waiver_amount = 13)",
+        "tool: calculate_patient_responsibility(customer_id=12829541, insurance_provider=BluePeak)",
+        "tool: run_fraud_check(customer_id=12829541, patient_responsibility_amount=386.0)",
+        "tool: initiate_3ds_auth(customer_id=12829541)",
+        "tool: process_payment(customer_id=12829541, patient_responsibility_amount=386.0)",
+        "tool: issue_receipt(customer_id=12829541, patient_responsibility_amount=386.0)",
+        "tool: complete_case(customer_id=12829541)"
+      ]
+    ]
+  },
+  "12475088": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3041709536)",
+        "tool: code_verifier(code=731082, customer_id=12475088)",
+        "tool: get_billing_info_extra(customer_id=12475088)",
+        "tool: check_account_status_extra(customer_id=12475088)",
+        "tool: get_provider_contact_info_api(customer_id=12475088)",
+        "tool: complete_case(customer_id=12475088)"
+      ]
+    ]
+  },
+  "84293096": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7260341848)",
+        "tool: code_verifier(code=896304, customer_id=84293096)",
+        "tool: get_billing_info_extra(customer_id=84293096)",
+        "tool: check_account_status_extra(customer_id=84293096)",
+        "tool: evaluate_payment_urgency_extra(customer_id=84293096)",
+        "tool: get_insurance_payment_portion(customer_id=84293096, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=84293096)",
+        "tool: apply_fee_waiver(customer_id = 84293096, waiver_amount = 8)",
+        "tool: calculate_patient_responsibility(customer_id=84293096, insurance_provider=Humena)",
+        "tool: currency_exchange(patient_responsibility_amount=780.8, from_currency=USD, to_currency=AUD)",
+        "tool: get_wallet_link(customer_id=84293096)",
+        "tool: check_wallet_payment_status(payment_id=pay_9797)",
+        "tool: issue_receipt(customer_id=84293096, patient_responsibility_amount = 1.53)",
+        "tool: complete_case(customer_id=84293096)"
+      ]
+    ]
+  },
+  "19716636": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5559652854)",
+        "tool: code_verifier(code=522716, customer_id=19716636)",
+        "tool: get_billing_info_extra(customer_id=19716636)",
+        "tool: check_account_status_extra(customer_id=19716636)",
+        "tool: evaluate_payment_urgency_extra(customer_id=19716636)",
+        "tool: get_insurance_payment_portion(customer_id=19716636, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=19716636)",
+        "tool: calculate_patient_responsibility(customer_id=19716636, insurance_provider=Humena)",
+        "tool: initiate_ach_transaction(customer_id=19716636, patient_responsibility_amount=948.4)",
+        "tool: issue_receipt(customer_id=19716636, patient_responsibility_amount=948.4)",
+        "tool: setup_payment_plan(monthly_amount=65)",
+        "tool: complete_case(customer_id=19716636)"
+      ]
+    ]
+  },
+  "58431537": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9206975747)",
+        "tool: code_verifier(code=273049, customer_id=58431537)",
+        "tool: get_billing_info_extra(customer_id=58431537)",
+        "tool: check_account_status_extra(customer_id=58431537)",
+        "tool: get_provider_contact_info_api(customer_id=58431537)",
+        "tool: complete_case(customer_id=58431537)"
+      ]
+    ]
+  },
+  "38008301": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6574038926)",
+        "tool: code_verifier(code=314618, customer_id=38008301)",
+        "tool: get_billing_info_extra(customer_id=38008301)",
+        "tool: check_account_status_extra(customer_id=38008301)",
+        "tool: evaluate_payment_urgency_extra(customer_id=38008301)",
+        "tool: get_insurance_payment_portion(customer_id=38008301, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=38008301)",
+        "tool: calculate_patient_responsibility(customer_id=38008301, insurance_provider=Humena)",
+        "tool: get_wallet_link(customer_id=38008301)",
+        "tool: check_wallet_payment_status(payment_id=pay_3700)",
+        "tool: issue_receipt(customer_id=38008301, patient_responsibility_amount=390.0)",
+        "tool: complete_case(customer_id=38008301)"
+      ]
+    ]
+  },
+  "68098869": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7403942040)",
+        "tool: code_verifier(code=231282, customer_id=68098869)",
+        "tool: get_billing_info_extra(customer_id=68098869)",
+        "tool: check_account_status_extra(customer_id=68098869)",
+        "tool: evaluate_payment_urgency_extra(customer_id=68098869)",
+        "tool: apply_fee_waiver(customer_id = 68098869, waiver_amount = 6)",
+        "tool: calculate_patient_responsibility(customer_id=68098869, insurance_provider=Cignexa)",
+        "tool: currency_exchange(patient_responsibility_amount=220.4, from_currency=USD, to_currency=IDR)",
+        "tool: run_fraud_check(customer_id=68098869, patient_responsibility_amount = 16179.8)",
+        "tool: get_hospital_contact_info(hospital_id = 665303)",
+        "tool: complete_case(customer_id=68098869)"
+      ]
+    ]
+  },
+  "97800638": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9544292657)",
+        "tool: code_verifier(code=999751, customer_id=97800638)",
+        "tool: get_billing_info_extra(customer_id=97800638)",
+        "tool: check_account_status_extra(customer_id=97800638)",
+        "tool: get_provider_contact_info_api(customer_id=97800638)",
+        "tool: complete_case(customer_id=97800638)"
+      ]
+    ]
+  },
+  "94384037": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8537966934)",
+        "tool: code_verifier(code=371482, customer_id=94384037)",
+        "tool: get_billing_info_extra(customer_id=94384037)",
+        "tool: check_account_status_extra(customer_id=94384037)",
+        "tool: evaluate_payment_urgency_extra(customer_id=94384037)",
+        "tool: get_insurance_payment_portion(customer_id=94384037, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=94384037)",
+        "tool: calculate_patient_responsibility(customer_id=94384037, insurance_provider=Humena)",
+        "tool: run_fraud_check(customer_id=94384037, patient_responsibility_amount=982.0)",
+        "tool: initiate_3ds_auth(customer_id=94384037)",
+        "tool: process_payment(customer_id=94384037, patient_responsibility_amount=982.0)",
+        "tool: issue_receipt(customer_id=94384037, patient_responsibility_amount=982.0)",
+        "tool: setup_payment_plan(monthly_amount=149)",
+        "tool: complete_case(customer_id=94384037)"
+      ]
+    ]
+  },
+  "62042069": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5883587714)",
+        "tool: code_verifier(code=305662, customer_id=62042069)",
+        "tool: get_billing_info_extra(customer_id=62042069)",
+        "tool: check_account_status_extra(customer_id=62042069)",
+        "tool: evaluate_payment_urgency_extra(customer_id=62042069)",
+        "tool: calculate_patient_responsibility(customer_id=62042069, insurance_provider=Aetralis)",
+        "tool: get_wallet_link(customer_id=62042069)",
+        "tool: check_wallet_payment_status(payment_id=pay_1401)",
+        "tool: issue_receipt(customer_id=62042069, patient_responsibility_amount=244.4)",
+        "tool: complete_case(customer_id=62042069)"
+      ]
+    ]
+  },
+  "54240314": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5058200847)",
+        "tool: code_verifier(code=654964, customer_id=54240314)",
+        "tool: get_billing_info_extra(customer_id=54240314)",
+        "tool: check_account_status_extra(customer_id=54240314)",
+        "tool: evaluate_payment_urgency_extra(customer_id=54240314)",
+        "tool: get_insurance_payment_portion(customer_id=54240314, insurance_provider=BluePeak)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=54240314)",
+        "tool: calculate_patient_responsibility(customer_id=54240314, insurance_provider=BluePeak)",
+        "tool: currency_exchange(patient_responsibility_amount=810.0, from_currency=USD, to_currency=CNY)",
+        "tool: initiate_ach_transaction(customer_id=54240314, patient_responsibility_amount = 7.17)",
+        "tool: issue_receipt(customer_id=54240314, patient_responsibility_amount = 7.17)",
+        "tool: complete_case(customer_id=54240314)"
+      ]
+    ]
+  },
+  "74924423": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8697364864)",
+        "tool: code_verifier(code=783286, customer_id=74924423)",
+        "tool: get_billing_info_extra(customer_id=74924423)",
+        "tool: check_account_status_extra(customer_id=74924423)",
+        "tool: evaluate_payment_urgency_extra(customer_id=74924423)",
+        "tool: get_insurance_payment_portion(customer_id=74924423, insurance_provider=Aetralis)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=74924423)",
+        "tool: calculate_patient_responsibility(customer_id=74924423, insurance_provider=Aetralis)",
+        "tool: run_fraud_check(customer_id=74924423, patient_responsibility_amount=114.4)",
+        "tool: initiate_3ds_auth(customer_id=74924423)",
+        "tool: process_payment(customer_id=74924423, patient_responsibility_amount=114.4)",
+        "tool: issue_receipt(customer_id=74924423, patient_responsibility_amount=114.4)",
+        "tool: complete_case(customer_id=74924423)"
+      ]
+    ]
+  },
+  "92505159": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8007211853)",
+        "tool: code_verifier(code=172189, customer_id=92505159)",
+        "tool: get_billing_info_extra(customer_id=92505159)",
+        "tool: check_account_status_extra(customer_id=92505159)",
+        "tool: evaluate_payment_urgency_extra(customer_id=92505159)",
+        "tool: get_insurance_payment_portion(customer_id=92505159, insurance_provider=Aetralis)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=92505159)",
+        "tool: apply_fee_waiver(customer_id = 92505159, waiver_amount = 11)",
+        "tool: calculate_patient_responsibility(customer_id=92505159, insurance_provider=Aetralis)",
+        "tool: currency_exchange(patient_responsibility_amount=831.2, from_currency=USD, to_currency=THB)",
+        "tool: initiate_ach_transaction(customer_id=92505159, patient_responsibility_amount = 32.6)",
+        "tool: issue_receipt(customer_id=92505159, patient_responsibility_amount = 32.6)",
+        "tool: setup_payment_plan(monthly_amount=187)",
+        "tool: complete_case(customer_id=92505159)"
+      ]
+    ]
+  },
+  "48298811": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8280089628)",
+        "tool: code_verifier(code=503282, customer_id=48298811)",
+        "tool: get_billing_info_extra(customer_id=48298811)",
+        "tool: check_account_status_extra(customer_id=48298811)",
+        "tool: evaluate_payment_urgency_extra(customer_id=48298811)",
+        "tool: calculate_patient_responsibility(customer_id=48298811, insurance_provider=BluePeak)",
+        "tool: get_wallet_link(customer_id=48298811)",
+        "tool: check_wallet_payment_status(payment_id=pay_5069)",
+        "tool: issue_receipt(customer_id=48298811, patient_responsibility_amount=453)",
+        "tool: complete_case(customer_id=48298811)"
+      ]
+    ]
+  },
+  "45009606": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7787419118)",
+        "tool: code_verifier(code=647322, customer_id=45009606)",
+        "tool: get_billing_info_extra(customer_id=45009606)",
+        "tool: check_account_status_extra(customer_id=45009606)",
+        "tool: evaluate_payment_urgency_extra(customer_id=45009606)",
+        "tool: calculate_patient_responsibility(customer_id=45009606, insurance_provider=Humena)",
+        "tool: get_wallet_link(customer_id=45009606)",
+        "tool: check_wallet_payment_status(payment_id=pay_1609)",
+        "tool: issue_receipt(customer_id=45009606, patient_responsibility_amount=806)",
+        "tool: complete_case(customer_id=45009606)"
+      ]
+    ]
+  },
+  "13178975": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2592067219)",
+        "tool: code_verifier(code=491794, customer_id=13178975)",
+        "tool: get_billing_info_extra(customer_id=13178975)",
+        "tool: check_account_status_extra(customer_id=13178975)",
+        "tool: evaluate_payment_urgency_extra(customer_id=13178975)",
+        "tool: calculate_patient_responsibility(customer_id=13178975, insurance_provider=BluePeak)",
+        "tool: run_fraud_check(customer_id=13178975, patient_responsibility_amount=154.0)",
+        "tool: get_hospital_contact_info(hospital_id = 351960)",
+        "tool: complete_case(customer_id=13178975)"
+      ]
+    ]
+  },
+  "59409101": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9013913286)",
+        "tool: code_verifier(code=251802, customer_id=59409101)",
+        "tool: get_billing_info_extra(customer_id=59409101)",
+        "tool: check_account_status_extra(customer_id=59409101)",
+        "tool: evaluate_payment_urgency_extra(customer_id=59409101)",
+        "tool: get_insurance_payment_portion(customer_id=59409101, insurance_provider=Humena)",
+        "tool: calculate_late_fee_waiver_eligibility_extra(customer_id=59409101)",
+        "tool: calculate_patient_responsibility(customer_id=59409101, insurance_provider=Humena)",
+        "tool: currency_exchange(patient_responsibility_amount=1563, from_currency=USD, to_currency=THB)",
+        "tool: run_fraud_check(customer_id=59409101, patient_responsibility_amount = 32.6)",
+        "tool: initiate_3ds_auth(customer_id=59409101)",
+        "tool: process_payment(customer_id=59409101, patient_responsibility_amount = 32.6)",
+        "tool: issue_receipt(customer_id=59409101, patient_responsibility_amount = 32.6)",
+        "tool: setup_payment_plan(monthly_amount=170)",
+        "tool: complete_case(customer_id=59409101)"
+      ]
+    ]
+  }
+}

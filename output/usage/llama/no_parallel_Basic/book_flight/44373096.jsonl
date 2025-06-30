@@ -1,0 +1,16 @@
+{"client_id": 44373096, "agent": "OrchestratorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 917, "completion_tokens": 31, "total_tokens": 948}
+{"client_id": 44373096, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 967, "completion_tokens": 48, "total_tokens": 1015}
+{"client_id": 44373096, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2702, "completion_tokens": 40, "total_tokens": 2742}
+{"client_id": 44373096, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1105, "completion_tokens": 25, "total_tokens": 1130}
+{"client_id": 44373096, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1213, "completion_tokens": 15, "total_tokens": 1228}
+{"client_id": 44373096, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1250, "completion_tokens": 31, "total_tokens": 1281}
+{"client_id": 44373096, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1648, "completion_tokens": 15, "total_tokens": 1663}
+{"client_id": 44373096, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3061, "completion_tokens": 90, "total_tokens": 3151}
+{"client_id": 44373096, "agent": "book_flight", "type": "function_call", "function_name": "get_customer_frequent_flyer_status_extra", "prompt_tokens": 3180, "completion_tokens": 30, "total_tokens": 3210}
+{"client_id": 44373096, "agent": "book_flight", "type": "function_call", "function_name": "search_priority_flights", "prompt_tokens": 3273, "completion_tokens": 125, "total_tokens": 3398}
+{"client_id": 44373096, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3451, "completion_tokens": 71, "total_tokens": 3522}
+{"client_id": 44373096, "agent": "book_flight", "type": "function_call", "function_name": "get_passport_info_extra", "prompt_tokens": 3545, "completion_tokens": 67, "total_tokens": 3612}
+{"client_id": 44373096, "agent": "book_flight", "type": "function_call", "function_name": "get_customer_payment_method_extra", "prompt_tokens": 3654, "completion_tokens": 85, "total_tokens": 3739}
+{"client_id": 44373096, "agent": "book_flight", "type": "function_call", "function_name": "create_booking", "prompt_tokens": 3770, "completion_tokens": 74, "total_tokens": 3844}
+{"client_id": 44373096, "agent": "book_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3882, "completion_tokens": 128, "total_tokens": 4010}
+{"client_id": 44373096, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 4056, "completion_tokens": 19, "total_tokens": 4075}

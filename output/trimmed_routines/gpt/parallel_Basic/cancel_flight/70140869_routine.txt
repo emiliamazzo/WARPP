@@ -1,0 +1,17 @@
+## Final Personalized Routine
+
+The customer ID is 70140869. 
+Routine to execute: 
+
+1. Retrieve Customer Loyalty Information
+   - Thank them as a new customer.
+
+2. Inform No Cancellation Allowed
+   - Say: “I’m sorry, your fare rule at purchase did not permit cancellation.”
+
+3. Complete Case
+   - Call `complete_case(70140869)`
+   - Thank the customer.
+
+## Available Tools
+available_tools = ['complete_case']

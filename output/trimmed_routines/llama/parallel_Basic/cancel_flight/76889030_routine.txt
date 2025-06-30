@@ -1,0 +1,16 @@
+**Final Personalized Routine**
+1. Retrieve Customer Loyalty Information
+   The customer has 27525 loyalty points, welcome them as a preferred client.
+
+2. Retrieve Booking Information
+   The booking ID is BK005LE8.
+
+3. Inform Cancellation Policy
+   I’m sorry, your fare rule at purchase did not permit cancellation.
+
+4. Complete Case
+   a. Call `complete_case(76889030)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['complete_case']

@@ -1,0 +1,33 @@
+## Final Personalized Routine
+
+1. **Client Identification & Status**
+   The customer ID is 45009606. Your account is currently delinquent.
+
+2. **Analyze Outstanding Balance**
+   Inform the client: "It looks like you have a balance to pay today. Let's get that done!"
+
+3. **Assess Payment Urgency**
+   This payment is severely overdue; you may face additional fees.
+
+4. **Calculate Final Amount Due**
+   Call `calculate_patient_responsibility(45009606, 'Humena')` to get total_due after any deductions. Inform the user: “Your total due today is $X. Would you like to proceed with payment?”
+   - If no, say “No problem; let me know if you need anything else,” and call `complete_case(45009606)`.
+   - If yes, continue.
+
+5. **Currency Confirmation**
+   Ask the user: “Would you like to pay in another currency?”
+   - If yes, obtain preferred currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and reply: “That’s [convertedAmount] in [currency].”
+   - If no, continue in USD.
+
+6. **Process Payment (Digital Wallet)**
+   - Call `get_wallet_link(45009606)` and guide them to complete the payment in their browser.
+   - Call `check_wallet_payment_status(payment_id)` to confirm the payment success.
+
+7. **Send Receipt**
+   Call `issue_receipt(45009606, patient_responsibility_amount)` to email confirmation. Inform the user that a receipt has been sent.
+
+8. **Finalize**
+   Call `complete_case(45009606)`.
+
+## Available Tools
+available_tools = ['calculate_patient_responsibility', 'currency_exchange', 'get_wallet_link', 'check_wallet_payment_status', 'issue_receipt', 'complete_case']

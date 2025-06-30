@@ -1,0 +1,22 @@
+1. **Final Personalized Routine**:
+
+The customer ID is 85577774.
+Routine to execute:
+
+1. Welcome as a preferred client
+
+2. Booking Information
+   - Say: "I'm sorry, your fare rule at purchase did not permit cancellation."
+
+3. Complete Case
+   a. Call `complete_case(85577774)`
+   b. Thank the customer.
+
+Error Handling
+a. On any persistent failure:
+  - Retry once
+  - Inform the customer
+  - Call complete_case to close out
+
+2. **Available Tools**:
+available_tools = ['complete_case']

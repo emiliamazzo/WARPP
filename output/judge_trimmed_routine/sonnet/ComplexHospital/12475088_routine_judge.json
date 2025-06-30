@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine correctly identified that the account is suspended and only kept the relevant steps for this scenario. All other branches were correctly removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps for a suspended account were preserved, including the tool calls and messages. The routine ends with `complete_case` as expected.",
+    "model": "sonnet",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

@@ -1,0 +1,46 @@
+1. **Final Personalized Routine**:
+
+1. The customer ID is 47690673.
+
+2. Check Account Status
+   The account is active. Proceed to the next step.
+
+3. Outstanding Balance
+   Tell the client "It looks like you have a balance of $1013 to pay today. Let's get that done!"
+
+4. Assess Payment Urgency
+   Say "Your payment is 7 days overdue. Let's get you back on track."
+
+5. Financial Assistance & Tax Calculation
+   a) Inform the user: "Let me check if your insurance can cover part of this payment."
+   b) Call `get_insurance_payment_portion(47690673, 'Humena')`.
+   c) If approved, say "Great news! Your insurance will cover part of your claim."
+   d) If declined, say "No additional assistance is available at this time."
+
+6. Calculate Final Amount Due
+   a) Call `calculate_patient_responsibility(47690673, 'Humena')` to get total_due after insurance deductions.
+   b) Say "Your total due today is $X. Would you like to proceed with payment?" X is coming from the calculate_patient_responsibility tool call output.
+     – If no, say "No problem; let me know if you need anything else," and call `complete_case(47690673)`
+     – If yes, continue.
+
+7. Ask Client if They Want to Pay in USD or Another Currency
+   a) Ask "Would you like to pay in another currency?"
+     – If the user wants to pay in another currency, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and tell them "That's [convertedAmount] in [currency]."
+     – If the user doesn't want to pay in another currency, continue in USD.
+
+8. Process the Payment
+   a) Inform the user that you will be processing a credit card payment.
+   b) Call `run_fraud_check(47690673, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency. If run_fraud_check returns flagged, say "We need to review this transaction—please call our billing hotline". Call `get_hospital_contact_info(550407)` to share hotline number and call `complete_case(47690673)`
+   c) Otherwise, perform 3D-Secure with `initiate_3ds_auth(47690673)`.
+      -If initiate_3ds_auth returns success status false, prompt the client to call 1-800-555-BILL to continue the request and call `complete_case(47690673)`.
+   d) Finally, call `process_payment(47690673, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency.
+
+9. Send receipt
+   a) Call `issue_receipt(47690673, patient_responsibility_amount)` to send an email confirmation. Make sure the patient responsibility amount is in the customer's preferred currency. Inform the user that a receipt has been sent to them.
+
+10. Finalize
+    a) Provide confirmation number
+    b) Call `complete_case(47690673)`
+
+2. **Available Tools**:
+available_tools = ['get_insurance_payment_portion', 'calculate_patient_responsibility', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'complete_case']

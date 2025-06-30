@@ -1,0 +1,15 @@
+{"client_id": 53299953, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 871, "completion_tokens": 107, "total_tokens": 978}
+{"client_id": 53299953, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2308, "completion_tokens": 82, "total_tokens": 2390}
+{"client_id": 53299953, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2441, "completion_tokens": 42, "total_tokens": 2483}
+{"client_id": 53299953, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1097, "completion_tokens": 80, "total_tokens": 1177}
+{"client_id": 53299953, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1821, "completion_tokens": 276, "total_tokens": 2097}
+{"client_id": 53299953, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1204, "completion_tokens": 34, "total_tokens": 1238}
+{"client_id": 53299953, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1249, "completion_tokens": 94, "total_tokens": 1343}
+{"client_id": 53299953, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1738, "completion_tokens": 19, "total_tokens": 1757}
+{"client_id": 53299953, "agent": "update_address", "type": "text_generation", "function_name": null, "prompt_tokens": 2109, "completion_tokens": 67, "total_tokens": 2176}
+{"client_id": 53299953, "agent": "update_address", "type": "text_generation", "function_name": null, "prompt_tokens": 2204, "completion_tokens": 81, "total_tokens": 2285}
+{"client_id": 53299953, "agent": "update_address", "type": "function_call", "function_name": "validate_address", "prompt_tokens": 2338, "completion_tokens": 150, "total_tokens": 2488}
+{"client_id": 53299953, "agent": "update_address", "type": "function_call", "function_name": "update_address", "prompt_tokens": 2581, "completion_tokens": 181, "total_tokens": 2762}
+{"client_id": 53299953, "agent": "update_address", "type": "text_generation", "function_name": null, "prompt_tokens": 2853, "completion_tokens": 72, "total_tokens": 2925}
+{"client_id": 53299953, "agent": "update_address", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 2943, "completion_tokens": 100, "total_tokens": 3043}
+{"client_id": 53299953, "agent": "update_address", "type": "text_generation", "function_name": null, "prompt_tokens": 3079, "completion_tokens": 64, "total_tokens": 3143}

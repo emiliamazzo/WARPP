@@ -1,0 +1,26 @@
+{
+    "agent": "withdraw_retirement_funds",
+    "steps": [
+        "check_withdrawal_eligibility_extra(customer_id = customer_id)",
+        "process_retirement_withdrawal(customer_id = customer_id, withdrawal_amount = user_provided_info['withdrawal']['withdrawal_amount'])",
+        "complete_case(customer_id = customer_id)"
+    ],
+    "soft_ordering": [],
+    "conditionals": [
+    {
+      "if": [
+        {
+          "field": "account_type",
+          "operator": "not in",
+          "value": ["ROTH_IRA", "TRADITIONAL_IRA"]
+        }
+      ],
+      "then": [
+        {
+          "action": "skip",
+          "target": "process_retirement_withdrawal"
+        }
+      ]
+    }
+  ]
+}

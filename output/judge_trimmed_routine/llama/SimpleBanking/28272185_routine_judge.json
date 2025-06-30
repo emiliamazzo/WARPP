@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine correctly identified that the customer is not eligible for withdrawal based on the `isEligible` flag being false and only kept the step to inform customer and close the case with `complete_case`.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine includes the necessary steps based on the customer data that shows the customer is not eligible. It informs the customer and calls `complete_case()`.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

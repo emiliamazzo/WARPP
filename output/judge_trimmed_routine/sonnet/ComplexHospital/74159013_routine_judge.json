@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only steps relevant to the customer based on their data. Steps related to account suspension, zero balance, financial assistance, and late fee waivers are correctly removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tools, and branches that apply to this customer are preserved. The payment plan question is included since payment_plan_active is false. The fraud check, 3DS auth, and process payment steps are included since the customer's payment method is credit card. All steps after the payment \"yes\" branch are present.",
+    "model": "sonnet",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

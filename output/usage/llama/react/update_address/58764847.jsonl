@@ -1,0 +1,12 @@
+{"client_id": 58764847, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3801, "completion_tokens": 76, "total_tokens": 3877}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 3900, "completion_tokens": 53, "total_tokens": 3953}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4022, "completion_tokens": 51, "total_tokens": 4073}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4091, "completion_tokens": 66, "total_tokens": 4157}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4524, "completion_tokens": 59, "total_tokens": 4583}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "function_call", "function_name": "get_account_type_extra", "prompt_tokens": 4605, "completion_tokens": 78, "total_tokens": 4683}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4738, "completion_tokens": 68, "total_tokens": 4806}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4831, "completion_tokens": 49, "total_tokens": 4880}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "function_call", "function_name": "validate_address", "prompt_tokens": 4924, "completion_tokens": 129, "total_tokens": 5053}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "function_call", "function_name": "update_address", "prompt_tokens": 5150, "completion_tokens": 153, "total_tokens": 5303}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5400, "completion_tokens": 103, "total_tokens": 5503}
+{"client_id": 58764847, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5551, "completion_tokens": 65, "total_tokens": 5616}

@@ -1,0 +1,10 @@
+{"client_id": 53946419, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 914, "completion_tokens": 49, "total_tokens": 963}
+{"client_id": 53946419, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2631, "completion_tokens": 34, "total_tokens": 2665}
+{"client_id": 53946419, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1046, "completion_tokens": 25, "total_tokens": 1071}
+{"client_id": 53946419, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1144, "completion_tokens": 29, "total_tokens": 1173}
+{"client_id": 53946419, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1989, "completion_tokens": 375, "total_tokens": 2364}
+{"client_id": 53946419, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1192, "completion_tokens": 31, "total_tokens": 1223}
+{"client_id": 53946419, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1594, "completion_tokens": 15, "total_tokens": 1609}
+{"client_id": 53946419, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1077, "completion_tokens": 166, "total_tokens": 1243}
+{"client_id": 53946419, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1250, "completion_tokens": 163, "total_tokens": 1413}
+{"client_id": 53946419, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1425, "completion_tokens": 9, "total_tokens": 1434}

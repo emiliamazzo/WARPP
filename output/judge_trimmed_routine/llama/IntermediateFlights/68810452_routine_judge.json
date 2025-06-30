@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to the customer based on the provided data have been removed. For example, Step 2 (Check Customer Priority Status) from the full routine was removed because the customer does not have frequent flyer status.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tool calls, and branches relevant to this customer were preserved in the trimmed routine. The correct tools are called based on the customer's lack of frequent flyer status and their Debit Card payment method.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

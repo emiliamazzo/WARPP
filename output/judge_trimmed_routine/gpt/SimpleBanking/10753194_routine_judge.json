@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only steps relevant to the customer based on their account type and client level. Unnecessary steps like retrieving extra account information have been removed and the relevant values from the customer data have been used.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, including address validation, update, hold application, completion, and error handling, have been preserved. The personalized routine maintains all steps necessary for this specific customer.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

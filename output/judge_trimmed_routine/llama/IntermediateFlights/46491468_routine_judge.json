@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All branches and tool calls irrelevant to this customer were correctly removed. The routine correctly determines the booking allows cancellations and inlines info from `get_booking_details_extra`.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps relevant to the customer were preserved. The agent should proceed with checking blockers, calculating the cancellation fee, processing cancellation and refund. The final steps of confirmation and completing the case are also present.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

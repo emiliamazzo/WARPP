@@ -1,0 +1,14 @@
+{"client_id": 24458347, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 447, "completion_tokens": 22, "total_tokens": 469}
+{"client_id": 24458347, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2074, "completion_tokens": 13, "total_tokens": 2087}
+{"client_id": 24458347, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2114, "completion_tokens": 26, "total_tokens": 2140}
+{"client_id": 24458347, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 533, "completion_tokens": 20, "total_tokens": 553}
+{"client_id": 24458347, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1923, "completion_tokens": 243, "total_tokens": 2166}
+{"client_id": 24458347, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 580, "completion_tokens": 28, "total_tokens": 608}
+{"client_id": 24458347, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 624, "completion_tokens": 23, "total_tokens": 647}
+{"client_id": 24458347, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 966, "completion_tokens": 16, "total_tokens": 982}
+{"client_id": 24458347, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1099, "completion_tokens": 49, "total_tokens": 1148}
+{"client_id": 24458347, "agent": "book_flight", "type": "function_call", "function_name": "search_priority_flights", "prompt_tokens": 1185, "completion_tokens": 42, "total_tokens": 1227}
+{"client_id": 24458347, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1263, "completion_tokens": 54, "total_tokens": 1317}
+{"client_id": 24458347, "agent": "book_flight", "type": "function_call", "function_name": "create_booking_with_points", "prompt_tokens": 1337, "completion_tokens": 19, "total_tokens": 1356}
+{"client_id": 24458347, "agent": "book_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1381, "completion_tokens": 17, "total_tokens": 1398}
+{"client_id": 24458347, "agent": "book_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1428, "completion_tokens": 53, "total_tokens": 1481}

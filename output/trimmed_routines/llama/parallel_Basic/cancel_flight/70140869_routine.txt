@@ -1,0 +1,14 @@
+**Final Personalized Routine**
+1. The customer ID is 70140869.
+2. Retrieve Booking Information
+   a. The original booking rules are: amount_paid=769, booking_id=BK006RU1, cancellation_allowed=False, is_refundable=False, purchased_insurance=False.
+   b. Since this booking's policy does not allow cancellations at all:
+       - Say: “I’m sorry, your fare rule at purchase did not permit cancellation.”
+       - Skip directly to step 3 and close.
+
+3. Complete Case
+   a. Call `complete_case(70140869)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['complete_case']

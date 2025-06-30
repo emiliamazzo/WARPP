@@ -1,0 +1,28 @@
+**Final Personalized Routine**
+1. Welcome the customer as a preferred client due to their 23404 loyalty points.
+2. Retrieve Booking Information
+   a. The original booking rules are: amount paid 540, booking ID BK008CV2, cancellation allowed, refundable, and insurance purchased.
+   b. Acknowledge: “Your fare permits cancellations—let’s now confirm whether operations still allow it.”
+3. Check Live Cancellation Blockers
+   a. Call `check_cancellation_blockers('BK008CV2')` to see if there are any blockers that prevent the cancellation.
+   b. If response is:
+      - "eligible": proceed
+      - "api_failure": apologize to the client for the technical difficulties, prompt them to call again at a later time, and proceed directly to step 8.
+      - any other response: inform the customer that there is a blocker that prevents them from cancelling the flight at this time. Offer and explanation, apologize, and proceed directly to step 8.
+4. Calculate Cancellation Fee
+   a. Call `calculate_cancellation_fee(70602193, 'BK008CV2')`
+5. Process Flight Cancellation
+   a. Describe policy + fee to the customer
+   b. If customer confirms, call `cancel_flight('BK008CV2')`
+6. Process Refund or Issue Travel Credit
+   a. If refundable or insurance was purchased for this booking:
+      - Call `process_refund(70602193, 'BK008CV2', 'Debit Card', cancellation_fee)` 
+7. Confirm Cancellation and Provide Next Steps
+   a. Share final status, refund/credit amount, and confirmation number.
+8. Complete Case
+   a. Call `complete_case(70602193)`
+   b. Thank the customer.
+
+
+**Available Tools**
+available_tools = ['check_cancellation_blockers', 'calculate_cancellation_fee', 'cancel_flight', 'process_refund', 'complete_case']

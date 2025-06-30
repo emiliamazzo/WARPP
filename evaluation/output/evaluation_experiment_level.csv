@@ -1,0 +1,4 @@
+experiment_type,exact_match,agent_match_%_any_order,agent_match_%_order,lcs_tools,tool_precision,tool_recall,tool_f1,fulfill_tool_precision,fulfill_tool_recall,fulfill_tool_f1,param_match_%,turns_all_agents,turns_fulfill_agents,average_latency,fulfill_agent_latency,error_count
+react,0.59,100.0,100.0,92.98,96.59,93.47,94.29,95.13,94.06,93.97,92.14,5.62,2.68,10.71,12.09,0.03
+no_parallel,0.75,99.38,99.38,97.74,97.32,97.85,97.45,96.51,96.82,96.54,96.46,6.52,3.02,7.18,7.44,0.09
+parallel,0.85,99.78,99.78,97.08,98.9,97.21,97.69,95.41,95.0,95.02,96.51,6.37,3.01,6.13,5.21,0.05

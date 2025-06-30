@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All irrelevant steps and branches have been correctly pruned. Because the customer is not a frequent flyer, the logic for priority flights was removed. Similarly, the logic for payment with points was removed because the customer uses a debit card. The passport information was also inlined, eliminating a check.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic for this customer has been preserved, including flight search, visa check, booking and case completion.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

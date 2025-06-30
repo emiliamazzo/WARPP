@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The `get_account_type_extra` call was correctly removed. The client_level is STANDARD therefore, the standard branch in step 4 was kept as expected. Overall, the routine only includes content relevant to the customer based on the provided data, besides the Error Handling section which should have been removed since all primary paths are covered.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps and branches relevant to the customer were preserved. The trimmed routine includes all necessary logic, tools, and branches that apply to this customer.",
+    "model": "sonnet",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

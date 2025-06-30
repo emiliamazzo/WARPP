@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine only includes steps relevant to the customer. The irrelevant branch for non-eligible customers was correctly removed and the information about the eligibility was directly expressed in the trimmed text.",
+    "completeness_score": "4",
+    "completeness_explanation": "The routine is mostly complete. However, the error handling for `process_retirement_withdrawal` does not include informing the customer and then closing the case if the second attempt fails. This should have included that specific call to `complete_case`.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

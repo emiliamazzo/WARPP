@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The step 'Ask for confirmation to proceed with the address update' was removed. This step is required to continue with the address update. Also, step 1 should not have been in bold, as that is only for title headers.",
+    "completeness_score": "4",
+    "completeness_explanation": "The step 'Ask for confirmation to proceed with the address update' was removed. This step is required to continue with the address update.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

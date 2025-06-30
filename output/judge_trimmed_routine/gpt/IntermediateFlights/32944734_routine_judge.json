@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only steps relevant to the customer. The `get_customer_frequent_flyer_status_extra` call has been replaced with a direct skip to priority flights, visa checks are skipped, and the payment method check is inlined based on the customer data.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tool calls, and branches have been preserved. Passport confirmation is inlined, and the correct booking type is created (with Points).",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

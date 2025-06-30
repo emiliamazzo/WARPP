@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine includes only the logic relevant to the customer, based on their data. Since the customer is not eligible for withdrawal, only that branch is kept.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine preserves all necessary logic for the customer. It checks the eligibility based on the data and proceeds to call complete_case().",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

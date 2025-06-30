@@ -1,0 +1,59 @@
+{
+    "agent": "book_flight",
+    "steps": [
+        "get_customer_frequent_flyer_status_extra(customer_id = customer_id) -> frequent_flyer_status",
+        "search_regular_flights(customer_id = customer_id, origin_airport = user_provided_info['origin_airport'], destination_airport = user_provided_info['destination_airport'], departure_date = user_provided_info['departure_date']) -> flight_search_results",
+        "search_priority_flights(customer_id = customer_id, origin_airport = user_provided_info['origin_airport'], destination_airport = user_provided_info['destination_airport'], departure_date = user_provided_info['departure_date']) -> flight_search_results",
+        "get_passport_info_extra(customer_id = customer_id)",
+        "check_visa_requirements(origin_airport = user_provided_info['origin_airport'] , destination_airport = user_provided_info['destination_airport'])",
+        "get_customer_payment_method_extra(customer_id = customer_id)",
+        "create_booking_with_points(flight_number = user_provided_info['preferred_flight_number'])",
+        "create_booking(flight_number = user_provided_info['preferred_flight_number'])", 
+        "complete_case(customer_id = customer_id)"
+    ],
+    "soft_ordering": [],
+"conditionals": [
+    {
+      "if": [
+        {
+          "field": "personal_info['frequent_flyer_status']",
+          "operator": "==",
+          "value": null
+        }
+      ],
+      "then": [
+        {
+          "action": "skip",
+          "target": "search_priority_flights"
+        }
+      ],
+      "else": [
+        {
+          "action": "skip",
+          "target": ["search_regular_flights", "check_visa_requirements"]
+        }
+      ]
+    },
+    {
+      "if": [
+        {
+          "field": "stored_payment_method",
+          "operator": "==",
+          "value": "Points"
+        }
+      ],
+      "then": [
+        {
+          "action": "skip",
+          "target": "create_booking"
+        }
+      ],
+      "else": [
+        {
+          "action": "skip",
+          "target": "create_booking_with_points"
+        }
+      ]
+    }
+  ]
+}

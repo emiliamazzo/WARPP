@@ -1,0 +1,2902 @@
+[
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 57742542,
+    "account_balance": 38985,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 984264
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 9932004854
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NC",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 783
+      },
+      "authenticator_code": 984264,
+      "mobile_phone_number": 9932004854
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 27881306,
+    "account_balance": 81764,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 633054
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 6695159953
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "IL",
+        "street": "221B Baker St",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 435
+      },
+      "authenticator_code": 633054,
+      "mobile_phone_number": 6695159953
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 39991115,
+    "account_balance": 16677,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 847883
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4902688189
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NC",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 511
+      },
+      "authenticator_code": 847883,
+      "mobile_phone_number": 4902688189
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 99624060,
+    "account_balance": 8764,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 247098
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 6165848615
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "MA",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 969
+      },
+      "authenticator_code": 247098,
+      "mobile_phone_number": 6165848615
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 92209577,
+    "account_balance": 25645,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 610838
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2821863372
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "NC",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 603
+      },
+      "authenticator_code": 610838,
+      "mobile_phone_number": 2821863372
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 83746296,
+    "account_balance": 1075,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 973910
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 8405494194
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "221B Baker St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 825
+      },
+      "authenticator_code": 973910,
+      "mobile_phone_number": 8405494194
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 12373414,
+    "account_balance": 15465,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 577418
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5760876627
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "MA",
+        "street": "123 Main St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 268
+      },
+      "authenticator_code": 577418,
+      "mobile_phone_number": 5760876627
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 32950433,
+    "account_balance": 94607,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 356590
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7130022813
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "IL",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 372
+      },
+      "authenticator_code": 356590,
+      "mobile_phone_number": 7130022813
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 75383731,
+    "account_balance": 73478,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 824725
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1406155842
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 212
+      },
+      "authenticator_code": 824725,
+      "mobile_phone_number": 1406155842
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 69952588,
+    "account_balance": 49009,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 366760
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9090445409
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "MA",
+        "street": "221B Baker St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 788
+      },
+      "authenticator_code": 366760,
+      "mobile_phone_number": 9090445409
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 29481910,
+    "account_balance": 22263,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 116697
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1593955564
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 669
+      },
+      "authenticator_code": 116697,
+      "mobile_phone_number": 1593955564
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 47022380,
+    "account_balance": 6542,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 715819
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3992611191
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NC",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 358
+      },
+      "authenticator_code": 715819,
+      "mobile_phone_number": 3992611191
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 53746110,
+    "account_balance": 91957,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 276959
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6069943143
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "RI",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 343
+      },
+      "authenticator_code": 276959,
+      "mobile_phone_number": 6069943143
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 50452382,
+    "account_balance": 11414,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 605121
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6560258859
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "CA",
+        "street": "42 Wallaby Way",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 527
+      },
+      "authenticator_code": 605121,
+      "mobile_phone_number": 6560258859
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 10753194,
+    "account_balance": 91379,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 937786
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5724597827
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 527
+      },
+      "authenticator_code": 937786,
+      "mobile_phone_number": 5724597827
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 89000602,
+    "account_balance": 42316,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 148742
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3575681782
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "123 Main St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 714
+      },
+      "authenticator_code": 148742,
+      "mobile_phone_number": 3575681782
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 83329260,
+    "account_balance": 81392,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 409768
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1910979632
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "NY",
+        "street": "42 Wallaby Way",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 127
+      },
+      "authenticator_code": 409768,
+      "mobile_phone_number": 1910979632
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 92966803,
+    "account_balance": 73494,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 673950
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8773273307
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "RI",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 466
+      },
+      "authenticator_code": 673950,
+      "mobile_phone_number": 8773273307
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 99302813,
+    "account_balance": 49903,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 906528
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 8370845956
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "NC",
+        "street": "42 Wallaby Way",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 626
+      },
+      "authenticator_code": 906528,
+      "mobile_phone_number": 8370845956
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 87891589,
+    "account_balance": 39183,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 816851
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3214570654
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "MA",
+        "street": "123 Main St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 691
+      },
+      "authenticator_code": 816851,
+      "mobile_phone_number": 3214570654
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 15930630,
+    "account_balance": 14277,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 316013
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6368805405
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 954
+      },
+      "authenticator_code": 316013,
+      "mobile_phone_number": 6368805405
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 76116039,
+    "account_balance": 53142,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 626412
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8424224342
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NC",
+        "street": "42 Wallaby Way",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 660
+      },
+      "authenticator_code": 626412,
+      "mobile_phone_number": 8424224342
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 64465094,
+    "account_balance": 72402,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 793864
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 6662122043
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "NY",
+        "street": "42 Wallaby Way",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 481
+      },
+      "authenticator_code": 793864,
+      "mobile_phone_number": 6662122043
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 44495447,
+    "account_balance": 17797,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 301586
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 1253182468
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 854
+      },
+      "authenticator_code": 301586,
+      "mobile_phone_number": 1253182468
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 98167218,
+    "account_balance": 69731,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 818791
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 5518246162
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NY",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 972
+      },
+      "authenticator_code": 818791,
+      "mobile_phone_number": 5518246162
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 26215902,
+    "account_balance": 3196,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 567222
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3827387219
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 297
+      },
+      "authenticator_code": 567222,
+      "mobile_phone_number": 3827387219
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 62905799,
+    "account_balance": 46050,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 252891
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 9516393134
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 999
+      },
+      "authenticator_code": 252891,
+      "mobile_phone_number": 9516393134
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 97802918,
+    "account_balance": 34203,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 617164
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5097731736
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "NY",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 186
+      },
+      "authenticator_code": 617164,
+      "mobile_phone_number": 5097731736
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 33700376,
+    "account_balance": 50528,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 614544
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 8168370662
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 664
+      },
+      "authenticator_code": 614544,
+      "mobile_phone_number": 8168370662
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 95053336,
+    "account_balance": 17044,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 921894
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3789026282
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 982
+      },
+      "authenticator_code": 921894,
+      "mobile_phone_number": 3789026282
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 24605429,
+    "account_balance": 75410,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 511368
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5665405008
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "RI",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 102
+      },
+      "authenticator_code": 511368,
+      "mobile_phone_number": 5665405008
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 17943282,
+    "account_balance": 11857,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 599112
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4115532420
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NC",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 737
+      },
+      "authenticator_code": 599112,
+      "mobile_phone_number": 4115532420
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 41081479,
+    "account_balance": 33289,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 887208
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 8052489139
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "CA",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 277
+      },
+      "authenticator_code": 887208,
+      "mobile_phone_number": 8052489139
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 87996390,
+    "account_balance": 83508,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 993475
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1513502908
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "42 Wallaby Way",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 346
+      },
+      "authenticator_code": 993475,
+      "mobile_phone_number": 1513502908
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 98971045,
+    "account_balance": 71505,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 643168
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9479271702
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 147
+      },
+      "authenticator_code": 643168,
+      "mobile_phone_number": 9479271702
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 36737898,
+    "account_balance": 85688,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 659034
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 7096973604
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 867
+      },
+      "authenticator_code": 659034,
+      "mobile_phone_number": 7096973604
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 37657527,
+    "account_balance": 72769,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 629728
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 1377358763
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "RI",
+        "street": "42 Wallaby Way",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 613
+      },
+      "authenticator_code": 629728,
+      "mobile_phone_number": 1377358763
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 53299953,
+    "account_balance": 41076,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 963230
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 6623619540
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "NY",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 404
+      },
+      "authenticator_code": 963230,
+      "mobile_phone_number": 6623619540
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 16909329,
+    "account_balance": 58785,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 595271
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 2277750897
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "RI",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 996
+      },
+      "authenticator_code": 595271,
+      "mobile_phone_number": 2277750897
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 35964998,
+    "account_balance": 87216,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 303943
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2192276809
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "IL",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 199
+      },
+      "authenticator_code": 303943,
+      "mobile_phone_number": 2192276809
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 58867170,
+    "account_balance": 37368,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 871259
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8057319544
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 276
+      },
+      "authenticator_code": 871259,
+      "mobile_phone_number": 8057319544
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 35877304,
+    "account_balance": 74604,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 110246
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6402523674
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "CA",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 341
+      },
+      "authenticator_code": 110246,
+      "mobile_phone_number": 6402523674
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 37794552,
+    "account_balance": 4350,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 193009
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3716484792
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "RI",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 926
+      },
+      "authenticator_code": 193009,
+      "mobile_phone_number": 3716484792
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 64569433,
+    "account_balance": 11959,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 910683
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4455266280
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 529
+      },
+      "authenticator_code": 910683,
+      "mobile_phone_number": 4455266280
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 99372344,
+    "account_balance": 6766,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 819543
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7124332854
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "CA",
+        "street": "42 Wallaby Way",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 183
+      },
+      "authenticator_code": 819543,
+      "mobile_phone_number": 7124332854
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 58764847,
+    "account_balance": 49750,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 870077
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 7737746113
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "IL",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 296
+      },
+      "authenticator_code": 870077,
+      "mobile_phone_number": 7737746113
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 53068704,
+    "account_balance": 10258,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 824669
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2672223187
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "NC",
+        "street": "123 Main St",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 129
+      },
+      "authenticator_code": 824669,
+      "mobile_phone_number": 2672223187
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 72188596,
+    "account_balance": 89851,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 771949
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4205713275
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 984
+      },
+      "authenticator_code": 771949,
+      "mobile_phone_number": 4205713275
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 53814505,
+    "account_balance": 85946,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 127393
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4751305052
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "CA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 587
+      },
+      "authenticator_code": 127393,
+      "mobile_phone_number": 4751305052
+    }
+  },
+  {
+    "agent_sequence": [
+      "update_address"
+    ],
+    "customer_id": 40634014,
+    "account_balance": 29297,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 107187
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5546555246
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "MA",
+        "street": "123 Main St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 748
+      },
+      "authenticator_code": 107187,
+      "mobile_phone_number": 5546555246
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 69945687,
+    "account_balance": 53605,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 736178
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6879751235
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "NC",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 919
+      },
+      "authenticator_code": 736178,
+      "mobile_phone_number": 6879751235
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 42499788,
+    "account_balance": 20970,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 326519
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 5356197703
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "MA",
+        "street": "221B Baker St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 192
+      },
+      "authenticator_code": 326519,
+      "mobile_phone_number": 5356197703
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 16881362,
+    "account_balance": 73769,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 530333
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9619999981
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "MA",
+        "street": "42 Wallaby Way",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 383
+      },
+      "authenticator_code": 530333,
+      "mobile_phone_number": 9619999981
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 13783151,
+    "account_balance": 55321,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 364071
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1144046607
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "MA",
+        "street": "221B Baker St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 851
+      },
+      "authenticator_code": 364071,
+      "mobile_phone_number": 1144046607
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 66055793,
+    "account_balance": 2489,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 584726
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3897183980
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "IL",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 988
+      },
+      "authenticator_code": 584726,
+      "mobile_phone_number": 3897183980
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 39606633,
+    "account_balance": 21283,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 667336
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4346191861
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 534
+      },
+      "authenticator_code": 667336,
+      "mobile_phone_number": 4346191861
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 29522091,
+    "account_balance": 49769,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 421970
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7107250742
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 932
+      },
+      "authenticator_code": 421970,
+      "mobile_phone_number": 7107250742
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 80253253,
+    "account_balance": 64706,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 651189
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7729688132
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "RI",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 771
+      },
+      "authenticator_code": 651189,
+      "mobile_phone_number": 7729688132
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 15000683,
+    "account_balance": 15438,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 795020
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2850033248
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "RI",
+        "street": "42 Wallaby Way",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 292
+      },
+      "authenticator_code": 795020,
+      "mobile_phone_number": 2850033248
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 38108071,
+    "account_balance": 85350,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 906061
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1206829758
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NC",
+        "street": "123 Main St",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 973
+      },
+      "authenticator_code": 906061,
+      "mobile_phone_number": 1206829758
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 46707988,
+    "account_balance": 42454,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 422228
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9408877829
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 775
+      },
+      "authenticator_code": 422228,
+      "mobile_phone_number": 9408877829
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 89415337,
+    "account_balance": 78975,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 453932
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7566867971
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 426
+      },
+      "authenticator_code": 453932,
+      "mobile_phone_number": 7566867971
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 35614347,
+    "account_balance": 73316,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 238014
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1698987309
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 916
+      },
+      "authenticator_code": 238014,
+      "mobile_phone_number": 1698987309
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 80435807,
+    "account_balance": 17391,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 202367
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 1793495103
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 678
+      },
+      "authenticator_code": 202367,
+      "mobile_phone_number": 1793495103
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 28272185,
+    "account_balance": 24167,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 806637
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2891276819
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "IL",
+        "street": "221B Baker St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 881
+      },
+      "authenticator_code": 806637,
+      "mobile_phone_number": 2891276819
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 80423241,
+    "account_balance": 59093,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 778712
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1609017331
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 683
+      },
+      "authenticator_code": 778712,
+      "mobile_phone_number": 1609017331
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 11331634,
+    "account_balance": 60312,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 237799
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2962252646
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "NY",
+        "street": "123 Main St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 101
+      },
+      "authenticator_code": 237799,
+      "mobile_phone_number": 2962252646
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 22073046,
+    "account_balance": 55713,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 444959
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5731879826
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "MA",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 886
+      },
+      "authenticator_code": 444959,
+      "mobile_phone_number": 5731879826
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 62507597,
+    "account_balance": 44750,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 285802
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7933119916
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 197
+      },
+      "authenticator_code": 285802,
+      "mobile_phone_number": 7933119916
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 28879038,
+    "account_balance": 20589,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 152621
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 6011503802
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "42 Wallaby Way",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 747
+      },
+      "authenticator_code": 152621,
+      "mobile_phone_number": 6011503802
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 95089852,
+    "account_balance": 77608,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 873716
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8592698874
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "NC",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 606
+      },
+      "authenticator_code": 873716,
+      "mobile_phone_number": 8592698874
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 47185660,
+    "account_balance": 52807,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 112491
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8007438044
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "RI",
+        "street": "42 Wallaby Way",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 704
+      },
+      "authenticator_code": 112491,
+      "mobile_phone_number": 8007438044
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 72996195,
+    "account_balance": 20196,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 243877
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7520478337
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 924
+      },
+      "authenticator_code": 243877,
+      "mobile_phone_number": 7520478337
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 17648884,
+    "account_balance": 1890,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 998890
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2541824879
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 964
+      },
+      "authenticator_code": 998890,
+      "mobile_phone_number": 2541824879
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 24188976,
+    "account_balance": 95093,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 369785
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4891391801
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "MA",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 353
+      },
+      "authenticator_code": 369785,
+      "mobile_phone_number": 4891391801
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 99465441,
+    "account_balance": 12915,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 556940
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5235816417
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NC",
+        "street": "123 Main St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 105
+      },
+      "authenticator_code": 556940,
+      "mobile_phone_number": 5235816417
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 95320402,
+    "account_balance": 51783,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 189095
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1488693526
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 320
+      },
+      "authenticator_code": 189095,
+      "mobile_phone_number": 1488693526
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 60386174,
+    "account_balance": 84434,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 556394
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3125729191
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 564
+      },
+      "authenticator_code": 556394,
+      "mobile_phone_number": 3125729191
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 68677431,
+    "account_balance": 40554,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 761091
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4527330639
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "MA",
+        "street": "42 Wallaby Way",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 218
+      },
+      "authenticator_code": 761091,
+      "mobile_phone_number": 4527330639
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 78658893,
+    "account_balance": 42967,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 828714
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6646005556
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NC",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 912
+      },
+      "authenticator_code": 828714,
+      "mobile_phone_number": 6646005556
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 54233176,
+    "account_balance": 12046,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 775732
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3808919786
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NC",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 538
+      },
+      "authenticator_code": 775732,
+      "mobile_phone_number": 3808919786
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 77618188,
+    "account_balance": 72579,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 875889
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3487433380
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "RI",
+        "street": "42 Wallaby Way",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 328
+      },
+      "authenticator_code": 875889,
+      "mobile_phone_number": 3487433380
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 29694240,
+    "account_balance": 40410,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 297505
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9428185989
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NC",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 981
+      },
+      "authenticator_code": 297505,
+      "mobile_phone_number": 9428185989
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 36423589,
+    "account_balance": 91501,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 916261
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7317473970
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "CA",
+        "street": "221B Baker St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 645
+      },
+      "authenticator_code": 916261,
+      "mobile_phone_number": 7317473970
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 72387880,
+    "account_balance": 33634,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 459911
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1626587417
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 232
+      },
+      "authenticator_code": 459911,
+      "mobile_phone_number": 1626587417
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 95799836,
+    "account_balance": 91033,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 735837
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5147922412
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "IL",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 554
+      },
+      "authenticator_code": 735837,
+      "mobile_phone_number": 5147922412
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 26344622,
+    "account_balance": 94312,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 879187
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4779896328
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "RI",
+        "street": "123 Main St",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 428
+      },
+      "authenticator_code": 879187,
+      "mobile_phone_number": 4779896328
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 32659243,
+    "account_balance": 69811,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 124977
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3733434576
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 149
+      },
+      "authenticator_code": 124977,
+      "mobile_phone_number": 3733434576
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 19315311,
+    "account_balance": 87587,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 675386
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1518942611
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 832
+      },
+      "authenticator_code": 675386,
+      "mobile_phone_number": 1518942611
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 18329155,
+    "account_balance": 61370,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 881162
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5861453477
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 655
+      },
+      "authenticator_code": 881162,
+      "mobile_phone_number": 5861453477
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 86465372,
+    "account_balance": 50843,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 958718
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2877636235
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 139
+      },
+      "authenticator_code": 958718,
+      "mobile_phone_number": 2877636235
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 54124893,
+    "account_balance": 16016,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 135879
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3338036990
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "NC",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 887
+      },
+      "authenticator_code": 135879,
+      "mobile_phone_number": 3338036990
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 70759454,
+    "account_balance": 16302,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 584948
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7000482347
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "CA",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 958
+      },
+      "authenticator_code": 584948,
+      "mobile_phone_number": 7000482347
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 59794095,
+    "account_balance": 50485,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 464834
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 1483429473
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "MA",
+        "street": "123 Main St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 735
+      },
+      "authenticator_code": 464834,
+      "mobile_phone_number": 1483429473
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 30403161,
+    "account_balance": 84380,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 280836
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3669608805
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 922
+      },
+      "authenticator_code": 280836,
+      "mobile_phone_number": 3669608805
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 90395815,
+    "account_balance": 27191,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 968415
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9371494669
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "RI",
+        "street": "123 Main St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 957
+      },
+      "authenticator_code": 968415,
+      "mobile_phone_number": 9371494669
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 44686449,
+    "account_balance": 70223,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 454402
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8192953190
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 369
+      },
+      "authenticator_code": 454402,
+      "mobile_phone_number": 8192953190
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 21309707,
+    "account_balance": 15166,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 634600
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8480565649
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 532
+      },
+      "authenticator_code": 634600,
+      "mobile_phone_number": 8480565649
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 30501187,
+    "account_balance": 65572,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 390705
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1718133368
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 882
+      },
+      "authenticator_code": 390705,
+      "mobile_phone_number": 1718133368
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 17238440,
+    "account_balance": 41419,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 838389
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9115065985
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 809
+      },
+      "authenticator_code": 838389,
+      "mobile_phone_number": 9115065985
+    }
+  }
+]

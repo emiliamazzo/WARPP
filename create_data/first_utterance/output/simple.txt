@@ -1,0 +1,101 @@
+**Intent: Update Address**
+
+Hi, I need to change my address on file.
+Could I update my address, please?
+Hey, I moved. How do I change my address?
+Change my address.
+Need to update my address, thanks!
+Hello, can I have my address updated in your records?
+I want to report a change of address.
+Address change, please.
+Moved to a new place—need to update it.
+Can u update my address info?
+I’d like to update my address details.
+Please modify my address.
+Hey, my address has changed. Where do I update it?
+Address update needed ASAP.
+How do I go about changing my address?
+Yo, I’ve got a new address. Update it.
+Need to register a new address.
+I recently moved, and I’d like to update my address.
+My address is wrong, can you fix it?
+Can u pls change my address?
+Update address pls. Thx!
+Hi! I'd like to update my residential address.
+Hey, address change. What’s the process?
+It seems my address is outdated; how do I fix it?
+Address correction required.
+Is it possible to update my address through this chat?
+Help! I need to change my address!
+I’ve relocated. Update my address, please.
+Gotta change my address, dude.
+Update my address pronto.
+Need to give you my new address.
+My new address is... how do I update it?
+Could you assist me in updating my address?
+I think my address needs updating.
+Get my address current, please.
+Help me update my address info.
+Address needs a refresh, can you do it?
+Let’s change the address to the new one.
+Noticed my address isn’t current; can you update it?
+Would appreciate help with updating my address.
+How can I amend my address on file?
+Fix my address details, please.
+Yo, change of address here!
+Switch my address to the new one.
+Help me process an address change.
+Can you write down my new address?
+Hey chatbot, new address alert!
+Could I get my address changed?
+
+**Intent: Withdraw Retirement Funds**
+
+Hi, I’d like to withdraw money from my retirement account.
+Could you help me take funds out of my retirement savings?
+I need to access some retirement funds.
+Withdraw retirement savings, please.
+Want to pull cash from my retirement plan.
+Hey, how do I get money from retirement account?
+Help with withdrawing from my retirement funds, please.
+I’m looking to take some money out of retirement savings.
+How do I withdraw my retirement money?
+Retirement fund withdrawal needed.
+Need 2 get retirement money out.
+Please assist me with withdrawing retirement funds.
+How do I take money from my retirement fund?
+Withdraw $$$ from retirement account.
+Let me withdraw funds from my retirement plan.
+Gotta cash out some retirement funds.
+Need help accessing retirement monies.
+Gimme my retirement money, please.
+Withdrawal from retirement savings, thanks!
+Hi! I’d like to cash out some retirement funds.
+Yo, how do I get my retirement cash out?
+What's the process for retirement fund withdrawal?
+Pls help me take money from my retirement account.
+I’d like to make a withdrawal from my retirement savings.
+Need access to retirement loot.
+Would like to cash in on my retirement funds.
+How to get funds from my retirement account?
+Can u assist with retirement funds withdrawal?
+Trying to withdraw retirement moneys.
+How can I tap into my retirement funds?
+Need my retirement dough. Help!
+Withdraw from my retirement stash, please.
+Looking to withdraw my retirement funds. Thank you!
+What’s the steps to get money from retirement?
+Plz help with taking retirement funds out.
+Could you guide me in withdrawing retirement funds?
+I wanna get my retirement bucks out.
+Fetch retirement savings, please.
+Tell me how to get retirement cash.
+I seek help with retiring funds.
+Cash withdrawal from retirement account.
+Need my retirement outta there!
+Take out funds from my retirement plan.
+Show me how to withdraw my retirement savings.
+How do I release retirement money?
+The procedure for taking out retirement savings?
+Want to access retirement funds—help!
+Guide me through retirement fund withdrawal.

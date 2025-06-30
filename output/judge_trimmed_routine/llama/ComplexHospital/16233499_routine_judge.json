@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine correctly identifies the suspended account status and only keeps the relevant steps for that scenario, terminating with complete_case.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps for the suspended account scenario are included.  The routine correctly retrieves provider contact info and completes the case.",
+    "model": "llama",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

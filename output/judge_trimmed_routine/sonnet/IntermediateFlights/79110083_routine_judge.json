@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine only includes logic relevant to the customer. The customer data shows they are not a preferred client (loyalty points < 30,000), so the 'preferred client' branch was correctly removed. Also, the initial check on cancellation policy was resolved, so that tool call was removed, and the logic flowed to the appropriate continuation.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required logic and tool calls for this customer are preserved in the trimmed routine. The correct tool calls for the scenario where the customer is not eligible for a refund are included.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

@@ -1,0 +1,15 @@
+{"client_id": 44215250, "agent": "OrchestratorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 916, "completion_tokens": 44, "total_tokens": 960}
+{"client_id": 44215250, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 978, "completion_tokens": 48, "total_tokens": 1026}
+{"client_id": 44215250, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4894, "completion_tokens": 30, "total_tokens": 4924}
+{"client_id": 44215250, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1110, "completion_tokens": 25, "total_tokens": 1135}
+{"client_id": 44215250, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1202, "completion_tokens": 23, "total_tokens": 1225}
+{"client_id": 44215250, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1246, "completion_tokens": 31, "total_tokens": 1277}
+{"client_id": 44215250, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2912, "completion_tokens": 581, "total_tokens": 3493}
+{"client_id": 44215250, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1635, "completion_tokens": 15, "total_tokens": 1650}
+{"client_id": 44215250, "agent": "process_payment", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 2694, "completion_tokens": 63, "total_tokens": 2757}
+{"client_id": 44215250, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 2820, "completion_tokens": 17, "total_tokens": 2837}
+{"client_id": 44215250, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 2858, "completion_tokens": 9, "total_tokens": 2867}
+{"client_id": 44215250, "agent": "process_payment", "type": "function_call", "function_name": "currency_exchange", "prompt_tokens": 2887, "completion_tokens": 68, "total_tokens": 2955}
+{"client_id": 44215250, "agent": "process_payment", "type": "function_call", "function_name": "initiate_ach_transaction", "prompt_tokens": 2992, "completion_tokens": 96, "total_tokens": 3088}
+{"client_id": 44215250, "agent": "process_payment", "type": "function_call", "function_name": "issue_receipt", "prompt_tokens": 3131, "completion_tokens": 116, "total_tokens": 3247}
+{"client_id": 44215250, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 3333, "completion_tokens": 27, "total_tokens": 3360}

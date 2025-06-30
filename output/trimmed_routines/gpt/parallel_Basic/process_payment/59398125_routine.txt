@@ -1,0 +1,44 @@
+## Final Personalized Routine
+
+1. Gather Billing Information  
+   - Call `get_billing_info_extra(59398125)`.
+   - If it fails, apologize, retry once.
+
+2. Account Status & Outstanding Balance
+   - The account is active and delinquent; balance is $419, overdue for 41 days.
+
+3. Assess Payment Urgency  
+   - The urgency is "high" since the payment is overdue for 41 days. Warn: “This payment is severely overdue; you may face additional fees.”
+
+4. Always Calculate Final Amount Due  
+   - Call `calculate_patient_responsibility(59398125, 'Humena')` to get total_due after insurance and waiver deductions.
+   - Say “Your total due today is $X. Would you like to proceed with payment?”
+     - If no, say “No problem; let me know if you need anything else,” and call `complete_case(59398125)`
+     - If yes, continue.
+
+5. Always Ask Client if They Want to Pay in USD or Another Currency  
+   - Ask “Would you like to pay in another currency?”
+     - If yes, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and say “That’s [convertedAmount] in [currency].”
+     - If no, continue in USD.
+
+6. Process the Payment  
+   - Since the payment method is Credit Card:
+     - Call `run_fraud_check(59398125, patient_responsibility_amount)`.
+       - If flagged, say “We need to review this transaction—please call our billing hotline.” Call `get_hospital_contact_info(634529)` for hotline number and call `complete_case(59398125)`
+     - Otherwise, perform 3D-Secure with `initiate_3ds_auth(59398125)`.
+       - If fails, prompt the client to call 1-800-555-BILL to continue and call `complete_case(59398125)`.
+     - Finally, call `process_payment(59398125, patient_responsibility_amount)`.
+
+7. Send Receipt  
+   - Call `issue_receipt(59398125, patient_responsibility_amount)`. Inform the user that a receipt has been sent.
+
+8. Offer Payment Plan  
+   - Ask: "Would you like to set up a payment plan?"
+     - If yes, ask for the monthly amount and call `setup_payment_plan(monthly_amount)`
+
+9. Finalize  
+   - Provide confirmation number.
+   - Call `complete_case(59398125)`.
+
+## Available Tools
+available_tools = ['get_billing_info_extra', 'calculate_patient_responsibility', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'setup_payment_plan', 'complete_case']

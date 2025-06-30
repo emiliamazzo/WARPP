@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine was properly trimmed, removing the check withdrawal eligibility step because the customer data shows they are eligible. Only relevant information remains.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps relevant to the customer data have been preserved. The tool call `process_retirement_withdrawal` remains, as do steps to confirm success, and complete the case.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

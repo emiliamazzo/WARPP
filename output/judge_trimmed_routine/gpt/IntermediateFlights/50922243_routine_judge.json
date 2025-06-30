@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to the customer were removed. In particular, the routine skips straight to priority flights and uses points to book.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps relevant to this customer were preserved in the trimmed routine.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

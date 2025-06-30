@@ -1,0 +1,24 @@
+## Final Personalized Routine
+
+1. **Ask for Basic Flight Details (Always)**
+   - Ask the customer for:
+     - **Origin**
+     - **Destination**
+     - **Departure date**
+
+2. **Search Priority Flights**
+   - Call `search_priority_flights(13743910, origin_airport, destination_airport, departure_date)`.
+   - You must always share with the client the information from the search. Always include the flight number.
+   - Ask the client for their preferred flight and get their confirmation before proceeding to Step 3.
+
+3. **Retrieve Payment Method and Create Booking**
+   - The payment method is Debit Card.
+   - Call `create_booking(flight_number)`.
+
+4. **Final Confirmation and Communication**
+   - Provide full booking details and confirmation number.
+   - Call `complete_case(13743910)`.
+   - Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+## Available Tools
+available_tools = ['search_priority_flights', 'create_booking', 'complete_case']

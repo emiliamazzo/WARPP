@@ -1,0 +1,11 @@
+{"client_id": 70140869, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 867, "completion_tokens": 108, "total_tokens": 975}
+{"client_id": 70140869, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2977, "completion_tokens": 78, "total_tokens": 3055}
+{"client_id": 70140869, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3108, "completion_tokens": 30, "total_tokens": 3138}
+{"client_id": 70140869, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1078, "completion_tokens": 80, "total_tokens": 1158}
+{"client_id": 70140869, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1185, "completion_tokens": 34, "total_tokens": 1219}
+{"client_id": 70140869, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1233, "completion_tokens": 92, "total_tokens": 1325}
+{"client_id": 70140869, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1719, "completion_tokens": 19, "total_tokens": 1738}
+{"client_id": 70140869, "agent": "cancel_flight", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 2955, "completion_tokens": 98, "total_tokens": 3053}
+{"client_id": 70140869, "agent": "cancel_flight", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 3083, "completion_tokens": 90, "total_tokens": 3173}
+{"client_id": 70140869, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3251, "completion_tokens": 118, "total_tokens": 3369}
+{"client_id": 70140869, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3405, "completion_tokens": 41, "total_tokens": 3446}

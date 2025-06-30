@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine is mostly relevant, but step 3 'Check Visa Information' seems unnecessary. According to the instructions and the frequent flyer status, it's already on the system.",
+    "completeness_score": "4",
+    "completeness_explanation": "The routine is missing the step to get passport information before booking flight. The trimmed routine also skipped the call to retreive payment method before proceeding to create booking with payment method. ",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

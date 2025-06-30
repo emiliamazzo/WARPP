@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine is mostly relevant, but step 6 regarding error handling is not specific to the customer and can be removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required logic based on the customer's data (ROTH_IRA, STANDARD client level) has been preserved.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

@@ -1,0 +1,14 @@
+{"client_id": 68810452, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3886, "completion_tokens": 55, "total_tokens": 3941}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 3961, "completion_tokens": 20, "total_tokens": 3981}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4008, "completion_tokens": 61, "total_tokens": 4069}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4084, "completion_tokens": 23, "total_tokens": 4107}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4427, "completion_tokens": 71, "total_tokens": 4498}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "get_customer_frequent_flyer_status_extra", "prompt_tokens": 4532, "completion_tokens": 24, "total_tokens": 4556}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "search_regular_flights", "prompt_tokens": 4581, "completion_tokens": 43, "total_tokens": 4624}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4660, "completion_tokens": 103, "total_tokens": 4763}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "get_passport_info_extra", "prompt_tokens": 4785, "completion_tokens": 20, "total_tokens": 4805}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "check_visa_requirements", "prompt_tokens": 4826, "completion_tokens": 27, "total_tokens": 4853}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "get_customer_payment_method_extra", "prompt_tokens": 4879, "completion_tokens": 20, "total_tokens": 4899}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "create_booking", "prompt_tokens": 4918, "completion_tokens": 17, "total_tokens": 4935}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 4958, "completion_tokens": 17, "total_tokens": 4975}
+{"client_id": 68810452, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5005, "completion_tokens": 72, "total_tokens": 5077}

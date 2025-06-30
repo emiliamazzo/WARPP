@@ -1,0 +1,30 @@
+## Final Personalized Routine
+
+1. **Retrieve Booking Information**
+   - "Your fare permits cancellations—let’s now confirm whether operations still allow it."
+   
+2. **Check Live Cancellation Blockers**
+   a. Call `check_cancellation_blockers('BK001XZ9')` to see if there are any blockers that prevent the cancellation.
+      - If response is "eligible": proceed.
+      - If response is "api_failure": Apologize to the client for the technical difficulties, prompt them to call again at a later time, and proceed directly to step 4.
+      - Any other response: Inform the customer that there is a blocker that prevents them from cancelling the flight at this time. Offer an explanation, apologize, and proceed directly to step 4.
+
+3. **Calculate Cancellation Fee**
+   a. Call `calculate_cancellation_fee(73567182, 'BK001XZ9')`
+
+4. **Process Flight Cancellation**
+   a. Describe policy + fee to the customer.
+   b. If customer confirms, call `cancel_flight('BK001XZ9')`.
+
+5. **Process Refund or Issue Travel Credit**
+   - Call `process_refund(73567182, 'BK001XZ9', 'Points', cancellation_fee)`
+
+6. **Confirm Cancellation and Provide Next Steps**
+   a. Share final status, refund amount, and confirmation number.
+
+7. **Complete Case**
+   a. Call `complete_case(73567182)`.
+   b. Thank the customer.
+
+## Available Tools
+available_tools = ['check_cancellation_blockers', 'calculate_cancellation_fee', 'cancel_flight', 'process_refund', 'complete_case']

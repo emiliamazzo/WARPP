@@ -1,0 +1,9 @@
+{
+    "relevance_score": "3",
+    "relevance_explanation": "The routine includes steps irrelevant to the customer's data. Steps related to Visa information were kept when this customer has passport details. Also, logic to find the payment method was omitted at step 7, which is not correct. Given the customer data it should be retained.",
+    "completeness_score": "3",
+    "completeness_explanation": "Several required steps are missing or omitted, specifically the initial check for frequent flyer status and subsequent branching. The customer is not a frequent flyer, so Step 3 from the full routine should be there. Also, the call to `get_passport_info_extra(customer_id)` was removed and should be there because next step asks for a passport number.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine correctly includes only the step relevant to the customer, based on the data. The customer is not eligible and the routine terminates appropriately.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine includes all necessary logic. Since the customer is not eligible the subsequent steps do not apply.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to the customer were removed. The loyalty logic correctly defaults to the 'new customer' path. The refundable booking allows cancellation, so those branches are present.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required steps and tool calls for this customer and scenario are present. The insurance check was correctly streamlined into refund, due to available data showing the user purchased it.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

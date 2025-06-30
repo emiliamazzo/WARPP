@@ -1,0 +1,8 @@
+## Final Personalized Routine
+
+1. Check Withdrawal Eligibility
+   - Inform the customer that they are not eligible for withdrawal.
+   - Call `complete_case(29694240)`.
+
+## Available Tools
+available_tools = ['complete_case']

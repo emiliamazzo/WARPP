@@ -1,0 +1,36 @@
+**Final Personalized Routine**
+
+1. Status & Balance  
+   The account is active, the outstanding balance is $453, and payment urgency is high (42 days overdue).
+
+2. Urgency Warning  
+   - Warn: “This payment is severely overdue; you may face additional fees.”
+
+3. Calculate Final Amount Due  
+   - Call `calculate_patient_responsibility(48298811, 'BluePeak')`  
+   - Say “Your total due today is $X. Would you like to proceed with payment?” 
+     - If no, say “No problem; let me know if you need anything else” and call `complete_case(48298811)`
+     - If yes, continue.
+
+4. Currency Confirmation  
+   - Ask “Would you like to pay in another currency?” 
+     - If yes, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and say “That’s [convertedAmount] in [currency].”
+     - If no, continue in USD.
+
+5. Process Payment via Digital Wallet  
+   - Call `get_wallet_link(48298811)` and ask them to complete payment in their browser.
+   - Call `check_wallet_payment_status(payment_id)` to verify the payment went through.
+
+6. Send Receipt  
+   - Call `issue_receipt(48298811, patient_responsibility_amount)` to send an email confirmation and inform the user that a receipt has been sent to them.
+
+7. Offer Payment Plan  
+   - Ask: "Would you like to set up a payment plan?"
+     - If yes, ask how much to set for the monthly amount and call `setup_payment_plan(monthly_amount)`
+
+8. Finalize  
+   - Provide confirmation number.
+   - Call `complete_case(48298811)`
+
+**Available Tools**
+available_tools = ['calculate_patient_responsibility', 'currency_exchange', 'get_wallet_link', 'check_wallet_payment_status', 'issue_receipt', 'setup_payment_plan', 'complete_case']

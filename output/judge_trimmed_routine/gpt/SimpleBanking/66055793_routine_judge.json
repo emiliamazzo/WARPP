@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only the relevant steps for the customer based on their data. The eligibility check was skipped because the customer is eligible, based on the customer data. The error handling and retry were also removed, which were irrelevant since they don't apply given eligibility.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tools, and branches that apply to this customer are preserved. The routine starts with collecting withdrawal amount, process withdrawal, then completes the case.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

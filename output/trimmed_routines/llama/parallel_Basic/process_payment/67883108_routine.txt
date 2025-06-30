@@ -1,0 +1,45 @@
+**Final Personalized Routine**
+1. Gather Billing Information
+   a) The account is active, and the balance is $1652.
+
+2. Look for Outstanding Balance
+   b) Tell the client "It looks like you have a balance to pay today. Let's get that done!"
+
+3. Assess Payment Urgency
+   c) Say “Your payment is 13 days overdue. Let’s get you back on track.”
+
+4. Financial Assistance & Tax Calculation
+   a) Inform the user: "Let me check if your insurance can cover part of this payment."
+   b) Call `get_insurance_payment_portion(67883108, insurance_provider)` with the insurance_provider gathered from the customer data.
+   c) If approved, say "Great news! Your insurance will cover part of your claim."
+   d) If declined, say "No additional assistance is available at this time."
+
+5. Suggest Late-Fee Waivers
+   a) If they are eligible, ask “We can waive $6 in late fees. Shall I apply that for you?”
+   b) If yes, call `apply_fee_waiver(67883108, 6)`
+
+6. Always Calculate Final Amount Due
+   a) You *must always call* `calculate_patient_responsibility(67883108, 'Cignexa')` to get total_due after insurance and waiver deductions.
+   b) Say “Your total due today is $X. Would you like to proceed with payment?” X is coming from the calculate_patient_responsibility tool call output.
+     – If no, say “No problem; let me know if you need anything else,” and call `complete_case(67883108)` 
+     – If yes, continue.
+
+7. Process the Payment
+   c) **Digital Wallet (e.g. PayPal)**
+       1. Call `get_wallet_link(67883108)` and ask them to complete payment in their browser.
+       2. Call `check_wallet_payment_status(payment_id)` to verify the payment went through.
+
+8. Send receipt
+   a) You must always call `issue_receipt(67883108, patient_responsibility_amount)` to send an email confirmation. Make sure the patient responsibility amount is in the customer's preferred currency. Inform the user that a receipt has been sent to them.
+
+9. Offer Payment Plan
+   a) Ask: "Would you like to set up a payment plan?"
+      – If customer replies 'yes': ask how much to set for the monthly amount → call `setup_payment_plan(monthly_amount)`
+
+10. Finalize
+   a) Provide confirmation number
+   b) Call `complete_case(67883108)`
+
+
+**Available Tools**
+available_tools = ['get_insurance_payment_portion', 'calculate_patient_responsibility', 'apply_fee_waiver', 'get_provider_contact_info_api', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'initiate_ach_transaction', 'get_wallet_link', 'check_wallet_payment_status', 'process_payment', 'issue_receipt', 'setup_payment_plan', 'complete_case']

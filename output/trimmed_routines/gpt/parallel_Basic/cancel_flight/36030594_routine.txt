@@ -1,0 +1,14 @@
+## Final Personalized Routine
+
+1. Retrieve Customer Loyalty Information  
+   The customer ID is 36030594.  
+   Thank them as a new customer.
+
+2. Retrieve Booking Information  
+   I’m sorry, your fare rule at purchase did not permit cancellation.  
+
+3. Complete Case  
+   Thank the customer.
+
+## Available Tools
+available_tools = ['complete_case']

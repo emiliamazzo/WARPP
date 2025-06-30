@@ -1,0 +1,44 @@
+### Final Personalized Routine
+
+1. **Status Check**
+   - The account is active, with an outstanding balance of $1042, and payment is 26 days overdue.
+
+2. **Payment Urgency**
+   - Your payment is 26 days overdue. Let’s get you back on track.
+
+3. **Financial Assistance**
+   - Let me check if your insurance can cover part of this payment.
+   - Call `get_insurance_payment_portion(74129208, 'Aetralis')`
+     - If approved, say "Great news! Your insurance will cover part of your claim."
+     - If declined, say "No additional assistance is available at this time."
+
+4. **Calculate Final Amount Due**
+   - Call `calculate_patient_responsibility(74129208, 'Aetralis')`
+   - Say “Your total due today is $X. Would you like to proceed with payment?”
+     - If no, say “No problem; let me know if you need anything else,” and call `complete_case(74129208)`
+     - If yes, continue.
+
+5. **Currency Preference**
+   - Ask “Would you like to pay in another currency?”
+     - If yes, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)` and say “That’s [convertedAmount] in [currency].”
+     - If no, continue in USD.
+
+6. **Process Payment (Credit Card)**
+   - Call `run_fraud_check(74129208, patient_responsibility_amount)`
+     - If flagged, say “We need to review this transaction—please call our billing hotline.” Call `get_hospital_contact_info(658241)` and `complete_case(74129208)`
+   - If successful, perform 3D-Secure with `initiate_3ds_auth(74129208)`
+     - If unsuccessful, prompt the client to call 1-800-555-BILL and `complete_case(74129208)`
+   - Finally, call `process_payment(74129208, patient_responsibility_amount)`
+
+7. **Send Receipt**
+   - Call `issue_receipt(74129208, patient_responsibility_amount)` and inform the user that a receipt has been sent.
+
+8. **Offer Payment Plan**
+   - Ask: "Would you like to set up a payment plan?"
+     - If yes, ask for the monthly amount and call `setup_payment_plan(monthly_amount)`
+
+9. **Finalize**
+   - Provide confirmation number and call `complete_case(74129208)`
+
+### Available Tools
+available_tools = ['get_insurance_payment_portion', 'calculate_patient_responsibility', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'setup_payment_plan', 'complete_case']

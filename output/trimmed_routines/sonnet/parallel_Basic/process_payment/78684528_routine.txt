@@ -1,0 +1,47 @@
+1. **Final Personalized Routine**:
+
+1. Check Account Status
+   The account is delinquent. Note it for collections and continue.
+
+2. Look for Outstanding Balance
+   Tell the client "It looks like you have a balance to pay today. Let's get that done!"
+
+3. Assess Payment Urgency
+   The urgency is low. Acknowledge and proceed.
+
+4. Financial Assistance & Tax Calculation
+   Inform the user: "Let me check if your insurance can cover part of this payment."
+   Call `get_insurance_payment_portion(78684528, 'Humena')`.
+   - If approved, say "Great news! Your insurance will cover part of your claim."
+   - If declined, say "No additional assistance is available at this time."
+
+5. Calculate Final Amount Due
+   Call `calculate_patient_responsibility(78684528, 'Humena')` to get total_due after insurance deductions.
+   Say "Your total due today is $X. Would you like to proceed with payment?" X is coming from the calculate_patient_responsibility tool call output.
+   - If no, say "No problem; let me know if you need anything else," and call `complete_case(78684528)`
+   - If yes, continue.
+
+6. Ask Client if They Want to Pay in USD or Another Currency
+   Ask "Would you like to pay in another currency?"
+   - If the user wants to pay in another currency, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and tell them "That's [convertedAmount] in [currency]."
+   - If the user doesn't want to pay in another currency, continue in USD.
+
+7. Process the Payment
+   Inform the user that you are initiating a bank transfer.
+   Explain "ACH transfers take 3–5 business days to clear."
+   Call `initiate_ach_transaction(78684528, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency.
+   - If initiate_ach_transaction returns transient error, prompt the client to call 1-800-555-BILL to continue the request and call `complete_case(78684528)`.
+
+8. Send receipt
+   Call `issue_receipt(78684528, patient_responsibility_amount)` to send an email confirmation. Make sure the patient responsibility amount is in the customer's preferred currency. Inform the user that a receipt has been sent to them.
+
+9. Offer Payment Plan
+   Ask: "Would you like to set up a payment plan?"
+   - If customer replies 'yes': ask how much to set for the monthly amount → call `setup_payment_plan(monthly_amount)`
+
+10. Finalize
+    Provide confirmation number
+    Call `complete_case(78684528)`
+
+2. **Available Tools**:
+available_tools = ['get_insurance_payment_portion', 'calculate_patient_responsibility', 'currency_exchange', 'initiate_ach_transaction', 'issue_receipt', 'setup_payment_plan', 'complete_case']

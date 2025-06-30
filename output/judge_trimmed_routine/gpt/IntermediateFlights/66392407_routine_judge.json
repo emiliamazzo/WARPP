@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine is trimmed perfectly, removing irrelevant branches. The customer has more than 30,000 loyalty points and purchased insurance, so irrelevant branches for users with fewer points or no insurance were pruned. The booking allows cancellations, so the branch about no cancellation allowed was also pruned.",
+    "completeness_score": "5",
+    "completeness_explanation": "The routine retained all logic, tools, and branches relevant to this customer. All required tool calls and messages are present.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

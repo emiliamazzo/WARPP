@@ -1,0 +1,14 @@
+## Final Personalized Routine
+
+The customer ID is 16233499. 
+Routine to execute:
+
+1. Check Account Status  
+   - Your account is currently suspended. You’ll need to contact your provider directly—here’s their number:  
+     - Call `get_provider_contact_info_api(16233499)` to get the phone number and share it with the client.
+
+2. Finalize  
+   - Call `complete_case(16233499)`
+
+## Available Tools
+available_tools = ['get_provider_contact_info_api', 'complete_case']

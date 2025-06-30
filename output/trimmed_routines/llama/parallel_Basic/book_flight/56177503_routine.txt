@@ -1,0 +1,28 @@
+**Final Personalized Routine**
+## Step 1: Ask for Basic Flight Details
+- Ask the customer for:
+  - **Origin**
+  - **Destination**
+  - **Departure date**
+
+## Step 2: Search Regular Flights
+- Call `search_regular_flights(56177503, origin_airport, destination_airport, departure_date)`.
+- Share with the client the information from the search. Always include the flight number. Ask the client for their preferred flight and get their confirmation before proceeding.
+
+## Step 3: Check Passport Information
+- Passport number is already stored in the system: P0123456.
+
+## Step 4: Check Visa Information
+- Call `check_visa_requirements(origin_airport, destination_airport)`.
+- Inform customer if visa is required.
+
+## Step 5: Create Booking with Points
+- Call `create_booking_with_points(flight_number)`.
+
+## Step 6: Final Confirmation and Communication
+- Provide full booking details and confirmation number.
+- Call `complete_case(56177503)`.
+- Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+**Available Tools**
+available_tools = ['search_regular_flights', 'check_visa_requirements', 'create_booking_with_points', 'complete_case']

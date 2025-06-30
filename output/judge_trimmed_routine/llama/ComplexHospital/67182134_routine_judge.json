@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All irrelevant steps were removed based on customer data (e.g., suspended account flow, zero balance check, late fee waiver). Extraneous _extra calls were also removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All relevant steps were preserved, including the insurance check, final amount calculation, currency question, payment processing, receipt, and payment plan offer.",
+    "model": "llama",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

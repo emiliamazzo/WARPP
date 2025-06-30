@@ -1,0 +1,40 @@
+**Final Personalized Routine**:
+
+1. **Status & Balance**
+   - The account is active.
+   - Outstanding balance: $1123.
+   - Urgency is "high" and payment is 35 days overdue. Warn: "This payment is severely overdue; you may face additional fees."
+
+2. **Calculate Final Amount Due**
+   - Call `calculate_patient_responsibility(14879825, 'Humena')`.
+   - Say “Your total due today is $X. Would you like to proceed with payment?”
+      - If no, say “No problem; let me know if you need anything else,” and call `complete_case(14879825)`.
+      - If yes, continue.
+
+3. **Currency Preference for Payment**
+   - Ask: “Would you like to pay in another currency?” 
+      - If yes, get preferred currency, call `currency_exchange(X, from_currency='USD', to_currency=preferred_currency)` and inform user: “That’s [convertedAmount] in [currency].”
+      - If no, proceed in USD.
+
+4. **Payment Processing via Credit Card**
+   - Call `run_fraud_check(14879825, X)`.
+      - If flagged, say “We need to review this transaction—please call our billing hotline”, call `get_hospital_contact_info(450489)` to share hotline number, and call `complete_case(14879825)`.
+      - If not flagged, continue.
+   - Perform 3D-Secure with `initiate_3ds_auth(14879825)`.
+      - If failure, prompt: “Please call 1-800-555-BILL to continue the request” and call `complete_case(14879825)`.
+   - Proceed with `process_payment(14879825, X)`.
+
+5. **Receipt Issuance**
+   - Call `issue_receipt(14879825, X)`.
+   - Inform the client: “A receipt has been emailed to you.”
+
+6. **Payment Plan Offer**
+   - Ask: "Would you like to set up a payment plan?"
+     - If yes, proceed to ask for the monthly amount and call `setup_payment_plan(monthly_amount)`.
+
+7. **Finalize Case**
+   - Provide confirmation number.
+   - Call `complete_case(14879825)`.
+
+**Available Tools**:
+available_tools = ['calculate_patient_responsibility', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'setup_payment_plan', 'complete_case']

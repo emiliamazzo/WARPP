@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to the customer have been pruned. The flow is personalized based on their loyalty points and booking details.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps for this customer are preserved, including tool calls and conditional logic based on the booking details.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

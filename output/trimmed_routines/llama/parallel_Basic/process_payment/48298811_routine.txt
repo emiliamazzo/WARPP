@@ -1,0 +1,30 @@
+**Final Personalized Routine**
+1. Gather Information
+   The customer ID is 48298811. The account is active.
+
+2. Look for Outstanding Balance
+   It looks like you have a balance to pay today. Let's get that done!
+
+3. Assess Payment Urgency
+   This payment is severely overdue; you may face additional fees.
+
+4. Process the Payment
+   You are set up to pay with Digital Wallet.
+   Call `get_wallet_link(customer_id)` and ask them to complete payment in their browser.
+   Call `check_wallet_payment_status(payment_id)` to verify the payment went through.
+
+5. Send Receipt
+   You must always call `issue_receipt(customer_id, patient_responsibility_amount)` to send an email confirmation.
+   Inform the user that a receipt has been sent to them.
+
+6. Offer Payment Plan
+   Would you like to set up a payment plan?
+   - If customer replies 'yes': ask how much to set for the monthly amount → call `setup_payment_plan(monthly_amount)`
+
+7. Finalize
+   Provide confirmation number
+   Call `complete_case(customer_id)`
+
+
+**Available Tools**
+available_tools = ['get_wallet_link', 'check_wallet_payment_status', 'issue_receipt', 'setup_payment_plan', 'complete_case', 'calculate_patient_responsibility']

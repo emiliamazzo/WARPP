@@ -1,0 +1,5 @@
+**Final Personalized Routine**
+1. Inform the customer and close the case by calling `complete_case(42499788)`.
+
+**Available Tools**
+available_tools = ['complete_case']

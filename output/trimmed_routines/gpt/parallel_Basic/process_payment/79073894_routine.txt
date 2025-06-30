@@ -1,0 +1,14 @@
+## Final Personalized Routine
+
+1. Gather Billing Information  
+   - Call `get_billing_info_extra(customer_id)`.
+   - If it fails, apologize and retry once.
+
+2. Check Account Status  
+   - The account is suspended.
+   - Call `get_provider_contact_info_api(customer_id)`.
+   - Say, “Your account is currently suspended. You’ll need to contact your provider directly—here’s their number: [phone].”
+   - Call `complete_case(79073894)`.
+
+## Available Tools
+available_tools = ['get_provider_contact_info_api', 'complete_case']

@@ -1,0 +1,12 @@
+{"client_id": 59398125, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4380, "completion_tokens": 58, "total_tokens": 4438}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 4458, "completion_tokens": 54, "total_tokens": 4512}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4542, "completion_tokens": 46, "total_tokens": 4588}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4603, "completion_tokens": 60, "total_tokens": 4663}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 4986, "completion_tokens": 68, "total_tokens": 5054}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 5099, "completion_tokens": 98, "total_tokens": 5197}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "evaluate_payment_urgency_extra", "prompt_tokens": 5216, "completion_tokens": 78, "total_tokens": 5294}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5324, "completion_tokens": 95, "total_tokens": 5419}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "run_fraud_check", "prompt_tokens": 5439, "completion_tokens": 89, "total_tokens": 5528}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "initiate_3ds_auth", "prompt_tokens": 5547, "completion_tokens": 71, "total_tokens": 5618}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5641, "completion_tokens": 113, "total_tokens": 5754}
+{"client_id": 59398125, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5787, "completion_tokens": 54, "total_tokens": 5841}

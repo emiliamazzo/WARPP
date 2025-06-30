@@ -1,0 +1,9 @@
+{
+    "relevance_score": "3",
+    "relevance_explanation": "Step 1 includes data that should have been used to remove steps. The information that the account is active means that logic for suspended accounts should have been pruned. Step 3 includes redundant text. Step 7 includes redundant information, the routine should have terminated in Step 6 after issuing the receipt. Step 10 was reachable but still included.",
+    "completeness_score": "2",
+    "completeness_explanation": "Several steps were missing. The late fee waiver eligibility check and application was skipped. The question 'Would you like to set up a payment plan?' was skipped. The fraud check was skipped. There is also no confirmation number being provided before the final complete case.",
+    "model": "llama",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

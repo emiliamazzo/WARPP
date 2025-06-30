@@ -1,0 +1,9 @@
+{
+    "relevance_score": "1",
+    "relevance_explanation": "The routine is almost entirely irrelevant. The eligibility check for withdrawal (step 1 in the original routine) was completely omitted. Also, the collect withdrawal amount (step 2) and error handling (step 5) were omitted, which are crucial steps.",
+    "completeness_score": "1",
+    "completeness_explanation": "The routine is missing the initial eligibility check and the collection of the withdrawal amount, which are essential steps for this flow. The error handling is also missing, which makes the routine incomplete.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

@@ -1,0 +1,33 @@
+## Final Personalized Routine
+
+1. **Retrieve Customer Loyalty Information**
+   - Thank you as a new customer as you have 30,010 loyalty points.
+
+2. **Retrieve Booking Information**
+   - Your fare permits cancellations—let’s now confirm whether operations still allow it.
+
+3. **Check Live Cancellation Blockers**
+   - Call `check_cancellation_blockers('BK005LE8')`
+     - If eligible: Proceed
+     - If api_failure: Apologize for technical difficulties, prompt to call again later, and proceed to step 6.
+     - If any other response: Inform customer of a blocker preventing cancellation, offer explanation, apologize, and proceed to step 6.
+
+4. **Calculate Cancellation Fee**
+   - Call `calculate_cancellation_fee(18272117, 'BK005LE8')`
+
+5. **Process Flight Cancellation**
+   - Describe policy + fee to the customer.
+   - If customer confirms, call `cancel_flight('BK005LE8')`.
+
+6. **Process Refund or Issue Travel Credit**
+   - Call `issue_travel_credit(18272117, 'BK005LE8', cancellation_fee)`
+
+7. **Confirm Cancellation and Provide Next Steps**
+   - Share final status, refund/credit amount, and confirmation number.
+
+8. **Complete Case**
+   - Call `complete_case(18272117)`
+   - Thank the customer.
+
+## Available Tools
+available_tools = ['check_cancellation_blockers', 'calculate_cancellation_fee', 'cancel_flight', 'issue_travel_credit', 'complete_case']

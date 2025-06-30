@@ -1,0 +1,29 @@
+**Final Personalized Routine**
+1. Ask for Basic Flight Details
+- Ask the customer for:
+  - **Origin**
+  - **Destination**
+  - **Departure date**
+
+2. Search Regular Flights
+- Call `search_regular_flights(68810452, origin_airport, destination_airport, departure_date)`.
+- You must always share with the client the information from the search. Always include the flight number. Ask the client for their preferred flight and get their confirmation before proceeding.
+
+3. Check Passport Information
+- The customer's passport number is P4567890.
+
+4. Check Visa Information
+- Call `check_visa_requirements(origin_airport, destination_airport)`.
+- Inform customer if visa is required.
+
+5. Retrieve Payment Method and Create Booking
+- The customer's payment method is Debit Card.
+- Call `create_booking(flight_number)`.
+
+6. Final Confirmation and Communication
+- Provide full booking details and confirmation number.
+- Call `complete_case(68810452)`.
+- Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+**Available Tools**
+available_tools = ['search_regular_flights', 'check_visa_requirements', 'create_booking', 'complete_case']

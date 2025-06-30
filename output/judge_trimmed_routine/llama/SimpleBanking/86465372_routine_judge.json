@@ -1,0 +1,9 @@
+{
+    "relevance_score": "2",
+    "relevance_explanation": "The trimmed routine is missing key steps relevant to the customer. The `check_withdrawal_eligibility_extra` step and the `Collect Withdrawal Amount` step were skipped, even though these were necessary based on the instructions. Specifically, `check_withdrawal_eligibility` was supposed to be evaluated.",
+    "completeness_score": "1",
+    "completeness_explanation": "The routine drops essential logic for eligibility and collecting the withdrawal amount, representing major omissions in the required steps.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

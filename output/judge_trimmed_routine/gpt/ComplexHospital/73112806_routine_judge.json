@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps and branches that are not relevant to the customer based on the data provided have been removed. The routine is tailored to an active account with a medium urgency payment and bank transfer as payment method.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps required for this customer scenario appear to be preserved. All success and failure branches are included, and all tool calls and messages are present.",
+    "model": "gpt",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

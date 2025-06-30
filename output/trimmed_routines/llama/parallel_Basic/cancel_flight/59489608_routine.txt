@@ -1,0 +1,11 @@
+**Final Personalized Routine**
+1. The customer has 20361 loyalty points and is a Platinum frequent flyer.
+2. Retrieve Booking Information
+   a. The booking ID is BK005LE8, amount paid is 946, and the cancellation policy does not allow cancellations at all.
+   - Say: “I’m sorry, your fare rule at purchase did not permit cancellation.”
+3. Complete Case
+   a. Call `complete_case(59489608)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['complete_case']

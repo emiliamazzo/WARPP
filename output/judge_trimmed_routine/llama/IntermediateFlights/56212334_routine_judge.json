@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine is trimmed correctly, with no irrelevant steps remaining. The customer data was used to satisfy information requirements and to only include applicable steps.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps and branches relevant to the customer are preserved.  The correct tool calls are made and the logic flows as expected.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

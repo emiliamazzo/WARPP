@@ -1,0 +1,31 @@
+## Final Personalized Routine
+
+### Step 1: Ask for Basic Flight Details
+- Ask the customer for:
+  - **Origin**
+  - **Destination**
+  - **Departure date**
+
+### Step 2: Check Customer Priority Status
+- Customer's frequent flyer status is **Gold**, skip to Step 4.
+
+### Step 4: Search Priority Flights
+- Call `search_priority_flights(customer_id, origin_airport, destination_airport, departure_date)`.
+- Share the information from the search with the client. Always include the flight number. Ask the client for their preferred flight and get the confirmation before proceeding to Step 5.
+
+### Step 5: Check Passport Information
+- Customer's passport number: **P7890123**.
+
+### Step 7: Retrieve Payment Method and Create Booking
+- Customer's payment method: **Credit Card**, skip to Step 9.
+
+### Step 9: Create Booking with Payment Method
+  - Call `create_booking(flight_number)`.
+
+### Step 10: Final Confirmation and Communication
+- Provide full booking details and confirmation number.
+- Call `complete_case(10796502)`.
+- Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+## Available Tools
+available_tools = ['search_priority_flights', 'create_booking', 'complete_case']

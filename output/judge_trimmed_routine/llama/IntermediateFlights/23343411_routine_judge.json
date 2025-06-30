@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine is mostly relevant. However, the initial step to retrieve and use the loyalty points is missing. The customer has loyalty points, so the related step should have been included.",
+    "completeness_score": "4",
+    "completeness_explanation": "The routine is missing step 1, which should have been 'Retrieve Customer Loyalty Information' and is required in this case. Also step 6a mentions refund amount which is unexpected since the customer is not eligible for a refund. Step 5 should only be selected when the booking isn't refundable.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

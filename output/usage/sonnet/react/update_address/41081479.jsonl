@@ -1,0 +1,11 @@
+{"client_id": 41081479, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3781, "completion_tokens": 105, "total_tokens": 3886}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 3902, "completion_tokens": 116, "total_tokens": 4018}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4045, "completion_tokens": 67, "total_tokens": 4112}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4123, "completion_tokens": 138, "total_tokens": 4261}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "function_call", "function_name": "get_account_type_extra", "prompt_tokens": 4655, "completion_tokens": 112, "total_tokens": 4767}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4802, "completion_tokens": 96, "total_tokens": 4898}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4913, "completion_tokens": 110, "total_tokens": 5023}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "function_call", "function_name": "validate_address", "prompt_tokens": 5068, "completion_tokens": 191, "total_tokens": 5259}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "function_call", "function_name": "update_address", "prompt_tokens": 5349, "completion_tokens": 193, "total_tokens": 5542}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5630, "completion_tokens": 114, "total_tokens": 5744}
+{"client_id": 41081479, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5780, "completion_tokens": 123, "total_tokens": 5903}

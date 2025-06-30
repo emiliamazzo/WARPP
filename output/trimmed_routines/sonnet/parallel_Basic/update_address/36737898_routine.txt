@@ -1,0 +1,29 @@
+1. **Final Personalized Routine**:
+
+1. Retrieve Account Information
+   - Inform the customer that their account type is TRADITIONAL_IRA
+   - Ask for confirmation to proceed with the address update
+
+2. Collect and Validate New Address
+   - Ask the customer for new address details (street, city, state, zip, country)
+   - Call validate_address(street, city, state, zip_code, country)
+   - If validation fails:
+     - Inform the customer and ask to re-enter address
+     - Retry validation once
+
+3. Update Address
+   - Call update_address(36737898, street, city, state, zip_code, country)
+   - Confirm the update with the customer
+
+4. Complete the Case
+   - Call complete_case(36737898)
+   - Provide confirmation number and close the case
+
+5. Error Handling
+   - If any step fails:
+     - Retry once
+     - If still failing, inform the customer and escalate if needed
+     - Call complete_case(36737898)
+
+2. **Available Tools**:
+available_tools = ['validate_address', 'update_address', 'complete_case']

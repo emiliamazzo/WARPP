@@ -1,0 +1,685 @@
+{
+  "57742542": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9932004854)",
+        "tool: code_verifier(code=984264, customer_id=57742542)",
+        "tool: get_account_type_extra(customer_id=57742542)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Greenville, state=NC, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=57742542, street=742 Evergreen Terrace, city=Greenville, state=NC, zip_code=28202, country=USA)",
+        "tool: complete_case(customer_id=57742542)"
+      ]
+    ]
+  },
+  "27881306": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6695159953)",
+        "tool: code_verifier(code=633054, customer_id=27881306)",
+        "tool: get_account_type_extra(customer_id=27881306)",
+        "tool: validate_address(street=221B Baker St, city=Springfield, state=IL, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=27881306, street=221B Baker St, city=Springfield, state=IL, zip_code=28202, country=USA)",
+        "tool: complete_case(customer_id=27881306)"
+      ]
+    ]
+  },
+  "39991115": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4902688189)",
+        "tool: code_verifier(code=847883, customer_id=39991115)",
+        "tool: get_account_type_extra(customer_id=39991115)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Springfield, state=NC, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=39991115, street=742 Evergreen Terrace, city=Springfield, state=NC, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=39991115)",
+        "tool: complete_case(customer_id=39991115)"
+      ]
+    ]
+  },
+  "99624060": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6165848615)",
+        "tool: code_verifier(code=247098, customer_id=99624060)",
+        "tool: get_account_type_extra(customer_id=99624060)",
+        "tool: validate_address(street=1600 Pennsylvania Ave, city=Springfield, state=MA, zip_code=02860, country=USA)",
+        "tool: update_address(customer_id=99624060, street=1600 Pennsylvania Ave, city=Springfield, state=MA, zip_code=02860, country=USA)",
+        "tool: complete_case(customer_id=99624060)"
+      ]
+    ]
+  },
+  "92209577": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2821863372)",
+        "tool: code_verifier(code=610838, customer_id=92209577)",
+        "tool: get_account_type_extra(customer_id=92209577)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Fairview, state=NC, zip_code=90210, country=USA)",
+        "tool: update_address(customer_id=92209577, street=742 Evergreen Terrace, city=Fairview, state=NC, zip_code=90210, country=USA)",
+        "tool: apply_address_hold(customer_id=92209577)",
+        "tool: complete_case(customer_id=92209577)"
+      ]
+    ]
+  },
+  "83746296": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8405494194)",
+        "tool: code_verifier(code=973910, customer_id=83746296)",
+        "tool: get_account_type_extra(customer_id=83746296)",
+        "tool: validate_address(street=221B Baker St, city=Clinton, state=IL, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=83746296, street=221B Baker St, city=Clinton, state=IL, zip_code=27601, country=USA)",
+        "tool: complete_case(customer_id=83746296)"
+      ]
+    ]
+  },
+  "12373414": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5760876627)",
+        "tool: code_verifier(code=577418, customer_id=12373414)",
+        "tool: get_account_type_extra(customer_id=12373414)",
+        "tool: validate_address(street=123 Main St, city=Clinton, state=MA, zip_code=90210, country=USA)",
+        "tool: update_address(customer_id=12373414, street=123 Main St, city=Clinton, state=MA, zip_code=90210, country=USA)",
+        "tool: apply_address_hold(customer_id=12373414)",
+        "tool: complete_case(customer_id=12373414)"
+      ]
+    ]
+  },
+  "32950433": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7130022813)",
+        "tool: code_verifier(code=356590, customer_id=32950433)",
+        "tool: get_account_type_extra(customer_id=32950433)",
+        "tool: validate_address(street=221B Baker St, city=Greenville, state=IL, zip_code=62704, country=USA)",
+        "tool: update_address(customer_id=32950433, street=221B Baker St, city=Greenville, state=IL, zip_code=62704, country=USA)",
+        "tool: apply_address_hold(customer_id=32950433)",
+        "tool: complete_case(customer_id=32950433)"
+      ]
+    ]
+  },
+  "75383731": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1406155842)",
+        "tool: code_verifier(code=824725, customer_id=75383731)",
+        "tool: get_account_type_extra(customer_id=75383731)",
+        "tool: validate_address(street=221B Baker St, city=Springfield, state=RI, zip_code=62704, country=USA)",
+        "tool: update_address(customer_id=75383731, street=221B Baker St, city=Springfield, state=RI, zip_code=62704, country=USA)",
+        "tool: apply_address_hold(customer_id=75383731)",
+        "tool: complete_case(customer_id=75383731)"
+      ]
+    ]
+  },
+  "69952588": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9090445409)",
+        "tool: code_verifier(code=366760, customer_id=69952588)",
+        "tool: get_account_type_extra(customer_id=69952588)",
+        "tool: validate_address(street=221B Baker St, city=Riverside, state=MA, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=69952588, street=221B Baker St, city=Riverside, state=MA, zip_code=27601, country=USA)",
+        "tool: apply_address_hold(customer_id=69952588)",
+        "tool: complete_case(customer_id=69952588)"
+      ]
+    ]
+  },
+  "29481910": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1593955564)",
+        "tool: code_verifier(code=116697, customer_id=29481910)",
+        "tool: get_account_type_extra(customer_id=29481910)",
+        "tool: validate_address(street=221B Baker St, city=Clinton, state=RI, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=29481910, street=221B Baker St, city=Clinton, state=RI, zip_code=27601, country=USA)",
+        "tool: apply_address_hold(customer_id=29481910)",
+        "tool: complete_case(customer_id=29481910)"
+      ]
+    ]
+  },
+  "47022380": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3992611191)",
+        "tool: code_verifier(code=715819, customer_id=47022380)",
+        "tool: get_account_type_extra(customer_id=47022380)",
+        "tool: validate_address(street=123 Main St, city=Springfield, state=NC, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=47022380, street=123 Main St, city=Springfield, state=NC, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=47022380)",
+        "tool: complete_case(customer_id=47022380)"
+      ]
+    ]
+  },
+  "53746110": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6069943143)",
+        "tool: code_verifier(code=276959, customer_id=53746110)",
+        "tool: get_account_type_extra(customer_id=53746110)",
+        "tool: validate_address(street=123 Main St, city=Springfield, state=RI, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=53746110, street=123 Main St, city=Springfield, state=RI, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=53746110)",
+        "tool: complete_case(customer_id=53746110)"
+      ]
+    ]
+  },
+  "50452382": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6560258859)",
+        "tool: code_verifier(code=605121, customer_id=50452382)",
+        "tool: get_account_type_extra(customer_id=50452382)",
+        "tool: validate_address(street=42 Wallaby Way, city=Riverside, state=CA, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=50452382, street=42 Wallaby Way, city=Riverside, state=CA, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=50452382)",
+        "tool: complete_case(customer_id=50452382)"
+      ]
+    ]
+  },
+  "10753194": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5724597827)",
+        "tool: code_verifier(code=937786, customer_id=10753194)",
+        "tool: get_account_type_extra(customer_id=10753194)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Riverside, state=NY, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=10753194, street=742 Evergreen Terrace, city=Riverside, state=NY, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=10753194)",
+        "tool: complete_case(customer_id=10753194)"
+      ]
+    ]
+  },
+  "89000602": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3575681782)",
+        "tool: code_verifier(code=148742, customer_id=89000602)",
+        "tool: get_account_type_extra(customer_id=89000602)",
+        "tool: validate_address(street=123 Main St, city=Riverside, state=NY, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=89000602, street=123 Main St, city=Riverside, state=NY, zip_code=27601, country=USA)",
+        "tool: complete_case(customer_id=89000602)"
+      ]
+    ]
+  },
+  "83329260": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1910979632)",
+        "tool: code_verifier(code=409768, customer_id=83329260)",
+        "tool: get_account_type_extra(customer_id=83329260)",
+        "tool: validate_address(street=42 Wallaby Way, city=Fairview, state=NY, zip_code=62704, country=USA)",
+        "tool: update_address(customer_id=83329260, street=42 Wallaby Way, city=Fairview, state=NY, zip_code=62704, country=USA)",
+        "tool: apply_address_hold(customer_id=83329260)",
+        "tool: complete_case(customer_id=83329260)"
+      ]
+    ]
+  },
+  "92966803": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8773273307)",
+        "tool: code_verifier(code=673950, customer_id=92966803)",
+        "tool: get_account_type_extra(customer_id=92966803)",
+        "tool: validate_address(street=1313 Mockingbird Lane, city=Clinton, state=RI, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=92966803, street=1313 Mockingbird Lane, city=Clinton, state=RI, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=92966803)",
+        "tool: complete_case(customer_id=92966803)"
+      ]
+    ]
+  },
+  "99302813": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8370845956)",
+        "tool: code_verifier(code=906528, customer_id=99302813)",
+        "tool: get_account_type_extra(customer_id=99302813)",
+        "tool: validate_address(street=42 Wallaby Way, city=Madison, state=NC, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=99302813, street=42 Wallaby Way, city=Madison, state=NC, zip_code=28202, country=USA)",
+        "tool: complete_case(customer_id=99302813)"
+      ]
+    ]
+  },
+  "87891589": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3214570654)",
+        "tool: code_verifier(code=816851, customer_id=87891589)",
+        "tool: get_account_type_extra(customer_id=87891589)",
+        "tool: validate_address(street=123 Main St, city=Madison, state=MA, zip_code=02860, country=USA)",
+        "tool: update_address(customer_id=87891589, street=123 Main St, city=Madison, state=MA, zip_code=02860, country=USA)",
+        "tool: apply_address_hold(customer_id=87891589)",
+        "tool: complete_case(customer_id=87891589)"
+      ]
+    ]
+  },
+  "15930630": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6368805405)",
+        "tool: code_verifier(code=316013, customer_id=15930630)",
+        "tool: get_account_type_extra(customer_id=15930630)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Springfield, state=NY, zip_code=62704, country=USA)",
+        "tool: update_address(customer_id=15930630, street=742 Evergreen Terrace, city=Springfield, state=NY, zip_code=62704, country=USA)",
+        "tool: apply_address_hold(customer_id=15930630)",
+        "tool: complete_case(customer_id=15930630)"
+      ]
+    ]
+  },
+  "76116039": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8424224342)",
+        "tool: code_verifier(code=626412, customer_id=76116039)",
+        "tool: get_account_type_extra(customer_id=76116039)",
+        "tool: validate_address(street=42 Wallaby Way, city=Riverside, state=NC, zip_code=90210, country=USA)",
+        "tool: update_address(customer_id=76116039, street=42 Wallaby Way, city=Riverside, state=NC, zip_code=90210, country=USA)",
+        "tool: apply_address_hold(customer_id=76116039)",
+        "tool: complete_case(customer_id=76116039)"
+      ]
+    ]
+  },
+  "64465094": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6662122043)",
+        "tool: code_verifier(code=793864, customer_id=64465094)",
+        "tool: get_account_type_extra(customer_id=64465094)",
+        "tool: validate_address(street=42 Wallaby Way, city=Fairview, state=NY, zip_code=02860, country=USA)",
+        "tool: update_address(customer_id=64465094, street=42 Wallaby Way, city=Fairview, state=NY, zip_code=02860, country=USA)",
+        "tool: complete_case(customer_id=64465094)"
+      ]
+    ]
+  },
+  "44495447": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1253182468)",
+        "tool: code_verifier(code=301586, customer_id=44495447)",
+        "tool: get_account_type_extra(customer_id=44495447)",
+        "tool: validate_address(street=221B Baker St, city=Clinton, state=RI, zip_code=62704, country=USA)",
+        "tool: update_address(customer_id=44495447, street=221B Baker St, city=Clinton, state=RI, zip_code=62704, country=USA)",
+        "tool: complete_case(customer_id=44495447)"
+      ]
+    ]
+  },
+  "98167218": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5518246162)",
+        "tool: code_verifier(code=818791, customer_id=98167218)",
+        "tool: get_account_type_extra(customer_id=98167218)",
+        "tool: validate_address(street=1313 Mockingbird Lane, city=Springfield, state=NY, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=98167218, street=1313 Mockingbird Lane, city=Springfield, state=NY, zip_code=27601, country=USA)",
+        "tool: complete_case(customer_id=98167218)"
+      ]
+    ]
+  },
+  "26215902": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3827387219)",
+        "tool: code_verifier(code=567222, customer_id=26215902)",
+        "tool: get_account_type_extra(customer_id=26215902)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Springfield, state=MA, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=26215902, street=742 Evergreen Terrace, city=Springfield, state=MA, zip_code=27601, country=USA)",
+        "tool: apply_address_hold(customer_id=26215902)",
+        "tool: complete_case(customer_id=26215902)"
+      ]
+    ]
+  },
+  "62905799": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9516393134)",
+        "tool: code_verifier(code=252891, customer_id=62905799)",
+        "tool: get_account_type_extra(customer_id=62905799)",
+        "tool: validate_address(street=221B Baker St, city=Greenville, state=RI, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=62905799, street=221B Baker St, city=Greenville, state=RI, zip_code=02118, country=USA)",
+        "tool: complete_case(customer_id=62905799)"
+      ]
+    ]
+  },
+  "97802918": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5097731736)",
+        "tool: code_verifier(code=617164, customer_id=97802918)",
+        "tool: get_account_type_extra(customer_id=97802918)",
+        "tool: validate_address(street=1600 Pennsylvania Ave, city=Clinton, state=NY, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=97802918, street=1600 Pennsylvania Ave, city=Clinton, state=NY, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=97802918)",
+        "tool: complete_case(customer_id=97802918)"
+      ]
+    ]
+  },
+  "33700376": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8168370662)",
+        "tool: code_verifier(code=614544, customer_id=33700376)",
+        "tool: get_account_type_extra(customer_id=33700376)",
+        "tool: validate_address(street=123 Main St, city=Greenville, state=IL, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=33700376, street=123 Main St, city=Greenville, state=IL, zip_code=02118, country=USA)",
+        "tool: complete_case(customer_id=33700376)"
+      ]
+    ]
+  },
+  "95053336": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3789026282)",
+        "tool: code_verifier(code=921894, customer_id=95053336)",
+        "tool: get_account_type_extra(customer_id=95053336)",
+        "tool: validate_address(street=1313 Mockingbird Lane, city=Riverside, state=NY, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=95053336, street=1313 Mockingbird Lane, city=Riverside, state=NY, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=95053336)",
+        "tool: complete_case(customer_id=95053336)"
+      ]
+    ]
+  },
+  "24605429": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5665405008)",
+        "tool: code_verifier(code=511368, customer_id=24605429)",
+        "tool: get_account_type_extra(customer_id=24605429)",
+        "tool: validate_address(street=1600 Pennsylvania Ave, city=Madison, state=RI, zip_code=02860, country=USA)",
+        "tool: update_address(customer_id=24605429, street=1600 Pennsylvania Ave, city=Madison, state=RI, zip_code=02860, country=USA)",
+        "tool: apply_address_hold(customer_id=24605429)",
+        "tool: complete_case(customer_id=24605429)"
+      ]
+    ]
+  },
+  "17943282": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4115532420)",
+        "tool: code_verifier(code=599112, customer_id=17943282)",
+        "tool: get_account_type_extra(customer_id=17943282)",
+        "tool: validate_address(street=1600 Pennsylvania Ave, city=Springfield, state=NC, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=17943282, street=1600 Pennsylvania Ave, city=Springfield, state=NC, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=17943282)",
+        "tool: complete_case(customer_id=17943282)"
+      ]
+    ]
+  },
+  "41081479": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8052489139)",
+        "tool: code_verifier(code=887208, customer_id=41081479)",
+        "tool: get_account_type_extra(customer_id=41081479)",
+        "tool: validate_address(street=221B Baker St, city=Greenville, state=CA, zip_code=62704, country=USA)",
+        "tool: update_address(customer_id=41081479, street=221B Baker St, city=Greenville, state=CA, zip_code=62704, country=USA)",
+        "tool: complete_case(customer_id=41081479)"
+      ]
+    ]
+  },
+  "87996390": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1513502908)",
+        "tool: code_verifier(code=993475, customer_id=87996390)",
+        "tool: get_account_type_extra(customer_id=87996390)",
+        "tool: validate_address(street=42 Wallaby Way, city=Greenville, state=NY, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=87996390, street=42 Wallaby Way, city=Greenville, state=NY, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=87996390)",
+        "tool: complete_case(customer_id=87996390)"
+      ]
+    ]
+  },
+  "98971045": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9479271702)",
+        "tool: code_verifier(code=643168, customer_id=98971045)",
+        "tool: get_account_type_extra(customer_id=98971045)",
+        "tool: validate_address(street=123 Main St, city=Clinton, state=IL, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=98971045, street=123 Main St, city=Clinton, state=IL, zip_code=27601, country=USA)",
+        "tool: apply_address_hold(customer_id=98971045)",
+        "tool: complete_case(customer_id=98971045)"
+      ]
+    ]
+  },
+  "36737898": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7096973604)",
+        "tool: code_verifier(code=659034, customer_id=36737898)",
+        "tool: get_account_type_extra(customer_id=36737898)",
+        "tool: validate_address(street=1313 Mockingbird Lane, city=Clinton, state=IL, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=36737898, street=1313 Mockingbird Lane, city=Clinton, state=IL, zip_code=27601, country=USA)",
+        "tool: complete_case(customer_id=36737898)"
+      ]
+    ]
+  },
+  "37657527": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1377358763)",
+        "tool: code_verifier(code=629728, customer_id=37657527)",
+        "tool: get_account_type_extra(customer_id=37657527)",
+        "tool: validate_address(street=42 Wallaby Way, city=Madison, state=RI, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=37657527, street=42 Wallaby Way, city=Madison, state=RI, zip_code=02118, country=USA)",
+        "tool: complete_case(customer_id=37657527)"
+      ]
+    ]
+  },
+  "53299953": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6623619540)",
+        "tool: code_verifier(code=963230, customer_id=53299953)",
+        "tool: get_account_type_extra(customer_id=53299953)",
+        "tool: validate_address(street=1600 Pennsylvania Ave, city=Fairview, state=NY, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=53299953, street=1600 Pennsylvania Ave, city=Fairview, state=NY, zip_code=27601, country=USA)",
+        "tool: complete_case(customer_id=53299953)"
+      ]
+    ]
+  },
+  "16909329": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2277750897)",
+        "tool: code_verifier(code=595271, customer_id=16909329)",
+        "tool: get_account_type_extra(customer_id=16909329)",
+        "tool: validate_address(street=1600 Pennsylvania Ave, city=Greenville, state=RI, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=16909329, street=1600 Pennsylvania Ave, city=Greenville, state=RI, zip_code=28202, country=USA)",
+        "tool: complete_case(customer_id=16909329)"
+      ]
+    ]
+  },
+  "35964998": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2192276809)",
+        "tool: code_verifier(code=303943, customer_id=35964998)",
+        "tool: get_account_type_extra(customer_id=35964998)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Fairview, state=IL, zip_code=90210, country=USA)",
+        "tool: update_address(customer_id=35964998, street=742 Evergreen Terrace, city=Fairview, state=IL, zip_code=90210, country=USA)",
+        "tool: apply_address_hold(customer_id=35964998)",
+        "tool: complete_case(customer_id=35964998)"
+      ]
+    ]
+  },
+  "58867170": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8057319544)",
+        "tool: code_verifier(code=871259, customer_id=58867170)",
+        "tool: get_account_type_extra(customer_id=58867170)",
+        "tool: validate_address(street=221B Baker St, city=Riverside, state=RI, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=58867170, street=221B Baker St, city=Riverside, state=RI, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=58867170)",
+        "tool: complete_case(customer_id=58867170)"
+      ]
+    ]
+  },
+  "35877304": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6402523674)",
+        "tool: code_verifier(code=110246, customer_id=35877304)",
+        "tool: get_account_type_extra(customer_id=35877304)",
+        "tool: validate_address(street=1313 Mockingbird Lane, city=Madison, state=CA, zip_code=02118, country=USA)",
+        "tool: update_address(customer_id=35877304, street=1313 Mockingbird Lane, city=Madison, state=CA, zip_code=02118, country=USA)",
+        "tool: apply_address_hold(customer_id=35877304)",
+        "tool: complete_case(customer_id=35877304)"
+      ]
+    ]
+  },
+  "37794552": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3716484792)",
+        "tool: code_verifier(code=193009, customer_id=37794552)",
+        "tool: get_account_type_extra(customer_id=37794552)",
+        "tool: validate_address(street=1600 Pennsylvania Ave, city=Fairview, state=RI, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=37794552, street=1600 Pennsylvania Ave, city=Fairview, state=RI, zip_code=27601, country=USA)",
+        "tool: apply_address_hold(customer_id=37794552)",
+        "tool: complete_case(customer_id=37794552)"
+      ]
+    ]
+  },
+  "64569433": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4455266280)",
+        "tool: code_verifier(code=910683, customer_id=64569433)",
+        "tool: get_account_type_extra(customer_id=64569433)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Clinton, state=MA, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=64569433, street=742 Evergreen Terrace, city=Clinton, state=MA, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=64569433)",
+        "tool: complete_case(customer_id=64569433)"
+      ]
+    ]
+  },
+  "99372344": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7124332854)",
+        "tool: code_verifier(code=819543, customer_id=99372344)",
+        "tool: get_account_type_extra(customer_id=99372344)",
+        "tool: validate_address(street=42 Wallaby Way, city=Fairview, state=CA, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=99372344, street=42 Wallaby Way, city=Fairview, state=CA, zip_code=27601, country=USA)",
+        "tool: apply_address_hold(customer_id=99372344)",
+        "tool: complete_case(customer_id=99372344)"
+      ]
+    ]
+  },
+  "58764847": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7737746113)",
+        "tool: code_verifier(code=870077, customer_id=58764847)",
+        "tool: get_account_type_extra(customer_id=58764847)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Springfield, state=IL, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=58764847, street=742 Evergreen Terrace, city=Springfield, state=IL, zip_code=27601, country=USA)",
+        "tool: complete_case(customer_id=58764847)"
+      ]
+    ]
+  },
+  "53068704": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2672223187)",
+        "tool: code_verifier(code=824669, customer_id=53068704)",
+        "tool: get_account_type_extra(customer_id=53068704)",
+        "tool: validate_address(street=123 Main St, city=Clinton, state=NC, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=53068704, street=123 Main St, city=Clinton, state=NC, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=53068704)",
+        "tool: complete_case(customer_id=53068704)"
+      ]
+    ]
+  },
+  "72188596": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4205713275)",
+        "tool: code_verifier(code=771949, customer_id=72188596)",
+        "tool: get_account_type_extra(customer_id=72188596)",
+        "tool: validate_address(street=1313 Mockingbird Lane, city=Clinton, state=IL, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=72188596, street=1313 Mockingbird Lane, city=Clinton, state=IL, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=72188596)",
+        "tool: complete_case(customer_id=72188596)"
+      ]
+    ]
+  },
+  "53814505": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4751305052)",
+        "tool: code_verifier(code=127393, customer_id=53814505)",
+        "tool: get_account_type_extra(customer_id=53814505)",
+        "tool: validate_address(street=742 Evergreen Terrace, city=Riverside, state=CA, zip_code=28202, country=USA)",
+        "tool: update_address(customer_id=53814505, street=742 Evergreen Terrace, city=Riverside, state=CA, zip_code=28202, country=USA)",
+        "tool: apply_address_hold(customer_id=53814505)",
+        "tool: complete_case(customer_id=53814505)"
+      ]
+    ]
+  },
+  "40634014": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5546555246)",
+        "tool: code_verifier(code=107187, customer_id=40634014)",
+        "tool: get_account_type_extra(customer_id=40634014)",
+        "tool: validate_address(street=123 Main St, city=Greenville, state=MA, zip_code=27601, country=USA)",
+        "tool: update_address(customer_id=40634014, street=123 Main St, city=Greenville, state=MA, zip_code=27601, country=USA)",
+        "tool: apply_address_hold(customer_id=40634014)",
+        "tool: complete_case(customer_id=40634014)"
+      ]
+    ]
+  }
+}

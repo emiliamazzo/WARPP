@@ -1,0 +1,8 @@
+{
+    "agent": "orchestrator_agent",
+    "steps": [
+    "intent_identified(intent = extra_data['intent'], domain= extra_data['domain'])"
+    ],
+    "soft_ordering": [],
+  "conditionals": []
+}

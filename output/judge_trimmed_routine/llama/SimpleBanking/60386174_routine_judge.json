@@ -1,0 +1,9 @@
+{
+    "relevance_score": "1",
+    "relevance_explanation": "The trimmed routine is almost entirely irrelevant to the customer. The step to check withdrawal eligibility based on the `customer_id` was pruned, as was the step to collect the withdrawal amount from the customer. These are important for any customer, but especially important here.",
+    "completeness_score": "1",
+    "completeness_explanation": "The routine is missing essential logic. The check for withdrawal eligibility using `check_withdrawal_eligibility_extra(customer_id)` was skipped, yet Customer Data states `\"isEligible\": true`. The prompt to \"Collect Withdrawal Amount\" was completely skipped. A critical eligibility requirement and the prompt to the user for withdrawal amount are both essential steps. Additionally, Step 5 (error handling) was removed.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

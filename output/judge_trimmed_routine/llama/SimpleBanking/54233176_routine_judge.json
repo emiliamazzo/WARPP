@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine correctly identified that the customer is not eligible for withdrawal based on the data provided and only includes the necessary step to inform the customer and close the case.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine includes all necessary steps based on the customer data, informing the customer and closing the case. No other steps are required given the eligibility check result.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

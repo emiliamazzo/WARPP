@@ -1,0 +1,102 @@
+**Intent: Book Flight**
+
+I need to book a flight, please.
+Can you help me find a flight?
+I wanna book a plane ticket.
+Could you assist me with booking a flight?
+Gonna need a flight ticket.
+Reserve a flight for me.
+How do I book a flight here?
+Book me a flight asap!
+I’m looking to travel; can I get a ticket?
+Help me book a flight, thanks.
+I’d like to reserve a flight.
+Can you sort a plane ticket for me?
+Need help booking a plane?
+Could you find a flight for me?
+Book a flight for next week, please.
+Wanna grab a flight booking.
+Hey, how do I get a flight?
+Looking to fly soon; please assist.
+Could you set up a flight for me?
+Please help me secure a plane ticket.
+What are the steps for booking a flight?
+I want to book a flight today.
+Can I get help booking airfare?
+Help me find a plane to catch.
+I need ticket booking done.
+Let’s get a flight ticket, okay?
+Could use a hand with flight booking.
+What's the best way to book a flight here?
+Need tickets for a flight, can you help?
+I'd like to fly out, can you book it?
+Flight booking needed for this weekend.
+Can someone guide me on booking a flight?
+Hit me up with a plane ticket.
+Please assist me in booking a plane.
+I gotta book a flight, it’s urgent!
+Hook me up with a flight.
+Can you handle a flight reservation for me?
+What’s the process for securing a flight?
+I wish to arrange a flight.
+Is it possible to book a ticket right now?
+Flight booking services needed.
+Let’s sort out a plane ticket.
+Looking to book my travel plans.
+I require assistance in booking airfare.
+Can you help arrange my flight schedule?
+I’d be grateful for help booking a flight.
+Anyone here to help me fly?
+Help! Need to book a ticket.
+Seeking assistance with flight booking.
+
+**Intent: Cancel Flight**
+
+I need to cancel my flight.
+Can you help with flight cancellation?
+I wanna cancel my ticket.
+Need to call off my flight booking.
+Could you assist me in canceling a flight?
+Cancel my flight for me, please.
+I want to undo my flight reservation.
+How do I cancel my flight here?
+Please cancel my plane ticket.
+Can you sort out a flight cancellation for me?
+I'd like to reverse my flight booking.
+Help me cancel a flight, thanks.
+Can you cancel a flight right now?
+Could you take care of canceling my ticket?
+Withdraw my flight reservation, please.
+Hey, how do I cancel my flight?
+I'm stuck and need help canceling my plane.
+Cancel the flight I booked for next week.
+I no longer need my flight; cancel it, please.
+Help! I want to cancel my ticket.
+What’s the procedure for flight cancellation?
+I need to stop my flight booking.
+Can I get help withdrawing my airfare?
+Remove my name from the flight roster.
+Call off my flight arrangements.
+Unbook me from my current flight.
+Need assistance scrapping my flight.
+I gotta ditch my plane ticket.
+Somebody cancel my flight soon.
+Kinda need to retract my booking, eh?
+Flight cancellation required for this weekend.
+Could someone guide me on ending my flight?
+Delete my name from the flight list, please.
+Stop my flight booking, it’s urgent!
+Can you undo a flight reservation for me?
+What’s the best way to scrap my flight plans?
+I'd like to cancel the flight today.
+Is it possible to withdraw my ticket right now?
+I don't need that flight; cancel it.
+Can you handle canceling my flight schedule?
+I’m no longer flying; please cancel.
+Help me retract my flight booking, please.
+Seeking assistance to annul a flight.
+Cancel my upcoming flight.
+Need to nix my flight when able.
+Can you help me call off my travel booking?
+Hit me up to cancel that flight.
+Requesting a full stop on my flight booking.

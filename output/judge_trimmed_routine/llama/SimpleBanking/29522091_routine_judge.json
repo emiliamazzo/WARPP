@@ -1,0 +1,9 @@
+{
+    "relevance_score": "3",
+    "relevance_explanation": "Step 1 from the original routine checking withdrawal eligibility should have been included since the customer qualifies for it based on the data: information_available.check_withdrawal_eligibility.isEligible is true.",
+    "completeness_score": "3",
+    "completeness_explanation": "The eligibility check with `check_withdrawal_eligibility_extra(customer_id)` is missing, which is necessary given the customer data. Additionally, the error handling step is also missing. Although minimal, it is still a relevant part of the logic that should be preserved.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine was correctly trimmed, removing the irrelevant steps for non-frequent flyers and the points payment method. All the remaining logic is relevant to the customer.",
+    "completeness_score": "4",
+    "completeness_explanation": "The routine is mostly complete but is missing a step. Step 5 from the full routine is to check passport information which is a requirement and was missed (call `get_passport_info_extra(customer_id)`).",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

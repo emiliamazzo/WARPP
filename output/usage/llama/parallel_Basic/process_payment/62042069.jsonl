@@ -1,0 +1,15 @@
+{"client_id": 62042069, "agent": "OrchestratorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 915, "completion_tokens": 49, "total_tokens": 964}
+{"client_id": 62042069, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 983, "completion_tokens": 28, "total_tokens": 1011}
+{"client_id": 62042069, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 4832, "completion_tokens": 19, "total_tokens": 4851}
+{"client_id": 62042069, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 4911, "completion_tokens": 33, "total_tokens": 4944}
+{"client_id": 62042069, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 5077, "completion_tokens": 69, "total_tokens": 5146}
+{"client_id": 62042069, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 5287, "completion_tokens": 85, "total_tokens": 5372}
+{"client_id": 62042069, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5419, "completion_tokens": 25, "total_tokens": 5444}
+{"client_id": 62042069, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1613, "completion_tokens": 55, "total_tokens": 1668}
+{"client_id": 62042069, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2918, "completion_tokens": 376, "total_tokens": 3294}
+{"client_id": 62042069, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2006, "completion_tokens": 15, "total_tokens": 2021}
+{"client_id": 62042069, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 3839, "completion_tokens": 36, "total_tokens": 3875}
+{"client_id": 62042069, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 3896, "completion_tokens": 9, "total_tokens": 3905}
+{"client_id": 62042069, "agent": "process_payment", "type": "function_call", "function_name": "get_wallet_link", "prompt_tokens": 3924, "completion_tokens": 121, "total_tokens": 4045}
+{"client_id": 62042069, "agent": "process_payment", "type": "function_call", "function_name": "issue_receipt", "prompt_tokens": 4118, "completion_tokens": 156, "total_tokens": 4274}
+{"client_id": 62042069, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 4344, "completion_tokens": 44, "total_tokens": 4388}

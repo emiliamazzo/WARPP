@@ -1,0 +1,9 @@
+{
+    "relevance_score": "3",
+    "relevance_explanation": "Step 5 from the full routine (Check Passport Information - fetching or asking for passport) was not included. This is relevant since the passport is not fully loaded in the customer data, it only shows the passport number. Also Step 7 (Retrieve Payment Method and Create Booking) and Step 9 (Create Booking with Method) were not included in the trimmed routine.",
+    "completeness_score": "2",
+    "completeness_explanation": "Multiple steps were skipped, including a step to collect passport info, creating booking with payment and retrieving payment method. Visa information, not related to frequent flyers, should not be called, frequent flyer status is none.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

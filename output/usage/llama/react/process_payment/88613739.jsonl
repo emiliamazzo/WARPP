@@ -1,0 +1,13 @@
+{"client_id": 88613739, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6647, "completion_tokens": 78, "total_tokens": 6725}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6747, "completion_tokens": 76, "total_tokens": 6823}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6894, "completion_tokens": 69, "total_tokens": 6963}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6981, "completion_tokens": 64, "total_tokens": 7045}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 7406, "completion_tokens": 110, "total_tokens": 7516}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 7568, "completion_tokens": 98, "total_tokens": 7666}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "evaluate_payment_urgency_extra", "prompt_tokens": 7696, "completion_tokens": 117, "total_tokens": 7813}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_late_fee_waiver_eligibility_extra", "prompt_tokens": 7865, "completion_tokens": 133, "total_tokens": 7998}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "get_insurance_payment_portion", "prompt_tokens": 5825, "completion_tokens": 134, "total_tokens": 5959}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 5913, "completion_tokens": 104, "total_tokens": 6017}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "process_payment", "prompt_tokens": 5989, "completion_tokens": 121, "total_tokens": 6110}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "function_call", "function_name": "issue_receipt", "prompt_tokens": 6084, "completion_tokens": 163, "total_tokens": 6247}
+{"client_id": 88613739, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6224, "completion_tokens": 68, "total_tokens": 6292}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine correctly identifies that the customer's account is suspended and only includes the relevant steps for handling that scenario. All other branches and tool calls are correctly removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "The trimmed routine includes all steps necessary for a suspended account, including retrieving provider contact information and completing the case. No steps are missing.",
+    "model": "sonnet",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

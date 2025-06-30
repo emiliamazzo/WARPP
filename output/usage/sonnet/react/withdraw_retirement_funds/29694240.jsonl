@@ -1,0 +1,7 @@
+{"client_id": 29694240, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3782, "completion_tokens": 89, "total_tokens": 3871}
+{"client_id": 29694240, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 3887, "completion_tokens": 103, "total_tokens": 3990}
+{"client_id": 29694240, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4017, "completion_tokens": 62, "total_tokens": 4079}
+{"client_id": 29694240, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4089, "completion_tokens": 124, "total_tokens": 4213}
+{"client_id": 29694240, "agent": "ReActAgent", "type": "function_call", "function_name": "check_withdrawal_eligibility_extra", "prompt_tokens": 4606, "completion_tokens": 129, "total_tokens": 4735}
+{"client_id": 29694240, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 4753, "completion_tokens": 224, "total_tokens": 4977}
+{"client_id": 29694240, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5013, "completion_tokens": 100, "total_tokens": 5113}

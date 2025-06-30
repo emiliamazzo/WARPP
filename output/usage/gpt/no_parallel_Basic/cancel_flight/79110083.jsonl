@@ -1,0 +1,15 @@
+{"client_id": 79110083, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 444, "completion_tokens": 22, "total_tokens": 466}
+{"client_id": 79110083, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2043, "completion_tokens": 13, "total_tokens": 2056}
+{"client_id": 79110083, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2083, "completion_tokens": 17, "total_tokens": 2100}
+{"client_id": 79110083, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 521, "completion_tokens": 20, "total_tokens": 541}
+{"client_id": 79110083, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 568, "completion_tokens": 26, "total_tokens": 594}
+{"client_id": 79110083, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 610, "completion_tokens": 23, "total_tokens": 633}
+{"client_id": 79110083, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 952, "completion_tokens": 16, "total_tokens": 968}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 1654, "completion_tokens": 57, "total_tokens": 1711}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 1799, "completion_tokens": 76, "total_tokens": 1875}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 1895, "completion_tokens": 43, "total_tokens": 1938}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1979, "completion_tokens": 45, "total_tokens": 2024}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 2039, "completion_tokens": 19, "total_tokens": 2058}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "function_call", "function_name": "issue_travel_credit", "prompt_tokens": 2085, "completion_tokens": 35, "total_tokens": 2120}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 2154, "completion_tokens": 76, "total_tokens": 2230}
+{"client_id": 79110083, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 2263, "completion_tokens": 23, "total_tokens": 2286}

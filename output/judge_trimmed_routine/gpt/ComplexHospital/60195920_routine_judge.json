@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to the customer were removed. The data was correctly inlined, and the routine flows correctly based on the customer's data.",
+    "completeness_score": "5",
+    "completeness_explanation": "All steps required for the customer scenario are present. No steps that were applicable were omitted.",
+    "model": "gpt",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

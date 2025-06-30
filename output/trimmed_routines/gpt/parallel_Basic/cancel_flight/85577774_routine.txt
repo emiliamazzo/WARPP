@@ -1,0 +1,15 @@
+## Final Personalized Routine
+
+1. Welcome the customer
+   - Since the customer has 48345 loyalty points: welcome them as a preferred client.
+
+2. Check Booking Cancellation Policy
+   - Say: “I’m sorry, your fare rule at purchase did not permit cancellation.”
+   - Skip directly to step 3 and close.
+
+3. Complete Case
+   - Call `complete_case(85577774)`
+   - Thank the customer.
+
+## Available Tools
+available_tools = ['complete_case']

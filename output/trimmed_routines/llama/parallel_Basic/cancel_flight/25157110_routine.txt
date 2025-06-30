@@ -1,0 +1,10 @@
+**Final Personalized Routine**
+1. Welcome the customer as a Gold frequent flyer.
+2. The customer is trying to cancel a non-refundable flight with booking ID BK007SN5.
+   a. Say: “I’m sorry, your fare rule at purchase did not permit cancellation.”
+3. Complete Case
+   a. Call `complete_case(25157110)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['complete_case']

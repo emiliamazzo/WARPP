@@ -1,0 +1,1502 @@
+[
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 69945687,
+    "account_balance": 53605,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 736178
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6879751235
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "NC",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 919
+      },
+      "authenticator_code": 736178,
+      "mobile_phone_number": 6879751235,
+      "first_utterance": "Hi, I\u2019d like to withdraw money from my retirement account."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 42499788,
+    "account_balance": 20970,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 326519
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 5356197703
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "MA",
+        "street": "221B Baker St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 192
+      },
+      "authenticator_code": 326519,
+      "mobile_phone_number": 5356197703,
+      "first_utterance": "Could you help me take funds out of my retirement savings?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 16881362,
+    "account_balance": 73769,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 530333
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9619999981
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "MA",
+        "street": "42 Wallaby Way",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 383
+      },
+      "authenticator_code": 530333,
+      "mobile_phone_number": 9619999981,
+      "first_utterance": "I need to access some retirement funds."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 13783151,
+    "account_balance": 55321,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 364071
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1144046607
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "MA",
+        "street": "221B Baker St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 851
+      },
+      "authenticator_code": 364071,
+      "mobile_phone_number": 1144046607,
+      "first_utterance": "Withdraw retirement savings, please."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 66055793,
+    "account_balance": 2489,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 584726
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3897183980
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "IL",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 988
+      },
+      "authenticator_code": 584726,
+      "mobile_phone_number": 3897183980,
+      "first_utterance": "Want to pull cash from my retirement plan."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 39606633,
+    "account_balance": 21283,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 667336
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4346191861
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 534
+      },
+      "authenticator_code": 667336,
+      "mobile_phone_number": 4346191861,
+      "first_utterance": "Hey, how do I get money from retirement account?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 29522091,
+    "account_balance": 49769,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 421970
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7107250742
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 932
+      },
+      "authenticator_code": 421970,
+      "mobile_phone_number": 7107250742,
+      "first_utterance": "Help with withdrawing from my retirement funds, please."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 80253253,
+    "account_balance": 64706,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 651189
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7729688132
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "RI",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 771
+      },
+      "authenticator_code": 651189,
+      "mobile_phone_number": 7729688132,
+      "first_utterance": "I\u2019m looking to take some money out of retirement savings."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 15000683,
+    "account_balance": 15438,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 795020
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2850033248
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "RI",
+        "street": "42 Wallaby Way",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 292
+      },
+      "authenticator_code": 795020,
+      "mobile_phone_number": 2850033248,
+      "first_utterance": "How do I withdraw my retirement money?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 38108071,
+    "account_balance": 85350,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 906061
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1206829758
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NC",
+        "street": "123 Main St",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 973
+      },
+      "authenticator_code": 906061,
+      "mobile_phone_number": 1206829758,
+      "first_utterance": "Retirement fund withdrawal needed."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 46707988,
+    "account_balance": 42454,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 422228
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9408877829
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 775
+      },
+      "authenticator_code": 422228,
+      "mobile_phone_number": 9408877829,
+      "first_utterance": "Need 2 get retirement money out."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 89415337,
+    "account_balance": 78975,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 453932
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7566867971
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 426
+      },
+      "authenticator_code": 453932,
+      "mobile_phone_number": 7566867971,
+      "first_utterance": "Please assist me with withdrawing retirement funds."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 35614347,
+    "account_balance": 73316,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 238014
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1698987309
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 916
+      },
+      "authenticator_code": 238014,
+      "mobile_phone_number": 1698987309,
+      "first_utterance": "How do I take money from my retirement fund?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 80435807,
+    "account_balance": 17391,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 202367
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 1793495103
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 678
+      },
+      "authenticator_code": 202367,
+      "mobile_phone_number": 1793495103,
+      "first_utterance": "Withdraw $$$ from retirement account."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 28272185,
+    "account_balance": 24167,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 806637
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2891276819
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "IL",
+        "street": "221B Baker St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 881
+      },
+      "authenticator_code": 806637,
+      "mobile_phone_number": 2891276819,
+      "first_utterance": "Let me withdraw funds from my retirement plan."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 80423241,
+    "account_balance": 59093,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 778712
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1609017331
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 683
+      },
+      "authenticator_code": 778712,
+      "mobile_phone_number": 1609017331,
+      "first_utterance": "Gotta cash out some retirement funds."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 11331634,
+    "account_balance": 60312,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 237799
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2962252646
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "NY",
+        "street": "123 Main St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 101
+      },
+      "authenticator_code": 237799,
+      "mobile_phone_number": 2962252646,
+      "first_utterance": "Need help accessing retirement monies."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 22073046,
+    "account_balance": 55713,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 444959
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5731879826
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "MA",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 886
+      },
+      "authenticator_code": 444959,
+      "mobile_phone_number": 5731879826,
+      "first_utterance": "Gimme my retirement money, please."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 62507597,
+    "account_balance": 44750,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 285802
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7933119916
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 197
+      },
+      "authenticator_code": 285802,
+      "mobile_phone_number": 7933119916,
+      "first_utterance": "Withdrawal from retirement savings, thanks!"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 28879038,
+    "account_balance": 20589,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 152621
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 6011503802
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "42 Wallaby Way",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 747
+      },
+      "authenticator_code": 152621,
+      "mobile_phone_number": 6011503802,
+      "first_utterance": "Hi! I\u2019d like to cash out some retirement funds."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 95089852,
+    "account_balance": 77608,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 873716
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8592698874
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "NC",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 606
+      },
+      "authenticator_code": 873716,
+      "mobile_phone_number": 8592698874,
+      "first_utterance": "Yo, how do I get my retirement cash out?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 47185660,
+    "account_balance": 52807,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 112491
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8007438044
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "RI",
+        "street": "42 Wallaby Way",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 704
+      },
+      "authenticator_code": 112491,
+      "mobile_phone_number": 8007438044,
+      "first_utterance": "What's the process for retirement fund withdrawal?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 72996195,
+    "account_balance": 20196,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 243877
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7520478337
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 924
+      },
+      "authenticator_code": 243877,
+      "mobile_phone_number": 7520478337,
+      "first_utterance": "Pls help me take money from my retirement account."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 17648884,
+    "account_balance": 1890,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 998890
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2541824879
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "IL",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 964
+      },
+      "authenticator_code": 998890,
+      "mobile_phone_number": 2541824879,
+      "first_utterance": "I\u2019d like to make a withdrawal from my retirement savings."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 24188976,
+    "account_balance": 95093,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 369785
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4891391801
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "MA",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 353
+      },
+      "authenticator_code": 369785,
+      "mobile_phone_number": 4891391801,
+      "first_utterance": "Need access to retirement loot."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 99465441,
+    "account_balance": 12915,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 556940
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5235816417
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NC",
+        "street": "123 Main St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 105
+      },
+      "authenticator_code": 556940,
+      "mobile_phone_number": 5235816417,
+      "first_utterance": "Would like to cash in on my retirement funds."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 95320402,
+    "account_balance": 51783,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 189095
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1488693526
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 320
+      },
+      "authenticator_code": 189095,
+      "mobile_phone_number": 1488693526,
+      "first_utterance": "How to get funds from my retirement account?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 60386174,
+    "account_balance": 84434,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 556394
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3125729191
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 564
+      },
+      "authenticator_code": 556394,
+      "mobile_phone_number": 3125729191,
+      "first_utterance": "Can u assist with retirement funds withdrawal?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 68677431,
+    "account_balance": 40554,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 761091
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4527330639
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "MA",
+        "street": "42 Wallaby Way",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 218
+      },
+      "authenticator_code": 761091,
+      "mobile_phone_number": 4527330639,
+      "first_utterance": "Trying to withdraw retirement moneys."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 78658893,
+    "account_balance": 42967,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 828714
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 6646005556
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NC",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 912
+      },
+      "authenticator_code": 828714,
+      "mobile_phone_number": 6646005556,
+      "first_utterance": "How can I tap into my retirement funds?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 54233176,
+    "account_balance": 12046,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 775732
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3808919786
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "NC",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 538
+      },
+      "authenticator_code": 775732,
+      "mobile_phone_number": 3808919786,
+      "first_utterance": "Need my retirement dough. Help!"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 77618188,
+    "account_balance": 72579,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 875889
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3487433380
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "RI",
+        "street": "42 Wallaby Way",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 328
+      },
+      "authenticator_code": 875889,
+      "mobile_phone_number": 3487433380,
+      "first_utterance": "Withdraw from my retirement stash, please."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 29694240,
+    "account_balance": 40410,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 297505
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9428185989
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NC",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 981
+      },
+      "authenticator_code": 297505,
+      "mobile_phone_number": 9428185989,
+      "first_utterance": "Looking to withdraw my retirement funds. Thank you!"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 36423589,
+    "account_balance": 91501,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 916261
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7317473970
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "CA",
+        "street": "221B Baker St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 645
+      },
+      "authenticator_code": 916261,
+      "mobile_phone_number": 7317473970,
+      "first_utterance": "What\u2019s the steps to get money from retirement?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 72387880,
+    "account_balance": 33634,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 459911
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1626587417
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 232
+      },
+      "authenticator_code": 459911,
+      "mobile_phone_number": 1626587417,
+      "first_utterance": "Plz help with taking retirement funds out."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 95799836,
+    "account_balance": 91033,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 735837
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5147922412
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Riverside",
+        "country": "USA",
+        "state": "IL",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 554
+      },
+      "authenticator_code": 735837,
+      "mobile_phone_number": 5147922412,
+      "first_utterance": "Could you guide me in withdrawing retirement funds?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 26344622,
+    "account_balance": 94312,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 879187
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 4779896328
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Fairview",
+        "country": "USA",
+        "state": "RI",
+        "street": "123 Main St",
+        "zip_code": "28202"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 428
+      },
+      "authenticator_code": 879187,
+      "mobile_phone_number": 4779896328,
+      "first_utterance": "I wanna get my retirement bucks out."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 32659243,
+    "account_balance": 69811,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 124977
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3733434576
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 149
+      },
+      "authenticator_code": 124977,
+      "mobile_phone_number": 3733434576,
+      "first_utterance": "Fetch retirement savings, please."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 19315311,
+    "account_balance": 87587,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 675386
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1518942611
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 832
+      },
+      "authenticator_code": 675386,
+      "mobile_phone_number": 1518942611,
+      "first_utterance": "Tell me how to get retirement cash."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 18329155,
+    "account_balance": 61370,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 881162
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 5861453477
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Clinton",
+        "country": "USA",
+        "state": "IL",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 655
+      },
+      "authenticator_code": 881162,
+      "mobile_phone_number": 5861453477,
+      "first_utterance": "I seek help with retiring funds."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 86465372,
+    "account_balance": 50843,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 958718
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 2877636235
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 139
+      },
+      "authenticator_code": 958718,
+      "mobile_phone_number": 2877636235,
+      "first_utterance": "Cash withdrawal from retirement account."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 54124893,
+    "account_balance": 16016,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 135879
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 3338036990
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "NC",
+        "street": "1313 Mockingbird Lane",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 887
+      },
+      "authenticator_code": 135879,
+      "mobile_phone_number": 3338036990,
+      "first_utterance": "Need my retirement outta there!"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 70759454,
+    "account_balance": 16302,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 584948
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 7000482347
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "CA",
+        "street": "1600 Pennsylvania Ave",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 958
+      },
+      "authenticator_code": 584948,
+      "mobile_phone_number": 7000482347,
+      "first_utterance": "Take out funds from my retirement plan."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 59794095,
+    "account_balance": 50485,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 464834
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 1483429473
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Quahog",
+        "country": "USA",
+        "state": "MA",
+        "street": "123 Main St",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 735
+      },
+      "authenticator_code": 464834,
+      "mobile_phone_number": 1483429473,
+      "first_utterance": "Show me how to withdraw my retirement savings."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 30403161,
+    "account_balance": 84380,
+    "account_type": "ROTH_IRA",
+    "authenticator_api": {
+      "authenticator_code": 280836
+    },
+    "client_level": "PREMIUM",
+    "contact_info": {
+      "mobile_phone_number": 3669608805
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "90210"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 922
+      },
+      "authenticator_code": 280836,
+      "mobile_phone_number": 3669608805,
+      "first_utterance": "How do I release retirement money?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 90395815,
+    "account_balance": 27191,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 968415
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9371494669
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "RI",
+        "street": "123 Main St",
+        "zip_code": "27601"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 957
+      },
+      "authenticator_code": 968415,
+      "mobile_phone_number": 9371494669,
+      "first_utterance": "The procedure for taking out retirement savings?"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 44686449,
+    "account_balance": 70223,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 454402
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8192953190
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "RI",
+        "street": "221B Baker St",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 369
+      },
+      "authenticator_code": 454402,
+      "mobile_phone_number": 8192953190,
+      "first_utterance": "Want to access retirement funds\u2014help!"
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 21309707,
+    "account_balance": 15166,
+    "account_type": "401K",
+    "authenticator_api": {
+      "authenticator_code": 634600
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 8480565649
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Springfield",
+        "country": "USA",
+        "state": "IL",
+        "street": "123 Main St",
+        "zip_code": "02118"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 532
+      },
+      "authenticator_code": 634600,
+      "mobile_phone_number": 8480565649,
+      "first_utterance": "Guide me through retirement fund withdrawal."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 30501187,
+    "account_balance": 65572,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 390705
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 1718133368
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Madison",
+        "country": "USA",
+        "state": "MA",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "02860"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 882
+      },
+      "authenticator_code": 390705,
+      "mobile_phone_number": 1718133368,
+      "first_utterance": "Hi, I\u2019d like to withdraw money from my retirement account."
+    }
+  },
+  {
+    "agent_sequence": [
+      "withdraw_retirement_funds"
+    ],
+    "customer_id": 17238440,
+    "account_balance": 41419,
+    "account_type": "TRADITIONAL_IRA",
+    "authenticator_api": {
+      "authenticator_code": 838389
+    },
+    "client_level": "STANDARD",
+    "contact_info": {
+      "mobile_phone_number": 9115065985
+    },
+    "user_provided_info": {
+      "address": {
+        "city": "Greenville",
+        "country": "USA",
+        "state": "NY",
+        "street": "742 Evergreen Terrace",
+        "zip_code": "62704"
+      },
+      "withdrawal": {
+        "withdrawal_amount": 809
+      },
+      "authenticator_code": 838389,
+      "mobile_phone_number": 9115065985,
+      "first_utterance": "Could you help me take funds out of my retirement savings?"
+    }
+  }
+]

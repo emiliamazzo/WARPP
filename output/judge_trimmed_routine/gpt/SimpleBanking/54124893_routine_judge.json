@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine correctly checks withdrawal eligibility, determines the customer is ineligible based on the provided data, and informs the customer before closing the case. No irrelevant steps remain.",
+    "completeness_score": "5",
+    "completeness_explanation": "The routine accurately reflects the customer's ineligibility for withdrawal and includes the necessary steps to inform the customer and call complete_case. All steps irrelevant to this customer were pruned.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

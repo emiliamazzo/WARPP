@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only logic relevant to the customer based on their data, removing unnecessary branches and tool calls.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic, tools, and branches that apply to this customer have been preserved in the trimmed routine.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to this customer were pruned. This includes skipping the branch for customers with less than 30,000 loyalty points and the branch when booking policy does not allow cancellations.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic and tools for this customer are preserved. The routine includes loyalty greetings, booking information check, cancellation, refund steps, and the final complete case.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

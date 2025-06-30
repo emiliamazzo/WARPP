@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine correctly identifies that the booking is non-cancellable based on the customer data (cancellation_allowed: false) and only includes steps related to informing the customer of this and completing the case.",
+    "completeness_score": "5",
+    "completeness_explanation": "The routine includes all necessary steps for a non-cancellable booking, informs the customer correctly, and calls complete_case. The error handling section is present and correct.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

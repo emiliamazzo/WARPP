@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "Step 3, calling `check_visa_requirements`, is irrelevant based on the customer data. The customer is not a frequent flyer (frequent_flyer_status is None), and Step 6 of the original routine specifies that the visa check is only for non-frequent flyers. Also Step 5 of the original routine `get_passport_info_extra(customer_id)` is skipped.",
+    "completeness_score": "3",
+    "completeness_explanation": "The routine is missing key steps related to passport information. The original routine had Step 5: Check Passport Information, which included a call to `get_passport_info_extra(customer_id)`. Even though the customer data includes \"passport_number\": \"P1234567\", the logic to retrieve this and/or handle a missing passport (asking user for it) is skipped. The trimmed routine should have retained passport info logic despite frequent flyer status.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

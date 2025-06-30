@@ -1,0 +1,11 @@
+## Final Personalized Routine
+
+### Customer ID: 63742135
+
+1. **Check Account Status**  
+   - Your account is currently suspended. You’ll need to contact your provider directly—here’s their number:
+   - Call `get_provider_contact_info_api(63742135)`, share the phone number from the call for contacting the provider.
+   - Call `complete_case(63742135)`
+
+## Available Tools
+`available_tools = ['get_provider_contact_info_api', 'complete_case']`

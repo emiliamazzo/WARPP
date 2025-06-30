@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine correctly focuses on the scenario where the customer is not eligible for withdrawal, pruning all other branches. All steps are directly relevant to the customer based on the data provided.",
+    "completeness_score": "5",
+    "completeness_explanation": "The routine includes all the necessary logic and steps, including informing the customer they are ineligible and then calling `complete_case(...)`. Nothing is missing.",
+    "model": "sonnet",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

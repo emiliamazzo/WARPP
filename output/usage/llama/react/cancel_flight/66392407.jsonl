@@ -1,0 +1,14 @@
+{"client_id": 66392407, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6007, "completion_tokens": 77, "total_tokens": 6084}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6105, "completion_tokens": 64, "total_tokens": 6169}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6241, "completion_tokens": 64, "total_tokens": 6305}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6323, "completion_tokens": 98, "total_tokens": 6421}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6752, "completion_tokens": 77, "total_tokens": 6829}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 6851, "completion_tokens": 75, "total_tokens": 6926}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 6990, "completion_tokens": 158, "total_tokens": 7148}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 7226, "completion_tokens": 166, "total_tokens": 7392}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 7428, "completion_tokens": 102, "total_tokens": 7530}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7588, "completion_tokens": 102, "total_tokens": 7690}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 5542, "completion_tokens": 87, "total_tokens": 5629}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "issue_travel_credit", "prompt_tokens": 5618, "completion_tokens": 105, "total_tokens": 5723}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5718, "completion_tokens": 160, "total_tokens": 5878}
+{"client_id": 66392407, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5830, "completion_tokens": 61, "total_tokens": 5891}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only the steps relevant to a customer who is a frequent flyer and pays with a credit card. All branches not relevant to this customer data were trimmed effectively.",
+    "completeness_score": "5",
+    "completeness_explanation": "All essential steps and tool calls required for this customer scenario are present and no tool calls are missing.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

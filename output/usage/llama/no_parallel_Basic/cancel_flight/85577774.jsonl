@@ -1,0 +1,14 @@
+{"client_id": 85577774, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 916, "completion_tokens": 29, "total_tokens": 945}
+{"client_id": 85577774, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2560, "completion_tokens": 19, "total_tokens": 2579}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2639, "completion_tokens": 20, "total_tokens": 2659}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1038, "completion_tokens": 25, "total_tokens": 1063}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1136, "completion_tokens": 15, "total_tokens": 1151}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1172, "completion_tokens": 53, "total_tokens": 1225}
+{"client_id": 85577774, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1567, "completion_tokens": 15, "total_tokens": 1582}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 2842, "completion_tokens": 28, "total_tokens": 2870}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 2946, "completion_tokens": 26, "total_tokens": 2972}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 3029, "completion_tokens": 50, "total_tokens": 3079}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3166, "completion_tokens": 14, "total_tokens": 3180}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 3215, "completion_tokens": 80, "total_tokens": 3295}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 3337, "completion_tokens": 139, "total_tokens": 3476}
+{"client_id": 85577774, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 3526, "completion_tokens": 26, "total_tokens": 3552}

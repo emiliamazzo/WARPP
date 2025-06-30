@@ -1,0 +1,12 @@
+{"client_id": 24365249, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6644, "completion_tokens": 93, "total_tokens": 6737}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6759, "completion_tokens": 116, "total_tokens": 6875}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6940, "completion_tokens": 38, "total_tokens": 6978}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6996, "completion_tokens": 66, "total_tokens": 7062}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 7424, "completion_tokens": 99, "total_tokens": 7523}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 7611, "completion_tokens": 168, "total_tokens": 7779}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "get_insurance_payment_portion", "prompt_tokens": 7848, "completion_tokens": 173, "total_tokens": 8021}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 5807, "completion_tokens": 96, "total_tokens": 5903}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "run_fraud_check", "prompt_tokens": 5879, "completion_tokens": 105, "total_tokens": 5984}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "initiate_ach_transaction", "prompt_tokens": 5960, "completion_tokens": 187, "total_tokens": 6147}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "function_call", "function_name": "issue_receipt", "prompt_tokens": 6115, "completion_tokens": 209, "total_tokens": 6324}
+{"client_id": 24365249, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6279, "completion_tokens": 67, "total_tokens": 6346}

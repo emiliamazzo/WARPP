@@ -1,0 +1,15 @@
+{"client_id": 25157110, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5970, "completion_tokens": 80, "total_tokens": 6050}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6066, "completion_tokens": 103, "total_tokens": 6169}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6196, "completion_tokens": 69, "total_tokens": 6265}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6276, "completion_tokens": 123, "total_tokens": 6399}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 6794, "completion_tokens": 125, "total_tokens": 6919}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 6952, "completion_tokens": 143, "total_tokens": 7095}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7173, "completion_tokens": 289, "total_tokens": 7462}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 7479, "completion_tokens": 125, "total_tokens": 7604}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 7622, "completion_tokens": 158, "total_tokens": 7780}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7825, "completion_tokens": 184, "total_tokens": 8009}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 8021, "completion_tokens": 119, "total_tokens": 8140}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "issue_travel_credit", "prompt_tokens": 8176, "completion_tokens": 157, "total_tokens": 8333}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 8373, "completion_tokens": 184, "total_tokens": 8557}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 8574, "completion_tokens": 106, "total_tokens": 8680}
+{"client_id": 25157110, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 8716, "completion_tokens": 143, "total_tokens": 8859}

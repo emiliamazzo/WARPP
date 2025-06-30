@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only steps relevant to a Gold frequent flyer who will pay with points. Steps related to non-frequent flyers and other payment methods have been correctly removed.",
+    "completeness_score": "4",
+    "completeness_explanation": "The routine is mostly complete. Step 5 from the full routine, checking passport information, is missing. This step is still relevant even for customers with known frequent flyer status.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The trimmed routine correctly reflects the customer's data. Because cancellation is not allowed, the routine skips directly to step 8 (complete case). Only the logic relevant to that outcome remains.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic for this customer is included. Since the booking does not allow cancellations, steps 3-7 are skipped, and the routine proceeds to complete the case as it should.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

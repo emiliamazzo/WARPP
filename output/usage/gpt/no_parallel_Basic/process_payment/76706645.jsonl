@@ -1,0 +1,11 @@
+{"client_id": 76706645, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 442, "completion_tokens": 20, "total_tokens": 462}
+{"client_id": 76706645, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 4258, "completion_tokens": 13, "total_tokens": 4271}
+{"client_id": 76706645, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4300, "completion_tokens": 17, "total_tokens": 4317}
+{"client_id": 76706645, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 521, "completion_tokens": 20, "total_tokens": 541}
+{"client_id": 76706645, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 568, "completion_tokens": 26, "total_tokens": 594}
+{"client_id": 76706645, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 609, "completion_tokens": 23, "total_tokens": 632}
+{"client_id": 76706645, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 952, "completion_tokens": 16, "total_tokens": 968}
+{"client_id": 76706645, "agent": "process_payment", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 3126, "completion_tokens": 20, "total_tokens": 3146}
+{"client_id": 76706645, "agent": "process_payment", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 3189, "completion_tokens": 19, "total_tokens": 3208}
+{"client_id": 76706645, "agent": "process_payment", "type": "function_call", "function_name": "get_provider_contact_info_api", "prompt_tokens": 3225, "completion_tokens": 53, "total_tokens": 3278}
+{"client_id": 76706645, "agent": "process_payment", "type": "text_generation", "function_name": null, "prompt_tokens": 3323, "completion_tokens": 42, "total_tokens": 3365}

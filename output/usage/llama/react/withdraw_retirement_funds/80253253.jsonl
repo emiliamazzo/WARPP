@@ -1,0 +1,10 @@
+{"client_id": 80253253, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 3805, "completion_tokens": 69, "total_tokens": 3874}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 3897, "completion_tokens": 54, "total_tokens": 3951}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4018, "completion_tokens": 53, "total_tokens": 4071}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4089, "completion_tokens": 58, "total_tokens": 4147}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4511, "completion_tokens": 68, "total_tokens": 4579}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "function_call", "function_name": "check_withdrawal_eligibility_extra", "prompt_tokens": 4600, "completion_tokens": 95, "total_tokens": 4695}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4733, "completion_tokens": 66, "total_tokens": 4799}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "function_call", "function_name": "process_retirement_withdrawal", "prompt_tokens": 4817, "completion_tokens": 91, "total_tokens": 4908}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 4951, "completion_tokens": 79, "total_tokens": 5030}
+{"client_id": 80253253, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5074, "completion_tokens": 66, "total_tokens": 5140}

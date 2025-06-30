@@ -1,0 +1,14 @@
+{"client_id": 70753639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6008, "completion_tokens": 65, "total_tokens": 6073}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 6096, "completion_tokens": 116, "total_tokens": 6212}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6284, "completion_tokens": 74, "total_tokens": 6358}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 6376, "completion_tokens": 66, "total_tokens": 6442}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 6804, "completion_tokens": 69, "total_tokens": 6873}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 6924, "completion_tokens": 85, "total_tokens": 7009}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "get_booking_details_extra", "prompt_tokens": 7063, "completion_tokens": 82, "total_tokens": 7145}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 7232, "completion_tokens": 90, "total_tokens": 7322}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 7355, "completion_tokens": 97, "total_tokens": 7452}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 7499, "completion_tokens": 78, "total_tokens": 7577}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 7598, "completion_tokens": 77, "total_tokens": 7675}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "process_refund", "prompt_tokens": 5642, "completion_tokens": 107, "total_tokens": 5749}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5738, "completion_tokens": 133, "total_tokens": 5871}
+{"client_id": 70753639, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5822, "completion_tokens": 71, "total_tokens": 5893}

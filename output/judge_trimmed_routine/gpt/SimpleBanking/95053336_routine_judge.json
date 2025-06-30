@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine only includes steps relevant to updating the address for a TRADITIONAL_IRA customer, with standard client level. Irrelevant logic paths, especially those related to other account types and client levels, have been removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps and branches for the customer scenario are included. All required tools are present. The routine handles address validation, update, address hold and complete case correctly for the specified customer.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

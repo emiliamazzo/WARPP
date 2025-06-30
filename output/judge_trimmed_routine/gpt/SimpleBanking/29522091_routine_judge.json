@@ -1,0 +1,9 @@
+{
+    "relevance_score": "3",
+    "relevance_explanation": "The first step, checking withdrawal eligibility via `check_withdrawal_eligibility_extra(customer_id)`, was pruned even though its `isEligible` value was provided as true in customer data. The fifth step, error handling, was pruned although the success/failure states of `process_retirement_withdrawal` and `complete_case` aren't known.",
+    "completeness_score": "3",
+    "completeness_explanation": "The initial eligibility check should have been kept using the provided data. The 'Process Withdrawal' step needs error handling based on the success of `process_retirement_withdrawal(29522091, withdrawal_amount)`. Similarly, the final `complete_case` step needs error handling too. No success branch is included either.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

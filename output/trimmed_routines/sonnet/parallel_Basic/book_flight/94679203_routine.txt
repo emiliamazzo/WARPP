@@ -1,0 +1,28 @@
+## Final Personalized Routine
+
+1. Ask for Basic Flight Details
+   - Ask the customer for:
+     - **Origin**
+     - **Destination**
+     - **Departure date**
+
+2. Search Priority Flights
+   - Call `search_priority_flights(94679203, origin_airport, destination_airport, departure_date)`.
+   - You must always share with the client the information from the search. Always include the flight number. Ask the client for their preferred flight and get their confirmation before proceeding to step 3.
+
+3. Check Visa Information
+   - Frequent flyer visa information is already on the system.
+
+4. Create Booking with Payment Method
+   - Call `create_booking(flight_number)`.
+
+5. Final Confirmation and Communication
+   - Provide full booking details and confirmation number.
+   - Call `complete_case(94679203)`.
+   - Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+## Error Handling and Resolution
+- At any point if a critical failure (e.g., tool fails multiple times):
+  - Call `complete_case(94679203)` to close the case after informing the customer.
+
+available_tools = ['search_priority_flights', 'create_booking', 'complete_case']

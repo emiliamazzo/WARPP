@@ -1,0 +1,29 @@
+**Final Personalized Routine**
+
+The customer ID is 94676850.
+
+1. Ask for Basic Flight Details
+- Ask the customer for:
+  - **Origin**
+  - **Destination**
+  - **Departure date**
+
+2. Search Regular Flights
+- Call `search_regular_flights(94676850, origin_airport, destination_airport, departure_date)`.
+- Share the information from the search with the client. Always include the flight number. Ask the client for their preferred flight and get their confirmation before proceeding.
+
+3. Check Passport Information
+- The client's passport number is P2345678.
+
+4. Retrieve Payment Method and Create Booking
+- The client's payment method is Points.
+
+5. Create Booking with Points
+  - Call `create_booking_with_points(flight_number)`
+
+6. Final Confirmation and Communication
+- Provide full booking details and confirmation number.
+- Call `complete_case(94676850)`.
+- Thank the customer: "Thank you for booking with us. Have a pleasant journey!"
+
+**available_tools** = ['search_regular_flights', 'create_booking_with_points', 'complete_case']

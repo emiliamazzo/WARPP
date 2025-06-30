@@ -1,0 +1,590 @@
+{
+  "69945687": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6879751235)",
+        "tool: code_verifier(code=736178, customer_id=69945687)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=69945687)",
+        "tool: process_retirement_withdrawal(customer_id=69945687, withdrawal_amount=919)",
+        "tool: complete_case(customer_id=69945687)"
+      ]
+    ]
+  },
+  "42499788": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5356197703)",
+        "tool: code_verifier(code=326519, customer_id=42499788)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=42499788)",
+        "tool: complete_case(customer_id=42499788)"
+      ]
+    ]
+  },
+  "16881362": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9619999981)",
+        "tool: code_verifier(code=530333, customer_id=16881362)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=16881362)",
+        "tool: process_retirement_withdrawal(customer_id=16881362, withdrawal_amount=383)",
+        "tool: complete_case(customer_id=16881362)"
+      ]
+    ]
+  },
+  "13783151": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1144046607)",
+        "tool: code_verifier(code=364071, customer_id=13783151)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=13783151)",
+        "tool: process_retirement_withdrawal(customer_id=13783151, withdrawal_amount=851)",
+        "tool: complete_case(customer_id=13783151)"
+      ]
+    ]
+  },
+  "66055793": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3897183980)",
+        "tool: code_verifier(code=584726, customer_id=66055793)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=66055793)",
+        "tool: process_retirement_withdrawal(customer_id=66055793, withdrawal_amount=988)",
+        "tool: complete_case(customer_id=66055793)"
+      ]
+    ]
+  },
+  "39606633": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4346191861)",
+        "tool: code_verifier(code=667336, customer_id=39606633)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=39606633)",
+        "tool: process_retirement_withdrawal(customer_id=39606633, withdrawal_amount=534)",
+        "tool: complete_case(customer_id=39606633)"
+      ]
+    ]
+  },
+  "29522091": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7107250742)",
+        "tool: code_verifier(code=421970, customer_id=29522091)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=29522091)",
+        "tool: process_retirement_withdrawal(customer_id=29522091, withdrawal_amount=932)",
+        "tool: complete_case(customer_id=29522091)"
+      ]
+    ]
+  },
+  "80253253": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7729688132)",
+        "tool: code_verifier(code=651189, customer_id=80253253)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=80253253)",
+        "tool: process_retirement_withdrawal(customer_id=80253253, withdrawal_amount=771)",
+        "tool: complete_case(customer_id=80253253)"
+      ]
+    ]
+  },
+  "15000683": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2850033248)",
+        "tool: code_verifier(code=795020, customer_id=15000683)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=15000683)",
+        "tool: process_retirement_withdrawal(customer_id=15000683, withdrawal_amount=292)",
+        "tool: complete_case(customer_id=15000683)"
+      ]
+    ]
+  },
+  "38108071": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1206829758)",
+        "tool: code_verifier(code=906061, customer_id=38108071)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=38108071)",
+        "tool: process_retirement_withdrawal(customer_id=38108071, withdrawal_amount=973)",
+        "tool: complete_case(customer_id=38108071)"
+      ]
+    ]
+  },
+  "46707988": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9408877829)",
+        "tool: code_verifier(code=422228, customer_id=46707988)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=46707988)",
+        "tool: process_retirement_withdrawal(customer_id=46707988, withdrawal_amount=775)",
+        "tool: complete_case(customer_id=46707988)"
+      ]
+    ]
+  },
+  "89415337": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7566867971)",
+        "tool: code_verifier(code=453932, customer_id=89415337)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=89415337)",
+        "tool: process_retirement_withdrawal(customer_id=89415337, withdrawal_amount=426)",
+        "tool: complete_case(customer_id=89415337)"
+      ]
+    ]
+  },
+  "35614347": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1698987309)",
+        "tool: code_verifier(code=238014, customer_id=35614347)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=35614347)",
+        "tool: process_retirement_withdrawal(customer_id=35614347, withdrawal_amount=916)",
+        "tool: complete_case(customer_id=35614347)"
+      ]
+    ]
+  },
+  "80435807": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1793495103)",
+        "tool: code_verifier(code=202367, customer_id=80435807)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=80435807)",
+        "tool: process_retirement_withdrawal(customer_id=80435807, withdrawal_amount=678)",
+        "tool: complete_case(customer_id=80435807)"
+      ]
+    ]
+  },
+  "28272185": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2891276819)",
+        "tool: code_verifier(code=806637, customer_id=28272185)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=28272185)",
+        "tool: complete_case(customer_id=28272185)"
+      ]
+    ]
+  },
+  "80423241": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1609017331)",
+        "tool: code_verifier(code=778712, customer_id=80423241)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=80423241)",
+        "tool: process_retirement_withdrawal(customer_id=80423241, withdrawal_amount=683)",
+        "tool: complete_case(customer_id=80423241)"
+      ]
+    ]
+  },
+  "11331634": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2962252646)",
+        "tool: code_verifier(code=237799, customer_id=11331634)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=11331634)",
+        "tool: process_retirement_withdrawal(customer_id=11331634, withdrawal_amount=101)",
+        "tool: complete_case(customer_id=11331634)"
+      ]
+    ]
+  },
+  "22073046": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5731879826)",
+        "tool: code_verifier(code=444959, customer_id=22073046)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=22073046)",
+        "tool: process_retirement_withdrawal(customer_id=22073046, withdrawal_amount=886)",
+        "tool: complete_case(customer_id=22073046)"
+      ]
+    ]
+  },
+  "62507597": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7933119916)",
+        "tool: code_verifier(code=285802, customer_id=62507597)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=62507597)",
+        "tool: process_retirement_withdrawal(customer_id=62507597, withdrawal_amount=197)",
+        "tool: complete_case(customer_id=62507597)"
+      ]
+    ]
+  },
+  "28879038": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6011503802)",
+        "tool: code_verifier(code=152621, customer_id=28879038)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=28879038)",
+        "tool: process_retirement_withdrawal(customer_id=28879038, withdrawal_amount=747)",
+        "tool: complete_case(customer_id=28879038)"
+      ]
+    ]
+  },
+  "95089852": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8592698874)",
+        "tool: code_verifier(code=873716, customer_id=95089852)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=95089852)",
+        "tool: process_retirement_withdrawal(customer_id=95089852, withdrawal_amount=606)",
+        "tool: complete_case(customer_id=95089852)"
+      ]
+    ]
+  },
+  "47185660": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8007438044)",
+        "tool: code_verifier(code=112491, customer_id=47185660)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=47185660)",
+        "tool: process_retirement_withdrawal(customer_id=47185660, withdrawal_amount=704)",
+        "tool: complete_case(customer_id=47185660)"
+      ]
+    ]
+  },
+  "72996195": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7520478337)",
+        "tool: code_verifier(code=243877, customer_id=72996195)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=72996195)",
+        "tool: process_retirement_withdrawal(customer_id=72996195, withdrawal_amount=924)",
+        "tool: complete_case(customer_id=72996195)"
+      ]
+    ]
+  },
+  "17648884": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2541824879)",
+        "tool: code_verifier(code=998890, customer_id=17648884)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=17648884)",
+        "tool: process_retirement_withdrawal(customer_id=17648884, withdrawal_amount=964)",
+        "tool: complete_case(customer_id=17648884)"
+      ]
+    ]
+  },
+  "24188976": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4891391801)",
+        "tool: code_verifier(code=369785, customer_id=24188976)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=24188976)",
+        "tool: process_retirement_withdrawal(customer_id=24188976, withdrawal_amount=353)",
+        "tool: complete_case(customer_id=24188976)"
+      ]
+    ]
+  },
+  "99465441": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5235816417)",
+        "tool: code_verifier(code=556940, customer_id=99465441)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=99465441)",
+        "tool: process_retirement_withdrawal(customer_id=99465441, withdrawal_amount=105)",
+        "tool: complete_case(customer_id=99465441)"
+      ]
+    ]
+  },
+  "95320402": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1488693526)",
+        "tool: code_verifier(code=189095, customer_id=95320402)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=95320402)",
+        "tool: process_retirement_withdrawal(customer_id=95320402, withdrawal_amount=320)",
+        "tool: complete_case(customer_id=95320402)"
+      ]
+    ]
+  },
+  "60386174": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3125729191)",
+        "tool: code_verifier(code=556394, customer_id=60386174)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=60386174)",
+        "tool: process_retirement_withdrawal(customer_id=60386174, withdrawal_amount=564)",
+        "tool: complete_case(customer_id=60386174)"
+      ]
+    ]
+  },
+  "68677431": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4527330639)",
+        "tool: code_verifier(code=761091, customer_id=68677431)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=68677431)",
+        "tool: process_retirement_withdrawal(customer_id=68677431, withdrawal_amount=218)",
+        "tool: complete_case(customer_id=68677431)"
+      ]
+    ]
+  },
+  "78658893": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=6646005556)",
+        "tool: code_verifier(code=828714, customer_id=78658893)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=78658893)",
+        "tool: process_retirement_withdrawal(customer_id=78658893, withdrawal_amount=912)",
+        "tool: complete_case(customer_id=78658893)"
+      ]
+    ]
+  },
+  "54233176": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3808919786)",
+        "tool: code_verifier(code=775732, customer_id=54233176)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=54233176)",
+        "tool: complete_case(customer_id=54233176)"
+      ]
+    ]
+  },
+  "77618188": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3487433380)",
+        "tool: code_verifier(code=875889, customer_id=77618188)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=77618188)",
+        "tool: complete_case(customer_id=77618188)"
+      ]
+    ]
+  },
+  "29694240": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9428185989)",
+        "tool: code_verifier(code=297505, customer_id=29694240)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=29694240)",
+        "tool: complete_case(customer_id=29694240)"
+      ]
+    ]
+  },
+  "36423589": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7317473970)",
+        "tool: code_verifier(code=916261, customer_id=36423589)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=36423589)",
+        "tool: process_retirement_withdrawal(customer_id=36423589, withdrawal_amount=645)",
+        "tool: complete_case(customer_id=36423589)"
+      ]
+    ]
+  },
+  "72387880": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1626587417)",
+        "tool: code_verifier(code=459911, customer_id=72387880)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=72387880)",
+        "tool: complete_case(customer_id=72387880)"
+      ]
+    ]
+  },
+  "95799836": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5147922412)",
+        "tool: code_verifier(code=735837, customer_id=95799836)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=95799836)",
+        "tool: process_retirement_withdrawal(customer_id=95799836, withdrawal_amount=554)",
+        "tool: complete_case(customer_id=95799836)"
+      ]
+    ]
+  },
+  "26344622": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=4779896328)",
+        "tool: code_verifier(code=879187, customer_id=26344622)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=26344622)",
+        "tool: complete_case(customer_id=26344622)"
+      ]
+    ]
+  },
+  "32659243": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3733434576)",
+        "tool: code_verifier(code=124977, customer_id=32659243)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=32659243)",
+        "tool: complete_case(customer_id=32659243)"
+      ]
+    ]
+  },
+  "19315311": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1518942611)",
+        "tool: code_verifier(code=675386, customer_id=19315311)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=19315311)",
+        "tool: process_retirement_withdrawal(customer_id=19315311, withdrawal_amount=832)",
+        "tool: complete_case(customer_id=19315311)"
+      ]
+    ]
+  },
+  "18329155": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=5861453477)",
+        "tool: code_verifier(code=881162, customer_id=18329155)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=18329155)",
+        "tool: complete_case(customer_id=18329155)"
+      ]
+    ]
+  },
+  "86465372": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=2877636235)",
+        "tool: code_verifier(code=958718, customer_id=86465372)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=86465372)",
+        "tool: process_retirement_withdrawal(customer_id=86465372, withdrawal_amount=139)",
+        "tool: complete_case(customer_id=86465372)"
+      ]
+    ]
+  },
+  "54124893": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3338036990)",
+        "tool: code_verifier(code=135879, customer_id=54124893)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=54124893)",
+        "tool: complete_case(customer_id=54124893)"
+      ]
+    ]
+  },
+  "70759454": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=7000482347)",
+        "tool: code_verifier(code=584948, customer_id=70759454)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=70759454)",
+        "tool: process_retirement_withdrawal(customer_id=70759454, withdrawal_amount=958)",
+        "tool: complete_case(customer_id=70759454)"
+      ]
+    ]
+  },
+  "59794095": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1483429473)",
+        "tool: code_verifier(code=464834, customer_id=59794095)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=59794095)",
+        "tool: complete_case(customer_id=59794095)"
+      ]
+    ]
+  },
+  "30403161": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=3669608805)",
+        "tool: code_verifier(code=280836, customer_id=30403161)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=30403161)",
+        "tool: process_retirement_withdrawal(customer_id=30403161, withdrawal_amount=922)",
+        "tool: complete_case(customer_id=30403161)"
+      ]
+    ]
+  },
+  "90395815": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9371494669)",
+        "tool: code_verifier(code=968415, customer_id=90395815)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=90395815)",
+        "tool: process_retirement_withdrawal(customer_id=90395815, withdrawal_amount=957)",
+        "tool: complete_case(customer_id=90395815)"
+      ]
+    ]
+  },
+  "44686449": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8192953190)",
+        "tool: code_verifier(code=454402, customer_id=44686449)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=44686449)",
+        "tool: process_retirement_withdrawal(customer_id=44686449, withdrawal_amount=369)",
+        "tool: complete_case(customer_id=44686449)"
+      ]
+    ]
+  },
+  "21309707": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=8480565649)",
+        "tool: code_verifier(code=634600, customer_id=21309707)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=21309707)",
+        "tool: complete_case(customer_id=21309707)"
+      ]
+    ]
+  },
+  "30501187": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=1718133368)",
+        "tool: code_verifier(code=390705, customer_id=30501187)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=30501187)",
+        "tool: process_retirement_withdrawal(customer_id=30501187, withdrawal_amount=882)",
+        "tool: complete_case(customer_id=30501187)"
+      ]
+    ]
+  },
+  "17238440": {
+    "traxgen": [
+      [
+        "agent: ReActAgent",
+        "tool: send_verification_text(phone_number=9115065985)",
+        "tool: code_verifier(code=838389, customer_id=17238440)",
+        "tool: check_withdrawal_eligibility_extra(customer_id=17238440)",
+        "tool: process_retirement_withdrawal(customer_id=17238440, withdrawal_amount=809)",
+        "tool: complete_case(customer_id=17238440)"
+      ]
+    ]
+  }
+}

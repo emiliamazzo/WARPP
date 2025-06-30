@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps irrelevant to this customer were correctly removed, like searching for regular flights.",
+    "completeness_score": "4",
+    "completeness_explanation": "Step 5 to check passport information and Step 7/8 to retrieve payment method and create booking with points are missing.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

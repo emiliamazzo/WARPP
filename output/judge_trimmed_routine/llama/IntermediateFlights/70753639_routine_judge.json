@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "All steps are relevant to the customer. The logic for ineligible cancellations was removed, which is appropriate given the customer data.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required steps for the given customer data are present and no steps are missing.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

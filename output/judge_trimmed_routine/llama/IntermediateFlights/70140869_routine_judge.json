@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine correctly identifies that the booking does not allow cancellations based on the booking details. It then skips to complete_case, which is the correct branch.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required logic for this customer (who cannot cancel their flight) is preserved. Irrelevant branches are correctly omitted.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

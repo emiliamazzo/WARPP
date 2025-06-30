@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The initial greeting prompt and confirmation step were removed, but step 1 should have included the inline value of `account_type`: 401K, `client_level`: STANDARD and then asked if the user wanted to proceed. Omitting asking to proceed is also a completeness issue. Lastly Error handling should not be displayed as it has no conditional steps that would apply here.",
+    "completeness_score": "3",
+    "completeness_explanation": "As mentioned in relevance, the prompt to continue after the account information is missing. This prompt is also missing because the `get_account_type_extra` was just removed and not inlined in the proper way.",
+    "model": "llama",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

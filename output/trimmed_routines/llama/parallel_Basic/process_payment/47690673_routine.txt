@@ -1,0 +1,27 @@
+**Final Personalized Routine**
+1. The account is active, the balance is $1013, and payment is 7 days overdue.
+2. It looks like you have a balance to pay today. Let's get that done!
+3. Your payment is 7 days overdue. Let's get you back on track.
+4. Let me check if your insurance can cover part of this payment.
+   a) Call `get_insurance_payment_portion(47690673, 'Humena')`.  
+   b) If approved, say "Great news! Your insurance will cover part of your claim."  
+   c) If declined, say "No additional assistance is available at this time."
+5. You *must always call* `calculate_patient_responsibility(47690673, 'Humena')` to get total_due after insurance and waiver deductions.
+   a) Say “Your total due today is $X. Would you like to proceed with payment?” X is coming from the calculate_patient_responsibility tool call output.
+     – If no, say “No problem; let me know if you need anything else,” and call `complete_case(47690673)` 
+     – If yes, continue.
+6. Would you like to pay in another currency?
+     – If the user wants to pay in another currency, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and tell them “That’s [convertedAmount] in [currency].”  
+     – If the user doesn't want to pay in another currency, continue in USD.
+7. Process the Payment  
+    Since the payment method is Credit Card:
+    a) Call `run_fraud_check(47690673, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency. If run_fraud_check returns flagged, say “We need to review this transaction—please call our billing hotline”. Call `get_hospital_contact_info(550407)` to share hotline number and call `complete_case(47690673)`  
+    b) Otherwise, perform 3D-Secure with `initiate_3ds_auth(47690673)`. 
+        -If initiate_3ds_auth returns success status false, prompt the client to call 1-800-555-BILL to continue the request and call `complete_case(47690673)`.
+    c) Finally, call `process_payment(47690673, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency.
+8. You must always call `issue_receipt(47690673, patient_responsibility_amount)` to send an email confirmation. Make sure the patient responsibility amount is in the customer's preferred currency. Inform the user that a receipt has been sent to them.
+9. Provide confirmation number
+10. Call `complete_case(47690673)`
+
+**Available Tools**
+available_tools = ['get_insurance_payment_portion', 'calculate_patient_responsibility', 'currency_exchange', 'run_fraud_check', 'get_hospital_contact_info', 'initiate_3ds_auth', 'process_payment', 'issue_receipt', 'complete_case']

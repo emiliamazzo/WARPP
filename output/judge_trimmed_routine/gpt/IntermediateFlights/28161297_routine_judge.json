@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine has been trimmed to include only the relevant steps for this specific customer. The `get_customer_loyalty_info_extra` call was removed and the correct message was selected based on the customer's loyalty points. The steps related to cancellation policies were correctly kept, and the routine proceeds with the cancellation flow. No extraneous logic remains.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps and tool calls required for this customer's scenario (allowing cancellations, having insurance) are preserved in the trimmed routine. No conditional branches or important steps have been omitted.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

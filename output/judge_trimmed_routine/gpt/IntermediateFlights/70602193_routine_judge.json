@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine has been correctly trimmed to only include steps relevant to the customer. The loyalty information step has been correctly pruned to directly thank them as a new customer. The booking information acknowledges cancellations are permitted and proceeds to step 3. The other cases for cancellation blockers proceed correctly depending on the response. Steps were inlined with the customer data correctly.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic and tool calls for this customer are present. The control flow follows the correct execution path based on the customer's data. All tool calls are correct, passing in the right arguments. The routine includes all steps from original flow modified with the customer's information and appropriate tool calls.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

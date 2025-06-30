@@ -1,0 +1,33 @@
+**Final Personalized Routine**
+1. Retrieve Customer Loyalty Information
+   The customer is a Gold member with 15500 loyalty points. Welcome them as a preferred client.
+
+2. Retrieve Booking Information
+   The booking details are: amount paid is 403, booking_id is BK002YT3, cancellation is allowed, and it's refundable. The stored payment method is Credit Card.
+
+3. Check Live Cancellation Blockers
+   a. Call `check_cancellation_blockers('BK002YT3)` to see if there are any blockers that prevent the cancellation.
+   b. If response is:
+      - "eligible": proceed
+      - "api_failure": apologize to the client for the technical difficulties, prompt them to call again at a later time, and proceed directly to step 8.
+      - any other response: inform the customer that there is a blocker that prevents them from cancelling the flight at this time. Offer and explanation, apologize, and proceed directly to step 8.
+
+4. Calculate Cancellation Fee
+   a. Call `calculate_cancellation_fee(51192244, 'BK002YT3')`
+
+5. Process Flight Cancellation
+   a. Describe policy + fee to the customer
+   b. If customer confirms, call `cancel_flight('BK002YT3')`
+
+6. Process Refund or Issue Travel Credit
+   a. Call `process_refund(51192244, 'BK002YT3', 'Credit Card', cancellation_fee)` 
+
+7. Confirm Cancellation and Provide Next Steps
+   a. Share final status, refund amount, and confirmation number.
+
+8. Complete Case
+   a. Call `complete_case(51192244)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['check_cancellation_blockers', 'calculate_cancellation_fee', 'cancel_flight', 'process_refund', 'complete_case']

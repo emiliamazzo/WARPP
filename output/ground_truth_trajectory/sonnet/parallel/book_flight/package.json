@@ -1,0 +1,769 @@
+{
+  "72305380": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9982430801)",
+        "tool: code_verifier(code=368435, customer_id=72305380)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=72305380, origin_airport=CDG, destination_airport=ATL, departure_date=2025-07-11)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=72305380)"
+      ]
+    ]
+  },
+  "94679203": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1432885560)",
+        "tool: code_verifier(code=740629, customer_id=94679203)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=94679203, origin_airport=DXB, destination_airport=SEA, departure_date=2025-06-11)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=94679203)"
+      ]
+    ]
+  },
+  "53312660": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=8327563053)",
+        "tool: code_verifier(code=322476, customer_id=53312660)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=53312660, origin_airport=LAX, destination_airport=SEA, departure_date=2025-07-12)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=53312660)"
+      ]
+    ]
+  },
+  "32944734": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=2291596956)",
+        "tool: code_verifier(code=146157, customer_id=32944734)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=32944734, origin_airport=CDG, destination_airport=LHR, departure_date=2025-06-18)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=32944734)"
+      ]
+    ]
+  },
+  "10715834": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=7568393451)",
+        "tool: code_verifier(code=978022, customer_id=10715834)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=10715834, origin_airport=LAX, destination_airport=ATL, departure_date=2025-06-03)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=10715834)"
+      ]
+    ]
+  },
+  "37854866": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1667832377)",
+        "tool: code_verifier(code=320366, customer_id=37854866)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=37854866, origin_airport=JFK, destination_airport=NRT, departure_date=2025-07-14)",
+        "tool: check_visa_requirements(origin_airport=JFK, destination_airport=NRT)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=37854866)"
+      ]
+    ]
+  },
+  "62193656": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=4791809391)",
+        "tool: code_verifier(code=977457, customer_id=62193656)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=62193656, origin_airport=CDG, destination_airport=LHR, departure_date=2025-06-28)",
+        "tool: check_visa_requirements(origin_airport=CDG, destination_airport=LHR)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=62193656)"
+      ]
+    ]
+  },
+  "68810452": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=7064545699)",
+        "tool: code_verifier(code=242079, customer_id=68810452)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=68810452, origin_airport=DXB, destination_airport=NRT, departure_date=2025-07-12)",
+        "tool: check_visa_requirements(origin_airport=DXB, destination_airport=NRT)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=68810452)"
+      ]
+    ]
+  },
+  "50922243": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=2997802326)",
+        "tool: code_verifier(code=136909, customer_id=50922243)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=50922243, origin_airport=DXB, destination_airport=SEA, departure_date=2025-06-03)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=50922243)"
+      ]
+    ]
+  },
+  "19149342": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=6863383516)",
+        "tool: code_verifier(code=411476, customer_id=19149342)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=19149342, origin_airport=CDG, destination_airport=SYD, departure_date=2025-06-04)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=19149342)"
+      ]
+    ]
+  },
+  "35886152": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1508048863)",
+        "tool: code_verifier(code=948665, customer_id=35886152)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=35886152, origin_airport=JFK, destination_airport=NRT, departure_date=2025-07-04)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=35886152)"
+      ]
+    ]
+  },
+  "30731257": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=3344425334)",
+        "tool: code_verifier(code=244993, customer_id=30731257)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=30731257, origin_airport=JFK, destination_airport=ATL, departure_date=2025-06-11)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=30731257)"
+      ]
+    ]
+  },
+  "26450032": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9093798289)",
+        "tool: code_verifier(code=560825, customer_id=26450032)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=26450032, origin_airport=CDG, destination_airport=LHR, departure_date=2025-06-12)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=26450032)"
+      ]
+    ]
+  },
+  "44373096": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=6842754857)",
+        "tool: code_verifier(code=554327, customer_id=44373096)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=44373096, origin_airport=JFK, destination_airport=SYD, departure_date=2025-07-02)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=44373096)"
+      ]
+    ]
+  },
+  "17931353": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=8342201227)",
+        "tool: code_verifier(code=408918, customer_id=17931353)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=17931353, origin_airport=BOS, destination_airport=SYD, departure_date=2025-06-18)",
+        "tool: check_visa_requirements(origin_airport=BOS, destination_airport=SYD)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=17931353)"
+      ]
+    ]
+  },
+  "74025679": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1526675724)",
+        "tool: code_verifier(code=157825, customer_id=74025679)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=74025679, origin_airport=JFK, destination_airport=SYD, departure_date=2025-07-04)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=74025679)"
+      ]
+    ]
+  },
+  "65720143": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=3615870208)",
+        "tool: code_verifier(code=903356, customer_id=65720143)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=65720143, origin_airport=LAX, destination_airport=NRT, departure_date=2025-06-07)",
+        "tool: check_visa_requirements(origin_airport=LAX, destination_airport=NRT)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=65720143)"
+      ]
+    ]
+  },
+  "25028285": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=3128183660)",
+        "tool: code_verifier(code=652426, customer_id=25028285)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=25028285, origin_airport=BOS, destination_airport=LHR, departure_date=2025-07-11)",
+        "tool: check_visa_requirements(origin_airport=BOS, destination_airport=LHR)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=25028285)"
+      ]
+    ]
+  },
+  "53610265": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=5670310881)",
+        "tool: code_verifier(code=789504, customer_id=53610265)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=53610265, origin_airport=JFK, destination_airport=SEA, departure_date=2025-06-24)",
+        "tool: check_visa_requirements(origin_airport=JFK, destination_airport=SEA)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=53610265)"
+      ]
+    ]
+  },
+  "27720631": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9022498302)",
+        "tool: code_verifier(code=711277, customer_id=27720631)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=27720631, origin_airport=JFK, destination_airport=SYD, departure_date=2025-06-15)",
+        "tool: check_visa_requirements(origin_airport=JFK, destination_airport=SYD)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=27720631)"
+      ]
+    ]
+  },
+  "53513248": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=5663410730)",
+        "tool: code_verifier(code=529677, customer_id=53513248)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=53513248, origin_airport=BOS, destination_airport=NRT, departure_date=2025-06-01)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=53513248)"
+      ]
+    ]
+  },
+  "78292181": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=2874833008)",
+        "tool: code_verifier(code=399466, customer_id=78292181)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=78292181, origin_airport=DXB, destination_airport=SEA, departure_date=2025-07-03)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=78292181)"
+      ]
+    ]
+  },
+  "16278864": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=4325167189)",
+        "tool: code_verifier(code=978514, customer_id=16278864)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=16278864, origin_airport=DXB, destination_airport=SEA, departure_date=2025-06-16)",
+        "tool: check_visa_requirements(origin_airport=DXB, destination_airport=SEA)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=16278864)"
+      ]
+    ]
+  },
+  "10796502": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9293973451)",
+        "tool: code_verifier(code=365538, customer_id=10796502)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=10796502, origin_airport=JFK, destination_airport=SEA, departure_date=2025-07-10)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=10796502)"
+      ]
+    ]
+  },
+  "40618162": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=8686666544)",
+        "tool: code_verifier(code=276464, customer_id=40618162)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=40618162, origin_airport=CDG, destination_airport=SYD, departure_date=2025-06-27)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=40618162)"
+      ]
+    ]
+  },
+  "19140467": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=2660599787)",
+        "tool: code_verifier(code=632753, customer_id=19140467)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=19140467, origin_airport=CDG, destination_airport=SYD, departure_date=2025-06-08)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=19140467)"
+      ]
+    ]
+  },
+  "14743693": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=4412201879)",
+        "tool: code_verifier(code=993275, customer_id=14743693)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=14743693, origin_airport=DXB, destination_airport=LHR, departure_date=2025-06-30)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=14743693)"
+      ]
+    ]
+  },
+  "49292804": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9055529781)",
+        "tool: code_verifier(code=524147, customer_id=49292804)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=49292804, origin_airport=JFK, destination_airport=ATL, departure_date=2025-07-14)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=49292804)"
+      ]
+    ]
+  },
+  "52012995": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=3913292836)",
+        "tool: code_verifier(code=788187, customer_id=52012995)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=52012995, origin_airport=DXB, destination_airport=SYD, departure_date=2025-06-17)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=52012995)"
+      ]
+    ]
+  },
+  "24458347": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1091127901)",
+        "tool: code_verifier(code=738779, customer_id=24458347)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=24458347, origin_airport=CDG, destination_airport=SEA, departure_date=2025-06-21)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=24458347)"
+      ]
+    ]
+  },
+  "26780611": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=4463646983)",
+        "tool: code_verifier(code=388778, customer_id=26780611)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=26780611, origin_airport=CDG, destination_airport=SEA, departure_date=2025-06-14)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=26780611)"
+      ]
+    ]
+  },
+  "97497079": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=5546170397)",
+        "tool: code_verifier(code=681191, customer_id=97497079)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=97497079, origin_airport=LAX, destination_airport=SEA, departure_date=2025-06-20)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=97497079)"
+      ]
+    ]
+  },
+  "92331717": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=6470655633)",
+        "tool: code_verifier(code=182414, customer_id=92331717)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=92331717, origin_airport=JFK, destination_airport=SEA, departure_date=2025-06-22)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=92331717)"
+      ]
+    ]
+  },
+  "98320807": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=6253898905)",
+        "tool: code_verifier(code=225287, customer_id=98320807)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=98320807, origin_airport=LAX, destination_airport=SEA, departure_date=2025-06-15)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=98320807)"
+      ]
+    ]
+  },
+  "73772459": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=8352418929)",
+        "tool: code_verifier(code=725341, customer_id=73772459)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=73772459, origin_airport=CDG, destination_airport=ATL, departure_date=2025-07-03)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=73772459)"
+      ]
+    ]
+  },
+  "73513229": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=4345106577)",
+        "tool: code_verifier(code=791823, customer_id=73513229)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=73513229, origin_airport=CDG, destination_airport=LHR, departure_date=2025-06-14)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=73513229)"
+      ]
+    ]
+  },
+  "12529436": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=5662198856)",
+        "tool: code_verifier(code=198955, customer_id=12529436)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=12529436, origin_airport=BOS, destination_airport=SYD, departure_date=2025-06-23)",
+        "tool: check_visa_requirements(origin_airport=BOS, destination_airport=SYD)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=12529436)"
+      ]
+    ]
+  },
+  "56177503": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1437232734)",
+        "tool: code_verifier(code=572581, customer_id=56177503)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=56177503, origin_airport=BOS, destination_airport=SEA, departure_date=2025-07-11)",
+        "tool: check_visa_requirements(origin_airport=BOS, destination_airport=SEA)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=56177503)"
+      ]
+    ]
+  },
+  "97746905": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=8608397261)",
+        "tool: code_verifier(code=472685, customer_id=97746905)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=97746905, origin_airport=LAX, destination_airport=LHR, departure_date=2025-06-17)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=97746905)"
+      ]
+    ]
+  },
+  "91585332": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=3298643746)",
+        "tool: code_verifier(code=936093, customer_id=91585332)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=91585332, origin_airport=JFK, destination_airport=ATL, departure_date=2025-06-02)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=91585332)"
+      ]
+    ]
+  },
+  "89013649": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9238284600)",
+        "tool: code_verifier(code=895996, customer_id=89013649)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=89013649, origin_airport=CDG, destination_airport=ATL, departure_date=2025-06-13)",
+        "tool: check_visa_requirements(origin_airport=CDG, destination_airport=ATL)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=89013649)"
+      ]
+    ]
+  },
+  "44175529": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=7742066593)",
+        "tool: code_verifier(code=863506, customer_id=44175529)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=44175529, origin_airport=JFK, destination_airport=NRT, departure_date=2025-07-02)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=44175529)"
+      ]
+    ]
+  },
+  "13743910": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1722428432)",
+        "tool: code_verifier(code=270461, customer_id=13743910)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=13743910, origin_airport=DXB, destination_airport=LHR, departure_date=2025-06-07)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=13743910)"
+      ]
+    ]
+  },
+  "94676850": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9606601056)",
+        "tool: code_verifier(code=695023, customer_id=94676850)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=94676850, origin_airport=BOS, destination_airport=SEA, departure_date=2025-06-04)",
+        "tool: check_visa_requirements(origin_airport=BOS, destination_airport=SEA)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=94676850)"
+      ]
+    ]
+  },
+  "21651912": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=6771322998)",
+        "tool: code_verifier(code=463517, customer_id=21651912)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=21651912, origin_airport=BOS, destination_airport=LHR, departure_date=2025-06-09)",
+        "tool: check_visa_requirements(origin_airport=BOS, destination_airport=LHR)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=21651912)"
+      ]
+    ]
+  },
+  "11101447": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=9139545068)",
+        "tool: code_verifier(code=104035, customer_id=11101447)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=11101447, origin_airport=BOS, destination_airport=LHR, departure_date=2025-07-13)",
+        "tool: check_visa_requirements(origin_airport=BOS, destination_airport=LHR)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=11101447)"
+      ]
+    ]
+  },
+  "11899573": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=3359179662)",
+        "tool: code_verifier(code=361077, customer_id=11899573)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=11899573, origin_airport=LAX, destination_airport=LHR, departure_date=2025-07-05)",
+        "tool: check_visa_requirements(origin_airport=LAX, destination_airport=LHR)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=11899573)"
+      ]
+    ]
+  },
+  "76388869": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=8272224836)",
+        "tool: code_verifier(code=419427, customer_id=76388869)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=76388869, origin_airport=BOS, destination_airport=NRT, departure_date=2025-07-04)",
+        "tool: create_booking_with_points(flight_number=BA9100)",
+        "tool: complete_case(customer_id=76388869)"
+      ]
+    ]
+  },
+  "48294051": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=1337262078)",
+        "tool: code_verifier(code=819913, customer_id=48294051)",
+        "agent: book_flight",
+        "tool: search_priority_flights(customer_id=48294051, origin_airport=DXB, destination_airport=SYD, departure_date=2025-06-12)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=48294051)"
+      ]
+    ]
+  },
+  "79035293": {
+    "traxgen": [
+      [
+        "agent: OrchestratorAgent",
+        "tool: intent_identified(intent=book_flight, domain=Flights)",
+        "agent: AuthenticatorAgent",
+        "tool: send_verification_text(phone_number=2112241643)",
+        "tool: code_verifier(code=799245, customer_id=79035293)",
+        "agent: book_flight",
+        "tool: search_regular_flights(customer_id=79035293, origin_airport=DXB, destination_airport=LHR, departure_date=2025-06-02)",
+        "tool: check_visa_requirements(origin_airport=DXB, destination_airport=LHR)",
+        "tool: create_booking(flight_number=BA9100)",
+        "tool: complete_case(customer_id=79035293)"
+      ]
+    ]
+  }
+}

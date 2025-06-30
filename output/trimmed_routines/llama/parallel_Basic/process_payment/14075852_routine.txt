@@ -1,0 +1,55 @@
+**Final Personalized Routine**
+1. Gather Billing Information  
+   a) Note that the status is delinquent and there is an outstanding balance of $715.
+
+2. Check Account Status  
+   a) Note that the account is delinquent.
+
+3. Look for Outstanding Balance  
+   a) Tell the client "It looks like you have a balance to pay today. Let's get that done!"
+
+4. Assess Payment Urgency  
+   a) Inform the client: "Your payment is 9 days overdue. Let’s get you back on track."
+
+5. Financial Assistance & Tax Calculation  
+   a) Inform the user: "Let me check if your insurance can cover part of this payment."
+   b) Call `get_insurance_payment_portion(14075852, 'Cignexa')`.
+   c) If approved, say "Great news! Your insurance will cover part of your claim."
+   d) If declined, say "No additional assistance is available at this time."
+
+6. Suggest Late-Fee Waivers  
+   a) Ask “We can waive $15 in late fees. Shall I apply that for you?”  
+   b) If yes, call `apply_fee_waiver(14075852, 15)`.
+
+7. Always Calculate Final Amount Due  
+   a) Call `calculate_patient_responsibility(14075852, 'Cignexa')` to get total_due after insurance and waiver deductions.
+   b) Say “Your total due today is $X. Would you like to proceed with payment?” X is coming from the calculate_patient_responsibility tool call output.
+     – If no, say “No problem; let me know if you need anything else,” and call `complete_case(14075852)` 
+     – If yes, continue.
+
+8. Always Ask Client if They Want to Pay in Another Currency  
+   a) Ask “Would you like to pay in another currency?”  
+     – If the user wants to pay in another currency, get the desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)`, and tell them “That’s [convertedAmount] in [currency].”  
+     – If the user doesn't want to pay in another currency, continue in USD.
+
+9. Process the Payment  
+   a) Since the payment method is Bank Transfer:
+       1. Explain “ACH transfers take 3–5 business days to clear.”  
+       2. Call `initiate_ach_transaction(14075852, patient_responsibility_amount)`. Make sure the patient responsibility amount is in the customer's preferred currency.
+           -If initiate_ach_transaction returns transient error, prompt the client to call 1-800-555-BILL to continue the request and call `complete_case(14075852)`.
+
+10. Send receipt
+    a) Call `issue_receipt(14075852, patient_responsibility_amount)` to send an email confirmation.
+
+11. Offer Payment Plan
+   a) Ask: "Would you like to set up a payment plan?"
+     - If customer replies 'yes': ask how much to set for the monthly amount → call `setup_payment_plan(monthly_amount)` 
+
+12. Finalize
+   a) Provide confirmation number
+   b) Call `complete_case(14075852)`
+
+
+
+**Available Tools**
+available_tools = ['get_insurance_payment_portion', 'calculate_patient_responsibility', 'apply_fee_waiver', 'initiate_ach_transaction', 'currency_exchange', 'issue_receipt', 'setup_payment_plan', 'complete_case']

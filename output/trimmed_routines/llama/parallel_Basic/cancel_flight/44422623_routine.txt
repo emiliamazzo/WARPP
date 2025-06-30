@@ -1,0 +1,11 @@
+**Final Personalized Routine**
+1. The customer has 6425 loyalty points.
+2. Retrieve Booking Information
+   a. The original booking rules are: amount paid 573, booking id BK010KF0, cancellation not allowed, refundable, and no insurance purchased.
+   - Say: “I’m sorry, your fare rule at purchase did not permit cancellation.”
+3. Complete Case
+   a. Call `complete_case(44422623)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['complete_case']

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine was correctly trimmed based on the customer data. Because `information_available.check_withdrawal_eligibility.isEligible` is false, the trimmed routine correctly follows the 'not eligible' branch and skips the rest of the routine.",
+    "completeness_score": "5",
+    "completeness_explanation": "The routine correctly informs the customer of their ineligibility and completes the case. All steps relevant to the customer are present and no steps are skipped.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine was correctly trimmed based on the customer data. The booking is non-cancellable, so it skips directly to step 8 (Complete Case) after informing the customer.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary steps and logic were preserved. The relevant steps for a non-cancellable booking were retained, and the rest were pruned correctly.",
+    "model": "sonnet",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

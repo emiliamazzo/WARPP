@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine retains the Error Handling section. While technically applicable to all scenarios, it is generally pruned as it's not specific to the customer and represents a fallback. Also, step 1 includes the step of asking for confirmation which should not be present here.",
+    "completeness_score": "4",
+    "completeness_explanation": "The routine misses the get_account_type call in step 1. This call should not be skipped, even if the parameters are known. It should be included.",
+    "model": "sonnet",
+    "domain": "SimpleBanking",
+    "intent": "update_address"
+}

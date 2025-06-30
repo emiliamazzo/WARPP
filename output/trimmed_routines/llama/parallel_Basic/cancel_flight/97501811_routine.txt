@@ -1,0 +1,31 @@
+**Final Personalized Routine**
+1. Welcome and Retrieve Booking Information
+   The customer has 40943 loyalty points and is a Gold member.
+   Retrieve booking details: booking ID BK001XZ9, amount paid 1199, cancellation allowed, and refundable.
+
+2. Check Live Cancellation Blockers
+   a. Call `check_cancellation_blockers('BK001XZ9')` to see if there are any blockers that prevent the cancellation.
+   b. If response is:
+      - "eligible": proceed
+      - "api_failure": apologize to the client for the technical difficulties, prompt them to call again at a later time, and proceed directly to step 6.
+      - any other response: inform the customer that there is a blocker that prevents them from cancelling the flight at this time. Offer and explanation, apologize, and proceed directly to step 6.
+
+3. Calculate Cancellation Fee
+   a. Call `calculate_cancellation_fee(97501811, 'BK001XZ9')`
+
+4. Process Flight Cancellation
+   a. Describe policy + fee to the customer
+   b. If customer confirms, call `cancel_flight('BK001XZ9')`
+
+5. Process Refund or Issue Travel Credit
+   a. Call `process_refund(97501811, 'BK001XZ9', 'Debit Card', cancellation_fee)`.
+
+6. Confirm Cancellation and Provide Next Steps
+   a. Share final status, refund/credit amount, and confirmation number.
+
+7. Complete Case
+   a. Call `complete_case(97501811)`
+   b. Thank the customer.
+
+**Available Tools**
+available_tools = ['check_cancellation_blockers', 'calculate_cancellation_fee', 'cancel_flight', 'process_refund', 'complete_case']

@@ -1,0 +1,52 @@
+## Final Personalized Routine
+
+1. Gather Billing Information  
+   - The account is active, the outstanding balance is $1652, urgency is medium, and days overdue is 13.
+
+2. Look for Outstanding Balance  
+   - Inform: "It looks like you have a balance to pay today. Let's get that done!"
+
+3. Assess Payment Urgency  
+   - Inform: "Your payment is 13 days overdue. Let’s get you back on track."
+
+4. Financial Assistance & Tax Calculation
+   - Inform: "Let me check if your insurance can cover part of this payment."
+   - Call `get_insurance_payment_portion(67883108, 'Cignexa')`
+     - If approved, say "Great news! Your insurance will cover part of your claim."
+     - If declined, say "No additional assistance is available at this time."
+
+5. Suggest Late-Fee Waivers  
+   - Call `calculate_late_fee_waiver_eligibility_extra(67883108)`
+   - Inform: “We can waive $6 in late fees. Shall I apply that for you?”
+     - If yes, call `apply_fee_waiver(67883108, 6)`
+     - If no, proceed.
+
+6. Always Calculate Final Amount Due  
+   - Call `calculate_patient_responsibility(67883108, 'Cignexa')`
+   - Inform: “Your total due today is $X. Would you like to proceed with payment?”
+     - If no, say “No problem; let me know if you need anything else,” and call `complete_case(67883108)`
+     - If yes, continue.
+
+7. Always Ask Client if They Want to Pay in USD or Another Currency  
+   - Ask: “Would you like to pay in another currency?”
+     - If yes, get desired currency, call `currency_exchange(patient_responsibility_amount, from_currency='USD', to_currency=preferred_currency)` and say “That’s [convertedAmount] in [currency].”
+     - If no, continue in USD.
+
+8. Process the Payment  
+   a. **Digital Wallet (e.g. PayPal)**  
+      - Call `get_wallet_link(67883108)` and ask them to complete payment in their browser.  
+      - Call `check_wallet_payment_status(payment_id)` to verify the payment went through. 
+
+9. Send Receipt  
+   - Call `issue_receipt(67883108, patient_responsibility_amount)` to send an email confirmation and inform the user that a receipt has been sent to them.
+
+10. Offer Payment Plan  
+   - Ask: "Would you like to set up a payment plan?"
+     - If 'yes', ask how much to set for the monthly amount and call `setup_payment_plan(monthly_amount)`
+
+11. Finalize  
+   - Provide confirmation number  
+   - Call `complete_case(67883108)`
+
+## Available Tools
+available_tools = ['get_insurance_payment_portion', 'apply_fee_waiver', 'calculate_patient_responsibility', 'currency_exchange', 'get_wallet_link', 'check_wallet_payment_status', 'issue_receipt', 'setup_payment_plan', 'complete_case']

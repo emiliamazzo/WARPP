@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "Step 6a has an issue. The customer purchased insurance, therefore we should use the refund tool not the travel credit tool. The pathing is incorrect. Everything else is correct.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required logic was preserved.",
+    "model": "llama",
+    "domain": "IntermediateFlights",
+    "intent": "cancel_flight"
+}

@@ -1,0 +1,12 @@
+{"client_id": 25157110, "agent": "OrchestratorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 444, "completion_tokens": 33, "total_tokens": 477}
+{"client_id": 25157110, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 493, "completion_tokens": 22, "total_tokens": 515}
+{"client_id": 25157110, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2092, "completion_tokens": 13, "total_tokens": 2105}
+{"client_id": 25157110, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2132, "completion_tokens": 23, "total_tokens": 2155}
+{"client_id": 25157110, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 576, "completion_tokens": 20, "total_tokens": 596}
+{"client_id": 25157110, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 623, "completion_tokens": 28, "total_tokens": 651}
+{"client_id": 25157110, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 667, "completion_tokens": 23, "total_tokens": 690}
+{"client_id": 25157110, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1009, "completion_tokens": 16, "total_tokens": 1025}
+{"client_id": 25157110, "agent": "cancel_flight", "type": "function_call", "function_name": "get_customer_loyalty_info_extra", "prompt_tokens": 1708, "completion_tokens": 57, "total_tokens": 1765}
+{"client_id": 25157110, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 1851, "completion_tokens": 97, "total_tokens": 1948}
+{"client_id": 25157110, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 1968, "completion_tokens": 17, "total_tokens": 1985}
+{"client_id": 25157110, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 2015, "completion_tokens": 35, "total_tokens": 2050}

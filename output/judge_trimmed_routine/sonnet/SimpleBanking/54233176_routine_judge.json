@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The error handling step is irrelevant because the happy path is taken. This should have been pruned since the customer is ineligible and the routine terminates after `complete_case(...)`.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required logic for this customer was preserved. The ineligible branch was correctly followed, and unneeded steps were skipped.",
+    "model": "sonnet",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}

@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine is well-trimmed, and all steps are relevant based on the provided customer data. Steps related to suspended accounts or zero balances have been correctly removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All required tools and branches are present for the scenario described by the customer data. All relevant steps are included and no incorrect steps were maintained.",
+    "model": "gpt",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

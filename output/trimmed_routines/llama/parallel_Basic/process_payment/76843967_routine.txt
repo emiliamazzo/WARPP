@@ -1,0 +1,7 @@
+**Final Personalized Routine**
+1. The account is currently suspended. You’ll need to contact your provider directly—here’s their number: [phone].
+   Call `get_provider_contact_info_api(76843967)`.
+   Call `complete_case(76843967)`.
+
+**Available Tools**
+available_tools = ['get_provider_contact_info_api', 'complete_case']

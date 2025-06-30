@@ -1,0 +1,9 @@
+{
+    "relevance_score": "3",
+    "relevance_explanation": "The routine retains unnecessary steps. The routine includes 'Error Handling and Resolution'. Also, step 3 is unnecesary since the customer data provides information about their payment method.",
+    "completeness_score": "3",
+    "completeness_explanation": "The routine is missing the step 'Check Passport Information'. Step 5 (originally) 'Check Visa Information' and 'Step 10 Final Confirmation and Communication' have also been skipped.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

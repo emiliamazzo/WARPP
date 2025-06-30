@@ -1,0 +1,15 @@
+{"client_id": 70753639, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "intent_identified", "prompt_tokens": 919, "completion_tokens": 29, "total_tokens": 948}
+{"client_id": 70753639, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 2575, "completion_tokens": 19, "total_tokens": 2594}
+{"client_id": 70753639, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 2652, "completion_tokens": 9, "total_tokens": 2661}
+{"client_id": 70753639, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 1028, "completion_tokens": 25, "total_tokens": 1053}
+{"client_id": 70753639, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1122, "completion_tokens": 15, "total_tokens": 1137}
+{"client_id": 70753639, "agent": "PersonalizerAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1988, "completion_tokens": 359, "total_tokens": 2347}
+{"client_id": 70753639, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 1158, "completion_tokens": 31, "total_tokens": 1189}
+{"client_id": 70753639, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1552, "completion_tokens": 15, "total_tokens": 1567}
+{"client_id": 70753639, "agent": "cancel_flight", "type": "function_call", "function_name": "check_cancellation_blockers", "prompt_tokens": 2210, "completion_tokens": 27, "total_tokens": 2237}
+{"client_id": 70753639, "agent": "cancel_flight", "type": "function_call", "function_name": "calculate_cancellation_fee", "prompt_tokens": 2301, "completion_tokens": 71, "total_tokens": 2372}
+{"client_id": 70753639, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 2432, "completion_tokens": 56, "total_tokens": 2488}
+{"client_id": 70753639, "agent": "cancel_flight", "type": "function_call", "function_name": "cancel_flight", "prompt_tokens": 2506, "completion_tokens": 53, "total_tokens": 2559}
+{"client_id": 70753639, "agent": "cancel_flight", "type": "function_call", "function_name": "process_refund", "prompt_tokens": 2600, "completion_tokens": 80, "total_tokens": 2680}
+{"client_id": 70753639, "agent": "cancel_flight", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 2741, "completion_tokens": 86, "total_tokens": 2827}
+{"client_id": 70753639, "agent": "cancel_flight", "type": "text_generation", "function_name": null, "prompt_tokens": 2876, "completion_tokens": 25, "total_tokens": 2901}

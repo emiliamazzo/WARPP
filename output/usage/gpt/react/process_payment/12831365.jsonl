@@ -1,0 +1,16 @@
+{"client_id": 12831365, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4381, "completion_tokens": 65, "total_tokens": 4446}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 4465, "completion_tokens": 20, "total_tokens": 4485}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4512, "completion_tokens": 46, "total_tokens": 4558}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 4573, "completion_tokens": 23, "total_tokens": 4596}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 4916, "completion_tokens": 17, "total_tokens": 4933}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "get_billing_info_extra", "prompt_tokens": 4950, "completion_tokens": 20, "total_tokens": 4970}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "check_account_status_extra", "prompt_tokens": 5013, "completion_tokens": 19, "total_tokens": 5032}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "evaluate_payment_urgency_extra", "prompt_tokens": 5048, "completion_tokens": 79, "total_tokens": 5127}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "calculate_patient_responsibility", "prompt_tokens": 5157, "completion_tokens": 96, "total_tokens": 5253}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5278, "completion_tokens": 72, "total_tokens": 5350}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "initiate_ach_transaction", "prompt_tokens": 5369, "completion_tokens": 89, "total_tokens": 5458}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "issue_receipt", "prompt_tokens": 5481, "completion_tokens": 75, "total_tokens": 5556}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5574, "completion_tokens": 66, "total_tokens": 5640}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5667, "completion_tokens": 115, "total_tokens": 5782}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "function_call", "function_name": "complete_case", "prompt_tokens": 5809, "completion_tokens": 17, "total_tokens": 5826}
+{"client_id": 12831365, "agent": "ReActAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 5856, "completion_tokens": 20, "total_tokens": 5876}

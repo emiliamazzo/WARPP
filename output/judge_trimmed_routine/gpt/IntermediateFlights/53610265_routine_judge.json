@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine includes only the steps relevant to the customer based on their data. The steps related to frequent flyer status and booking with points have been correctly removed.",
+    "completeness_score": "5",
+    "completeness_explanation": "All necessary logic and tool calls that apply to this customer are preserved in the trimmed routine. The passport number was inlined correctly, and steps related to debit card payments and visa requirements were retained.",
+    "model": "gpt",
+    "domain": "IntermediateFlights",
+    "intent": "book_flight"
+}

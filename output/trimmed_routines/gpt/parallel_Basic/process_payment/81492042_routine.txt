@@ -1,0 +1,9 @@
+## Final Personalized Routine
+
+1. **Check Account Suspension**
+   - Your account is currently suspended. You’ll need to contact your provider directly.
+   - Call `get_provider_contact_info_api(81492042)` to get the provider's contact number and provide it to the client.
+   - Call `complete_case(81492042)`.
+
+## Available Tools
+available_tools = ['get_provider_contact_info_api', 'complete_case']

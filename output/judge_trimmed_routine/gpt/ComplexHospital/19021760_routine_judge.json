@@ -1,0 +1,9 @@
+{
+    "relevance_score": "4",
+    "relevance_explanation": "The routine is mostly relevant. Step 1 in the original routine (Gather Billing Information) was correctly removed. Financial assistance was also removed, which is okay since the urgency is high. However, Step 11 offering a payment plan should not have been removed, since payment_plan_active is false.",
+    "completeness_score": "3",
+    "completeness_explanation": "The routine is missing several key components. Most notably, step 3 which has a success branch which calls `apply_fee_waiver` and this should be retained. The routine is also missing the conditional checks after the payment goes through (such as transient error of `initiate_ach_transaction`, `initiate_3ds_auth` returning false or `run_fraud_check` returning flagged. Step 10a is also missing",
+    "model": "gpt",
+    "domain": "ComplexHospital",
+    "intent": "process_payment"
+}

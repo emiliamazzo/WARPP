@@ -1,0 +1,7 @@
+**Final Personalized Routine**
+1. Check Account Status  
+   a) The account is currently suspended. You’ll need to contact your provider directly—here’s their number: [phone].  
+   b) Call `get_provider_contact_info_api(customer_id)` to share the phone number.  
+   c) Call `complete_case(customer_id)`.
+
+available_tools = ['get_provider_contact_info_api', 'complete_case']

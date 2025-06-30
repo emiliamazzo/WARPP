@@ -1,0 +1,6 @@
+{"client_id": 98167218, "agent": "OrchestratorAgent", "type": "function_call", "function_name": "transfer_to_authenticatoragent", "prompt_tokens": 441, "completion_tokens": 88, "total_tokens": 529}
+{"client_id": 98167218, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 558, "completion_tokens": 23, "total_tokens": 581}
+{"client_id": 98167218, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "send_verification_text", "prompt_tokens": 601, "completion_tokens": 20, "total_tokens": 621}
+{"client_id": 98167218, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 648, "completion_tokens": 21, "total_tokens": 669}
+{"client_id": 98167218, "agent": "AuthenticatorAgent", "type": "function_call", "function_name": "code_verifier", "prompt_tokens": 685, "completion_tokens": 23, "total_tokens": 708}
+{"client_id": 98167218, "agent": "AuthenticatorAgent", "type": "text_generation", "function_name": null, "prompt_tokens": 1027, "completion_tokens": 16, "total_tokens": 1043}

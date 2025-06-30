@@ -1,0 +1,9 @@
+{
+    "relevance_score": "5",
+    "relevance_explanation": "The routine was correctly trimmed to reflect the customer's ineligibility for withdrawal based on the provided data. Only the relevant branch was kept.",
+    "completeness_score": "5",
+    "completeness_explanation": "The routine includes all necessary steps for the provided customer data. The check for eligibility results in a negative outcome, so the routine correctly informs the customer and ends the case.",
+    "model": "gpt",
+    "domain": "SimpleBanking",
+    "intent": "withdraw_retirement_funds"
+}
