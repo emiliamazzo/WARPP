@@ -11,7 +11,7 @@
 
 ## Overview
 
-This repository contains the code and data for our paper, accepted at the 2025 ICML Workshop on Multi-Agent Systems in the Era of Foundation Models. We introduce a **Personalization Agent** that dynamically customizes workflows and tool selection for each user, prior to fulfillment, enabling adaptive and context-aware automation across multiple domains.
+This repository contains the code and data for our paper, accepted at the 2025 ICML Workshop on Multi-Agent Systems in the Era of Foundation Models. Here is the link to the paper: https://www.arxiv.org/abs/2507.19543. We introduce a **Personalization Agent** that dynamically customizes workflows and tool selection for each user, prior to fulfillment, enabling adaptive and context-aware automation across multiple domains.
 
 
 ## Architecture
